@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>DC Эквайринг KPI</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  :root {
+    --blue: #1a73e8;
+    --blue-light: #e8f0fe;
+    --blue-dark: #1557b0;
+    --green: #1e8e3e;
+    --green-light: #e6f4ea;
+    --orange: #e37400;
+    --orange-light: #fef3e2;
+    --red: #d93025;
+    --red-light: #fce8e6;
+    --gray: #f8f9fa;
+    --border: #e0e0e0;
+    --text: #202124;
+    --text-2: #5f6368;
+    --text-3: #9aa0a6;
+    --white: #ffffff;
+    --radius: 12px;
+    --shadow: 0 1px 3px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.06);
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f0f2f5;
+    color: var(--text);
+    min-height: 100vh;
+    padding-bottom: 80px;
+  }
+
+  /* HEADER */
+  .header {
+    background: var(--blue);
+    padding: 16px 20px 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  .header h1 { font-size: 18px; font-weight: 600; }
+  .header .date { font-size: 12px; opacity: .75; }
+  .avatar {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: rgba(255,255,255,.25);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 600; font-size: 14px; color: white;
+  }
+
+  /* SCREENS */
+  .screen { display: none; padding: 16px; }
+  .screen.active { display: block; }
+
+  /* CARDS */
+  .card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow);
+  }
+  .card-title {
+    font-size: 13px; font-weight: 600; color: var(--text-2);
+    text-transform: uppercase; letter-spacing: .5px;
+    margin-bottom: 12px;
+  }
+
+  /* STATS GRID */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  .stat-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 14px 10px;
+    text-align: center;
+    box-shadow: var(--shadow);
+  }
+  .stat-value {
+    font-size: 22px; font-weight: 700; color: var(--blue);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 11px; color: var(--text-2);
+    margin-top: 4px; line-height: 1.3;
+  }
+
+  /* GREETING */
+  .greeting {
+    background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
+    color: white;
+    border-radius: var(--radius);
+    padding: 16px;
+    margin-bottom: 12px;
+  }
+  .greeting h2 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+  .greeting p { font-size: 13px; opacity: .85; }
+  .goal-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(255,255,255,.2);
+    border-radius: 20px; padding: 4px 10px;
+    font-size: 12px; margin-top: 8px;
+  }
+
+  /* ACTION BUTTONS */
+  .actions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  .action-btn {
+    background: var(--white);
+    border: none; border-radius: var(--radius);
+    padding: 16px 12px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: transform .1s, box-shadow .1s;
+    display: block; width: 100%;
+  }
+  .action-btn:active { transform: scale(.97); }
+  .action-btn .icon { font-size: 24px; margin-bottom: 6px; display: block; }
+  .action-btn .label { font-size: 13px; font-weight: 500; color: var(--text); }
+  .action-btn .sub { font-size: 11px; color: var(--text-2); margin-top: 2px; }
+  .action-btn.primary { background: var(--blue); }
+  .action-btn.primary .label, .action-btn.primary .sub { color: white; }
+
+  /* CATEGORY LIST (меню типов работы - уровень 1) */
+  .category-list { display: flex; flex-direction: column; gap: 8px; }
+  .category-item {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    display: flex; align-items: center; gap: 12px;
+    cursor: pointer; box-shadow: var(--shadow);
+    border: none; width: 100%; text-align: left;
+    transition: background .15s;
+  }
+  .category-item:active { background: var(--gray); }
+  .category-item .cat-icon { font-size: 22px; width: 36px; text-align: center; }
+  .category-item .cat-name { font-size: 14px; font-weight: 500; color: var(--text); flex: 1; }
+  .category-item .cat-count { font-size: 12px; color: var(--text-3); }
+  .category-item .arrow { color: var(--text-3); font-size: 18px; }
+
+  /* WORK TYPES LIST (уровень 2) */
+  .work-list { display: flex; flex-direction: column; gap: 6px; }
+  .work-item {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 13px 16px;
+    display: flex; align-items: center; gap: 10px;
+    cursor: pointer; box-shadow: var(--shadow);
+    border: none; width: 100%; text-align: left;
+    transition: background .15s;
+  }
+  .work-item:active { background: var(--blue-light); }
+  .work-item .w-icon { font-size: 18px; }
+  .work-item .w-name { font-size: 14px; color: var(--text); flex: 1; }
+
+  /* BACK BUTTON */
+  .back-btn {
+    display: flex; align-items: center; gap: 8px;
+    background: none; border: none; color: var(--blue);
+    font-size: 15px; cursor: pointer; padding: 0 0 14px 0;
+    font-weight: 500;
+  }
+
+  /* FORM */
+  .form-group { margin-bottom: 14px; }
+  .form-label { font-size: 13px; font-weight: 500; color: var(--text-2); margin-bottom: 6px; display: block; }
+  .form-input {
+    width: 100%; padding: 12px 14px;
+    border: 1.5px solid var(--border); border-radius: 10px;
+    font-size: 15px; color: var(--text);
+    background: var(--white); outline: none;
+    transition: border-color .2s;
+    font-family: inherit;
+  }
+  .form-input:focus { border-color: var(--blue); }
+  textarea.form-input { min-height: 80px; resize: none; }
+  .photo-upload {
+    border: 2px dashed var(--border); border-radius: 10px;
+    padding: 20px; text-align: center; cursor: pointer;
+    background: var(--gray);
+    transition: border-color .2s, background .2s;
+  }
+  .photo-upload:active { border-color: var(--blue); background: var(--blue-light); }
+  .photo-upload .ph-icon { font-size: 28px; margin-bottom: 6px; }
+  .photo-upload .ph-label { font-size: 13px; color: var(--text-2); }
+  #photo-file { display: none; }
+  .photo-preview {
+    width: 100%; border-radius: 10px;
+    max-height: 200px; object-fit: cover;
+    display: none;
+  }
+
+  /* SUBMIT BTN */
+  .submit-btn {
+    width: 100%; padding: 15px;
+    background: var(--blue); color: white;
+    border: none; border-radius: var(--radius);
+    font-size: 16px; font-weight: 600;
+    cursor: pointer; margin-top: 8px;
+    transition: background .15s, transform .1s;
+  }
+  .submit-btn:active { transform: scale(.98); background: var(--blue-dark); }
+  .submit-btn:disabled { background: var(--border); color: var(--text-3); }
+
+  /* SUCCESS */
+  .success-msg {
+    background: var(--green-light);
+    border: 1.5px solid var(--green);
+    border-radius: var(--radius);
+    padding: 16px; text-align: center;
+    display: none; margin-bottom: 12px;
+  }
+  .success-msg .s-icon { font-size: 32px; margin-bottom: 8px; }
+  .success-msg .s-text { font-size: 15px; font-weight: 600; color: var(--green); }
+  .success-msg .s-sub { font-size: 13px; color: var(--text-2); margin-top: 4px; }
+
+  /* RATING */
+  .rating-item {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .rating-item:last-child { border-bottom: none; }
+  .rating-pos {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: var(--gray); display: flex;
+    align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700; color: var(--text-2);
+    flex-shrink: 0;
+  }
+  .rating-pos.gold { background: #ffd700; color: #7d5a00; }
+  .rating-pos.silver { background: #c0c0c0; color: #444; }
+  .rating-pos.bronze { background: #cd7f32; color: #fff; }
+  .rating-name { flex: 1; font-size: 14px; font-weight: 500; }
+  .rating-pts { font-size: 14px; font-weight: 700; color: var(--blue); }
+  .rating-me { font-size: 11px; color: var(--blue); }
+
+  /* TASKS */
+  .task-item {
+    border-radius: 10px;
+    border-left: 4px solid var(--blue);
+    background: var(--white);
+    padding: 13px 14px;
+    margin-bottom: 8px;
+    box-shadow: var(--shadow);
+  }
+  .task-item.urgent { border-left-color: var(--red); }
+  .task-priority { font-size: 11px; font-weight: 600; color: var(--text-2); margin-bottom: 4px; }
+  .task-text { font-size: 14px; color: var(--text); margin-bottom: 6px; }
+  .task-deadline { font-size: 12px; color: var(--orange); }
+  .task-done-btn {
+    background: var(--green-light); color: var(--green);
+    border: 1.5px solid var(--green); border-radius: 8px;
+    padding: 7px 14px; font-size: 13px; font-weight: 600;
+    cursor: pointer; margin-top: 8px;
+  }
+
+  /* WEEK STATS */
+  .week-row {
+    display: flex; justify-content: space-between;
+    align-items: center; padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .week-row:last-child { border-bottom: none; }
+  .week-key { font-size: 13px; color: var(--text-2); }
+  .week-val { font-size: 14px; font-weight: 600; color: var(--text); }
+
+  /* PROGRESS BAR */
+  .progress-wrap { margin: 8px 0; }
+  .progress-label {
+    display: flex; justify-content: space-between;
+    font-size: 12px; color: var(--text-2); margin-bottom: 5px;
+  }
+  .progress-bar {
+    height: 6px; background: var(--border); border-radius: 3px; overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%; border-radius: 3px;
+    background: var(--blue);
+    transition: width .6s ease;
+  }
+  .progress-fill.green { background: var(--green); }
+  .progress-fill.orange { background: var(--orange); }
+
+  /* BOTTOM NAV */
+  .bottom-nav {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    display: flex;
+    z-index: 200;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .nav-item {
+    flex: 1; padding: 10px 4px;
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
+    cursor: pointer; border: none; background: none;
+    transition: color .15s;
+    color: var(--text-3);
+  }
+  .nav-item.active { color: var(--blue); }
+  .nav-item .nav-icon { font-size: 22px; line-height: 1; }
+  .nav-item .nav-label { font-size: 10px; font-weight: 500; }
+
+  /* BADGE */
+  .badge {
+    display: inline-block; padding: 3px 8px;
+    border-radius: 20px; font-size: 11px; font-weight: 600;
+  }
+  .badge-blue { background: var(--blue-light); color: var(--blue); }
+  .badge-green { background: var(--green-light); color: var(--green); }
+  .badge-red { background: var(--red-light); color: var(--red); }
+  .badge-orange { background: var(--orange-light); color: var(--orange); }
+
+  /* MOOD */
+  .mood-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .mood-btn {
+    background: var(--gray); border: 2px solid transparent;
+    border-radius: 10px; padding: 12px 4px; text-align: center;
+    cursor: pointer; transition: all .15s; font-size: 22px;
+  }
+  .mood-btn:active { transform: scale(.95); }
+  .mood-btn.selected { border-color: var(--blue); background: var(--blue-light); }
+  .mood-btn .mood-label { font-size: 11px; color: var(--text-2); margin-top: 4px; }
+
+  /* ALERT */
+  .alert {
+    padding: 12px 14px; border-radius: 10px;
+    font-size: 13px; margin-bottom: 12px;
+  }
+  .alert-info { background: var(--blue-light); color: var(--blue-dark); }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-top">
+    <div>
+      <h1>DC Эквайринг KPI</h1>
+      <div class="date" id="header-date">Загрузка...</div>
+    </div>
+    <div class="avatar" id="user-avatar">—</div>
+  </div>
+</div>
+
+<!-- ════════ ЭКРАН: ГЛАВНАЯ ════════ -->
+<div class="screen active" id="screen-home">
+
+  <div class="greeting">
+    <h2>Привет, <span id="user-name">Сотрудник</span>! 👋</h2>
+    <p id="greeting-sub">Хорошего рабочего дня!</p>
+    <div class="goal-pill" id="goal-pill" style="display:none">
+      🎯 <span id="goal-text"></span>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-value" id="stat-today">—</div>
+      <div class="stat-label">баллов сегодня</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" id="stat-place">—</div>
+      <div class="stat-label">место в рейтинге</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value" id="stat-streak">—</div>
+      <div class="stat-label">дней серия 🔥</div>
+    </div>
+  </div>
+
+  <div class="actions-grid">
+    <button class="action-btn primary" onclick="showWorkMenu()">
+      <span class="icon">🛠</span>
+      <span class="label">Работа с мерчантом</span>
+    </button>
+    <button class="action-btn" onclick="showScreen('expenses')">
+      <span class="icon">💰</span>
+      <span class="label">Расходы</span>
+    </button>
+    <button class="action-btn" onclick="showScreen('tasks')">
+      <span class="icon">📋</span>
+      <span class="label">Задачи</span>
+      <span class="sub" id="tasks-count-badge"></span>
+    </button>
+    <button class="action-btn" onclick="showScreen('mood')">
+      <span class="icon">😊</span>
+      <span class="label">Настроение</span>
+    </button>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Прогресс недели</div>
+    <div class="progress-wrap">
+      <div class="progress-label"><span>Баллы</span><span id="week-pts-label">0 / 100</span></div>
+      <div class="progress-bar"><div class="progress-fill" id="week-pts-bar" style="width:0%"></div></div>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-label"><span>Расходы</span><span id="week-exp-label">0 / 500</span></div>
+      <div class="progress-bar"><div class="progress-fill orange" id="week-exp-bar" style="width:0%"></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ════════ ЭКРАН: РАБОТА — УРОВЕНЬ 1 (категории) ════════ -->
+<div class="screen" id="screen-work-cat">
+  <button class="back-btn" onclick="showScreen('home')">← Назад</button>
+  <div class="card-title" style="margin-bottom:12px">Выберите категорию</div>
+  <div class="category-list" id="cat-list"></div>
+</div>
+
+<!-- ════════ ЭКРАН: РАБОТА — УРОВЕНЬ 2 (типы) ════════ -->
+<div class="screen" id="screen-work-types">
+  <button class="back-btn" id="back-to-cats" onclick="showScreen('work-cat')">← К категориям</button>
+  <div class="card-title" id="cat-title" style="margin-bottom:12px"></div>
+  <div class="work-list" id="work-type-list"></div>
+</div>
+
+<!-- ════════ ЭКРАН: ФОРМА РАБОТЫ ════════ -->
+<div class="screen" id="screen-work-form">
+  <button class="back-btn" id="back-to-types">← Назад</button>
+
+  <div class="success-msg" id="work-success">
+    <div class="s-icon">✅</div>
+    <div class="s-text" id="work-success-text">Записано!</div>
+    <div class="s-sub" id="work-success-sub"></div>
+  </div>
+
+  <div id="work-form-body">
+    <div class="card" style="margin-bottom:12px">
+      <div style="font-size:13px;color:var(--text-2)">Тип работы</div>
+      <div style="font-size:15px;font-weight:600;margin-top:4px" id="selected-work-type"></div>
+    </div>
+
+    <div class="card">
+      <div class="form-group">
+        <label class="form-label">🏢 Мерчант</label>
+        <input class="form-input" id="work-merchant" type="text" placeholder="Название мерчанта или «-»">
+      </div>
+      <div class="form-group">
+        <label class="form-label">💬 Комментарий</label>
+        <textarea class="form-input" id="work-comment" placeholder="Что сделано..."></textarea>
+      </div>
+      <div class="form-group">
+        <label class="form-label">📸 Фото (необязательно)</label>
+        <div class="photo-upload" onclick="document.getElementById('photo-file').click()">
+          <div class="ph-icon">📷</div>
+          <div class="ph-label">Нажмите чтобы добавить фото</div>
+        </div>
+        <input type="file" id="photo-file" accept="image/*" capture="environment" onchange="previewPhoto(this)">
+        <img class="photo-preview" id="photo-preview">
+      </div>
+      <button class="submit-btn" onclick="submitWork()">Записать работу</button>
+    </div>
+  </div>
+</div>
+
+<!-- ════════ ЭКРАН: РАСХОДЫ ════════ -->
+<div class="screen" id="screen-expenses">
+  <button class="back-btn" onclick="showScreen('home')">← Назад</button>
+
+  <div class="success-msg" id="exp-success">
+    <div class="s-icon">✅</div>
+    <div class="s-text">Расход записан!</div>
+    <div class="s-sub" id="exp-success-sub"></div>
+  </div>
+
+  <div id="exp-form-body" class="card">
+    <div class="form-group">
+      <label class="form-label">🏢 Мерчант</label>
+      <input class="form-input" id="exp-merchant" type="text" placeholder="Название или «-»">
+    </div>
+    <div class="form-group">
+      <label class="form-label">💵 Сумма</label>
+      <input class="form-input" id="exp-amount" type="number" placeholder="0.00" inputmode="decimal">
+    </div>
+    <div class="form-group">
+      <label class="form-label">💬 На что потрачено</label>
+      <input class="form-input" id="exp-comment" type="text" placeholder="Бензин, канцелярия...">
+    </div>
+    <div class="form-group">
+      <label class="form-label">📸 Фото чека</label>
+      <div class="photo-upload" onclick="document.getElementById('exp-photo').click()">
+        <div class="ph-icon">🧾</div>
+        <div class="ph-label">Сфотографировать чек</div>
+      </div>
+      <input type="file" id="exp-photo" accept="image/*" capture="environment" onchange="previewExpPhoto(this)">
+      <img class="photo-preview" id="exp-preview">
+    </div>
+    <button class="submit-btn" onclick="submitExpense()">Записать расход</button>
+  </div>
+</div>
+
+<!-- ════════ ЭКРАН: ЗАДАЧИ ════════ -->
+<div class="screen" id="screen-tasks">
+  <button class="back-btn" onclick="showScreen('home')">← Назад</button>
+  <div class="alert alert-info" id="tasks-empty" style="display:none">
+    📋 Активных задач нет. Хорошего дня!
+  </div>
+  <div id="tasks-list"></div>
+</div>
+
+<!-- ════════ ЭКРАН: РЕЙТИНГ ════════ -->
+<div class="screen" id="screen-rating">
+  <div class="card" style="margin-bottom:12px">
+    <div class="card-title">Этот месяц</div>
+    <div id="rating-list"></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Твоя статистика</div>
+    <div class="week-row"><span class="week-key">За сегодня</span><span class="week-val" id="my-today">0 б.</span></div>
+    <div class="week-row"><span class="week-key">За эту неделю</span><span class="week-val" id="my-week">0 б.</span></div>
+    <div class="week-row"><span class="week-key">За месяц</span><span class="week-val" id="my-month">0 б.</span></div>
+    <div class="week-row"><span class="week-key">Серия 🔥</span><span class="week-val" id="my-streak-r">0 дней</span></div>
+  </div>
+</div>
+
+<!-- ════════ ЭКРАН: МОЯ НЕДЕЛЯ ════════ -->
+<div class="screen" id="screen-week">
+  <div class="card">
+    <div class="card-title">📊 Моя неделя</div>
+    <div id="week-content">
+      <div class="week-row"><span class="week-key">Баллов заработано</span><span class="week-val" id="w-points">—</span></div>
+      <div class="week-row"><span class="week-key">Записей сделано</span><span class="week-val" id="w-records">—</span></div>
+      <div class="week-row"><span class="week-key">Место в рейтинге</span><span class="week-val" id="w-place">—</span></div>
+      <div class="week-row"><span class="week-key">Задач выполнено</span><span class="week-val" id="w-tasks">—</span></div>
+      <div class="week-row"><span class="week-key">Расходы</span><span class="week-val" id="w-expenses">—</span></div>
+      <div class="week-row"><span class="week-key">Серия активности</span><span class="week-val" id="w-streak">—</span></div>
+      <div class="week-row"><span class="week-key">Расчётная премия</span><span class="week-val" id="w-bonus" style="color:var(--green)">—</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════ ЭКРАН: НАСТРОЕНИЕ ════════ -->
+<div class="screen" id="screen-mood">
+  <button class="back-btn" onclick="showScreen('home')">← Назад</button>
+  <div class="card">
+    <div class="card-title">Как настроение?</div>
+    <div class="mood-grid">
+      <div class="mood-btn" onclick="selectMood('great', this)">😄<div class="mood-label">Отлично</div></div>
+      <div class="mood-btn" onclick="selectMood('good', this)">😊<div class="mood-label">Хорошо</div></div>
+      <div class="mood-btn" onclick="selectMood('neutral', this)">😐<div class="mood-label">Нейтрально</div></div>
+      <div class="mood-btn" onclick="selectMood('bad', this)">😔<div class="mood-label">Плохо</div></div>
+    </div>
+    <div class="form-group" style="margin-top:14px" id="mood-note-wrap" style="display:none">
+      <label class="form-label">Заметка (необязательно)</label>
+      <input class="form-input" id="mood-note" placeholder="Что-нибудь на душе?">
+    </div>
+    <button class="submit-btn" id="mood-submit" onclick="submitMood()" style="display:none">Сохранить</button>
+    <div class="success-msg" id="mood-success" style="display:none;margin-top:12px">
+      <div class="s-icon">💙</div>
+      <div class="s-text">Спасибо! Хорошего дня!</div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════ BOTTOM NAV ════════ -->
+<div class="bottom-nav">
+  <button class="nav-item active" id="nav-home" onclick="navTo('home')">
+    <span class="nav-icon">🏠</span><span class="nav-label">Главная</span>
+  </button>
+  <button class="nav-item" id="nav-rating" onclick="navTo('rating')">
+    <span class="nav-icon">🏆</span><span class="nav-label">Рейтинг</span>
+  </button>
+  <button class="nav-item" id="nav-week" onclick="navTo('week')">
+    <span class="nav-icon">📊</span><span class="nav-label">Неделя</span>
+  </button>
+  <button class="nav-item" id="nav-tasks" onclick="navTo('tasks')">
+    <span class="nav-icon">📋</span><span class="nav-label">Задачи</span>
+  </button>
+</div>
+
+<script>
+// ── Telegram WebApp init ──
+const tg = window.Telegram?.WebApp;
+if (tg) {
+  tg.ready();
+  tg.expand();
+}
+
+const BOT_API = 'https://YOUR_BOT_SERVER/api'; // замени на адрес своего сервера
+
+// ── Данные (пока демо-данные, потом подключим к боту) ──
+const DEMO = {
+  user: { name: tg?.initDataUnsafe?.user?.first_name || 'Амирчон', id: tg?.initDataUnsafe?.user?.id || 0 },
+  stats: { today: 12, place: 2, streak: 7, month_pts: 87, week_pts: 34 },
+  goal: 'Подключить 3 мерчанта',
+  tasks: [
+    { id: 1, priority: '🔴 Срочно', text: 'Позвонить мерчанту БКБ ВИЛОЯТИ', deadline: 'сегодня до 17:00', urgent: true },
+    { id: 2, priority: '🟡 Обычная', text: 'Отправить отчёт по оборотам', deadline: '', urgent: false },
+  ],
+  rating: [
+    { name: 'Абдуллоев А.', pts: 124 },
+    { name: 'Фаридун С.', pts: 87 },
+    { name: 'Камол Р.', pts: 76 },
+    { name: 'Санжар Б.', pts: 54 },
+  ],
+};
+
+const CATEGORIES = {
+  '🔌 Подключение и запуск': ['🔌 Подключение нового мерчанта','📝 Регистрация мерчанта в системе','⚙️ Настройка оборудования (POS)','✅ Установка и активация терминала','🎓 Обучение персонала мерчанта'],
+  '📞 Работа с клиентами': ['📞 Телефонный разговор с мерчантом','💬 Консультация по услугам','🔧 Решение проблем мерчанта','🚗 Выезд к мерчанту','📋 Сбор обратной связи'],
+  '🛠 Обслуживание и поддержка': ['🛠 Техническое обслуживание POS','🔄 Замена POS-терминала','🔨 Ремонт POS-терминала','📶 Проверка связи/интернета','💻 Обновление ПО терминала'],
+  '📄 Документы и учёт': ['📄 Составление договора','✍️ Подписание договора','📊 Подготовка актов сверки','📤 Отправка отчётов мерчанту','💰 Работа с задолженностями'],
+  '📊 Контроль и мониторинг': ['📊 Ежедневный мониторинг транзакций','📈 Еженедельный мониторинг доходности','🔍 Анализ оборота по мерчантам','⚠️ Выявление неактивных мерчантов','💹 Контроль комиссий'],
+  '📈 Продажи и развитие': ['🆕 Привлечение новых мерчантов','➕ Кросс-продажи (доп. услуги)','📈 Повышение оборота мерчанта','🤝 Переговоры и встречи'],
+};
+
+let selectedWorkType = '';
+let selectedMood = '';
+
+// ── Инициализация ──
+function init() {
+  const today = new Date();
+  const days = ['Воскресенье','Понедельник','Вторник','Среда','Четверг','Пятница','Суббота'];
+  const months = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
+  document.getElementById('header-date').textContent = `${days[today.getDay()]}, ${today.getDate()} ${months[today.getMonth()]}`;
+
+  const name = DEMO.user.name;
+  document.getElementById('user-name').textContent = name;
+  document.getElementById('user-avatar').textContent = name.charAt(0).toUpperCase();
+
+  const hour = today.getHours();
+  const greeting = hour < 12 ? 'Доброе утро!' : hour < 17 ? 'Добрый день!' : 'Добрый вечер!';
+  document.getElementById('greeting-sub').textContent = greeting;
+
+  if (DEMO.goal) {
+    document.getElementById('goal-pill').style.display = 'inline-flex';
+    document.getElementById('goal-text').textContent = DEMO.goal;
+  }
+
+  const s = DEMO.stats;
+  document.getElementById('stat-today').textContent = s.today;
+  document.getElementById('stat-place').textContent = '🥈' + s.place;
+  document.getElementById('stat-streak').textContent = s.streak;
+
+  const weekPct = Math.min(s.week_pts / 100 * 100, 100);
+  document.getElementById('week-pts-label').textContent = `${s.week_pts} / 100`;
+  document.getElementById('week-pts-bar').style.width = weekPct + '%';
+  document.getElementById('week-exp-label').textContent = `120 / 500`;
+  document.getElementById('week-exp-bar').style.width = '24%';
+
+  const tc = DEMO.tasks.filter(t => t).length;
+  if (tc > 0) document.getElementById('tasks-count-badge').textContent = tc + ' активных';
+
+  buildCategories();
+  buildRating();
+  buildTasks();
+  buildWeekStats();
+}
+
+function buildCategories() {
+  const el = document.getElementById('cat-list');
+  el.innerHTML = '';
+  const counts = { '🔌 Подключение и запуск': 5, '📞 Работа с клиентами': 5, '🛠 Обслуживание и поддержка': 5, '📄 Документы и учёт': 5, '📊 Контроль и мониторинг': 5, '📈 Продажи и развитие': 4 };
+  for (const [cat, works] of Object.entries(CATEGORIES)) {
+    const icon = cat.split(' ')[0];
+    const name = cat.split(' ').slice(1).join(' ');
+    el.innerHTML += `<button class="category-item" onclick="openCategory('${cat}')">
+      <span class="cat-icon">${icon}</span>
+      <span class="cat-name">${name}</span>
+      <span class="cat-count">${works.length} типов</span>
+      <span class="arrow">›</span>
+    </button>`;
+  }
+}
+
+function openCategory(cat) {
+  selectedWorkType = '';
+  document.getElementById('cat-title').textContent = cat;
+  const list = document.getElementById('work-type-list');
+  list.innerHTML = '';
+  (CATEGORIES[cat] || []).forEach(w => {
+    const icon = w.split(' ')[0];
+    const name = w.split(' ').slice(1).join(' ');
+    list.innerHTML += `<button class="work-item" onclick="selectWorkType('${w.replace(/'/g,"\\'")}')">
+      <span class="w-icon">${icon}</span>
+      <span class="w-name">${name}</span>
+      <span class="arrow" style="color:var(--text-3)">›</span>
+    </button>`;
+  });
+  showScreen('work-types');
+}
+
+function selectWorkType(type) {
+  selectedWorkType = type;
+  document.getElementById('selected-work-type').textContent = type;
+  document.getElementById('work-success').style.display = 'none';
+  document.getElementById('work-form-body').style.display = 'block';
+  document.getElementById('work-merchant').value = '';
+  document.getElementById('work-comment').value = '';
+  document.getElementById('photo-preview').style.display = 'none';
+  document.getElementById('back-to-types').onclick = () => showScreen('work-types');
+  showScreen('work-form');
+}
+
+function buildRating() {
+  const el = document.getElementById('rating-list');
+  const medals = ['gold','silver','bronze'];
+  el.innerHTML = DEMO.rating.map((r, i) => `
+    <div class="rating-item">
+      <div class="rating-pos ${medals[i] || ''}">${i < 3 ? ['🥇','🥈','🥉'][i] : i+1}</div>
+      <div>
+        <div class="rating-name">${r.name}</div>
+        ${i === 1 ? '<div class="rating-me">← это ты</div>' : ''}
+      </div>
+      <div class="rating-pts">${r.pts} б.</div>
+    </div>`).join('');
+  document.getElementById('my-today').textContent = DEMO.stats.today + ' б.';
+  document.getElementById('my-week').textContent = DEMO.stats.week_pts + ' б.';
+  document.getElementById('my-month').textContent = DEMO.stats.month_pts + ' б.';
+  document.getElementById('my-streak-r').textContent = DEMO.stats.streak + ' дней';
+}
+
+function buildTasks() {
+  const list = document.getElementById('tasks-list');
+  const tasks = DEMO.tasks;
+  if (!tasks.length) {
+    document.getElementById('tasks-empty').style.display = 'block';
+    return;
+  }
+  list.innerHTML = tasks.map(t => `
+    <div class="task-item ${t.urgent ? 'urgent' : ''}">
+      <div class="task-priority">${t.priority}</div>
+      <div class="task-text">${t.text}</div>
+      ${t.deadline ? `<div class="task-deadline">⏰ ${t.deadline}</div>` : ''}
+      <button class="task-done-btn" onclick="markTaskDone(${t.id}, this)">✅ Выполнено</button>
+    </div>`).join('');
+}
+
+function buildWeekStats() {
+  const s = DEMO.stats;
+  document.getElementById('w-points').textContent = s.week_pts + ' б.';
+  document.getElementById('w-records').textContent = '8';
+  document.getElementById('w-place').textContent = '🥈 2 из 6';
+  document.getElementById('w-tasks').textContent = '3 шт.';
+  document.getElementById('w-expenses').textContent = '120';
+  document.getElementById('w-streak').textContent = s.streak + ' дней 🔥';
+  document.getElementById('w-bonus').textContent = '+' + (s.month_pts * 1) + ' сомони';
+}
+
+// ── Действия ──
+function submitWork() {
+  const merchant = document.getElementById('work-merchant').value.trim() || '-';
+  const comment = document.getElementById('work-comment').value.trim();
+  if (!comment) { alert('Напиши комментарий'); return; }
+
+  const btn = document.querySelector('#screen-work-form .submit-btn');
+  btn.disabled = true; btn.textContent = 'Сохраняю...';
+
+  // Отправляем в бот через sendData
+  const data = JSON.stringify({ action: 'work', type: selectedWorkType, merchant, comment });
+  if (tg) tg.sendData(data);
+
+  setTimeout(() => {
+    document.getElementById('work-form-body').style.display = 'none';
+    const success = document.getElementById('work-success');
+    success.style.display = 'block';
+    document.getElementById('work-success-text').textContent = '✅ Работа записана!';
+    document.getElementById('work-success-sub').textContent = selectedWorkType;
+    if (tg) tg.HapticFeedback?.notificationOccurred('success');
+    btn.disabled = false; btn.textContent = 'Записать работу';
+    DEMO.stats.today += 4;
+    document.getElementById('stat-today').textContent = DEMO.stats.today;
+  }, 800);
+}
+
+function submitExpense() {
+  const merchant = document.getElementById('exp-merchant').value.trim() || '-';
+  const amount = parseFloat(document.getElementById('exp-amount').value);
+  const comment = document.getElementById('exp-comment').value.trim();
+  if (!amount || amount <= 0) { alert('Введи сумму'); return; }
+
+  const data = JSON.stringify({ action: 'expense', merchant, amount, comment });
+  if (tg) tg.sendData(data);
+
+  document.getElementById('exp-form-body').style.display = 'none';
+  const s = document.getElementById('exp-success');
+  s.style.display = 'block';
+  document.getElementById('exp-success-sub').textContent = `${amount} на «${merchant}»`;
+  if (tg) tg.HapticFeedback?.notificationOccurred('success');
+}
+
+function markTaskDone(id, btn) {
+  btn.textContent = '⏳ Отмечаю...';
+  btn.disabled = true;
+  const data = JSON.stringify({ action: 'task_done', task_id: id });
+  if (tg) tg.sendData(data);
+  setTimeout(() => {
+    btn.closest('.task-item').style.opacity = '.4';
+    btn.textContent = '✅ Выполнено';
+  }, 500);
+}
+
+function selectMood(mood, el) {
+  selectedMood = mood;
+  document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('selected'));
+  el.classList.add('selected');
+  document.getElementById('mood-note-wrap') .style.display = 'block';
+  document.getElementById('mood-submit').style.display = 'block';
+}
+
+function submitMood() {
+  const note = document.getElementById('mood-note').value.trim();
+  const data = JSON.stringify({ action: 'mood', mood: selectedMood, note });
+  if (tg) tg.sendData(data);
+  document.getElementById('mood-submit').style.display = 'none';
+  document.getElementById('mood-success').style.display = 'block';
+}
+
+function previewPhoto(input) {
+  if (input.files && input.files[0]) {
+    const img = document.getElementById('photo-preview');
+    img.src = URL.createObjectURL(input.files[0]);
+    img.style.display = 'block';
+  }
+}
+function previewExpPhoto(input) {
+  if (input.files && input.files[0]) {
+    const img = document.getElementById('exp-preview');
+    img.src = URL.createObjectURL(input.files[0]);
+    img.style.display = 'block';
+  }
+}
+
+// ── Навигация ──
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+  window.scrollTo(0, 0);
+}
+function showWorkMenu() { showScreen('work-cat'); }
+function navTo(name) {
+  showScreen(name);
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('nav-' + name)?.classList.add('active');
+}
+
+init();
+</script>
+</body>
+</html>
