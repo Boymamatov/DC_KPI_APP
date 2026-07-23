@@ -599,7 +599,95 @@ if (tg) {
   tg.expand();
 }
 
-const BOT_API = 'https://YOUR_BOT_SERVER/api'; // замени на адрес своего сервера
+// ── API URL — сюда подставится адрес туннеля ──
+// Когда запустишь cloudflared, замени эту строку на свой адрес
+const API_URL = localStorage.getItem('dc_api_url') || 'https://queries-deposit-broad-carol.trycloudflare.com';
+
+async function loadRealData() {
+  if (!API_URL) return false;
+  const initData = tg?.initData || '';
+  // Если нет initData (открыт не через Telegram) — пробуем по user_id из localStorage
+  const savedId = localStorage.getItem('dc_user_id');
+  const url = initData
+    ? `${API_URL}/api/me`
+    : `${API_URL}/api/me?user_id=${savedId || ''}`;
+  try {
+    const resp = await fetch(url, {
+      headers: initData ? { 'X-Init-Data': initData } : {}
+    });
+    if (!resp.ok) return false;
+    const data = await resp.json();
+    if (data.user?.id) localStorage.setItem('dc_user_id', data.user.id);
+    applyRealData(data);
+    return true;
+  } catch(e) {
+    console.log('API недоступен, демо-данные', e);
+    return false;
+  }
+}
+
+function applyRealData(data) {
+  const s = data.stats;
+  const u = data.user;
+  document.getElementById('user-name').textContent = u.name.split(' ')[0];
+  document.getElementById('user-avatar').textContent = u.name.charAt(0).toUpperCase();
+  document.getElementById('stat-today').textContent = s.today_pts;
+  const medals = ['🥇','🥈','🥉'];
+  document.getElementById('stat-place').textContent =
+    s.place_month > 0 ? (medals[s.place_month-1] || s.place_month) : '—';
+  document.getElementById('stat-streak').textContent = s.streak;
+  const weekPct = Math.min(s.week_pts / 100 * 100, 100);
+  document.getElementById('week-pts-label').textContent = `${s.week_pts} / 100`;
+  document.getElementById('week-pts-bar').style.width = weekPct + '%';
+  const exp = data.expenses;
+  if (exp.limit > 0) {
+    const expPct = Math.min(exp.month / exp.limit * 100, 100);
+    document.getElementById('week-exp-label').textContent = `${exp.month} / ${exp.limit}`;
+    document.getElementById('week-exp-bar').style.width = expPct + '%';
+  }
+  if (data.goal) {
+    document.getElementById('goal-pill').style.display = 'inline-flex';
+    document.getElementById('goal-text').textContent = data.goal;
+  }
+  document.getElementById('tasks-count-badge').textContent =
+    data.tasks.length > 0 ? `${data.tasks.length} активных` : '';
+  // Рейтинг
+  const rEl = document.getElementById('rating-list');
+  if (rEl && data.rating.length) {
+    rEl.innerHTML = data.rating.map((r,i) => `
+      <div class="rating-item">
+        <div class="rating-pos ${['gold','silver','bronze'][i]||''}">${medals[i]||i+1}</div>
+        <div><div class="rating-name">${r.name}</div>
+          ${r.name===u.name?'<div class="rating-me">← это ты</div>':''}</div>
+        <div class="rating-pts">${r.pts} б.</div>
+      </div>`).join('');
+  }
+  // Задачи
+  const tList = document.getElementById('tasks-list');
+  if (tList) {
+    if (!data.tasks.length) {
+      document.getElementById('tasks-empty').style.display = 'block';
+    } else {
+      tList.innerHTML = data.tasks.map(t => `
+        <div class="task-item${t.urgent?' urgent':''}">
+          <div class="task-priority">${t.priority}</div>
+          <div class="task-text">${t.text}</div>
+          ${t.deadline?`<div class="task-deadline">⏰ ${t.deadline}</div>`:''}
+          <button class="task-done-btn" onclick="markTaskDone(${t.id},this)">✅ Выполнено</button>
+        </div>`).join('');
+    }
+  }
+  // Неделя
+  const w = (id,v) => { const e=document.getElementById(id); if(e) e.textContent=v; };
+  w('w-points', s.week_pts+' б.'); w('w-records', s.records_week+' шт.');
+  w('w-place', s.place_month?`#${s.place_month}`:'—');
+  w('w-tasks', data.tasks_done_week+' шт.'); w('w-expenses', exp.week);
+  w('w-streak', s.streak+' дней 🔥'); w('w-bonus', '+'+data.bonus+' сомони');
+  w('my-today', s.today_pts+' б.'); w('my-week', s.week_pts+' б.');
+  w('my-month', s.month_pts+' б.'); w('my-streak-r', s.streak+' дней');
+  DEMO.user=u; DEMO.stats=s; DEMO.tasks=data.tasks; DEMO.rating=data.rating;
+  window._apiLoaded = true;
+}
 
 // ── Данные (пока демо-данные, потом подключим к боту) ──
 const DEMO = {
@@ -632,6 +720,7 @@ let selectedMood = '';
 
 // ── Инициализация ──
 function init() {
+  loadRealData(); // загружаем реальные данные из бота
   const today = new Date();
   const days = ['Воскресенье','Понедельник','Вторник','Среда','Четверг','Пятница','Суббота'];
   const months = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
@@ -761,15 +850,29 @@ function buildWeekStats() {
 }
 
 // ── Действия ──
-function submitWork() {
+async function submitWork() {
   const merchant = document.getElementById('work-merchant').value.trim() || '-';
   const comment = document.getElementById('work-comment').value.trim();
   if (!comment) { alert('Напиши комментарий'); return; }
-
   const btn = document.querySelector('#screen-work-form .submit-btn');
   btn.disabled = true; btn.textContent = 'Сохраняю...';
-
-  // Отправляем в бот через sendData
+  if (window._apiLoaded && API_URL) {
+    try {
+      const resp = await fetch(API_URL+'/api/work', {
+        method:'POST',
+        headers:{'Content-Type':'application/json','X-Init-Data':tg?.initData||''},
+        body:JSON.stringify({type:selectedWorkType,merchant,comment})
+      });
+      const res = await resp.json();
+      document.getElementById('work-form-body').style.display='none';
+      document.getElementById('work-success').style.display='block';
+      document.getElementById('work-success-text').textContent=`✅ Записано! +${res.points} баллов`;
+      document.getElementById('work-success-sub').textContent=selectedWorkType;
+      tg?.HapticFeedback?.notificationOccurred('success');
+      btn.disabled=false; btn.textContent='Записать работу'; return;
+    } catch(e) {}
+  }
+  // Fallback — sendData через Telegram
   const data = JSON.stringify({ action: 'work', type: selectedWorkType, merchant, comment });
   if (tg) tg.sendData(data);
 
