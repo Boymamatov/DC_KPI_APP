@@ -537,38 +537,44 @@
 <!-- ════════ ЭКРАН ВХОДА ════════ -->
 <div id="login-screen" class="login-screen" style="display:none">
   <div class="login-logo">DC</div>
-  <div class="login-title">DC Эквайринг KPI</div>
-  <div class="login-sub">Войди чтобы увидеть свои данные</div>
+  <div class="login-title" style="color:white;font-size:22px;font-weight:700;margin-bottom:6px">DC Эквайринг KPI</div>
+  <div class="login-sub" style="color:rgba(255,255,255,.7);font-size:13px;margin-bottom:28px">Система учёта KPI сотрудников</div>
 
   <div class="login-card">
-    <div class="login-error" id="login-error"></div>
-    <div class="form-group">
-      <label class="form-label">Логин</label>
-      <input class="form-input" id="login-input" type="text"
-             placeholder="amirchon" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="text">
-    </div>
-    <div class="form-group">
-      <label class="form-label">Пароль</label>
-      <input class="form-input" id="password-input" type="text"
-             placeholder="пароль" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="text">
-    </div>
-    <button class="submit-btn" id="login-btn" onclick="doLogin()">Войти</button>
-    <div style="display:flex;align-items:center;gap:10px;margin:14px 0">
-      <div style="flex:1;height:1px;background:var(--border)"></div>
-      <span style="font-size:12px;color:var(--text-3)">или</span>
-      <div style="flex:1;height:1px;background:var(--border)"></div>
-    </div>
-    <button class="submit-btn" id="tg-login-btn" onclick="doTelegramLogin()"
-      style="background:#229ED9;display:flex;align-items:center;justify-content:center;gap:8px">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+    <div class="login-error" id="login-error" style="display:none;background:#fef2f2;border:1.5px solid #dc2626;border-radius:10px;padding:12px;font-size:13px;color:#dc2626;margin-bottom:14px"></div>
+
+    <!-- Главная кнопка — Telegram -->
+    <button id="tg-auto-btn" onclick="loginViaTelegram()"
+      style="width:100%;padding:16px;background:linear-gradient(135deg,#229ED9,#1a8cbf);color:white;border:none;border-radius:14px;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 4px 16px rgba(34,158,217,.4);margin-bottom:20px">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
         <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/>
       </svg>
       Войти через Telegram
     </button>
-  </div>
 
-  <div class="api-url-note">Адрес сервера: <span id="api-url-display"></span></div>
-  <button class="settings-btn" onclick="changeApiUrl()">⚙️ Изменить адрес сервера</button>
+    <!-- Разделитель -->
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
+      <div style="flex:1;height:1px;background:#e5e7eb"></div>
+      <span style="font-size:12px;color:#9ca3af">или введи ID вручную</span>
+      <div style="flex:1;height:1px;background:#e5e7eb"></div>
+    </div>
+
+    <!-- Запасной вариант — ввод ID -->
+    <div style="margin-bottom:12px">
+      <input id="login-id" type="text" inputmode="numeric"
+        placeholder="Твой Telegram ID (числа)"
+        style="width:100%;padding:13px 14px;border:1.5px solid #e5e7eb;border-radius:10px;font-size:15px;outline:none;font-family:inherit;box-sizing:border-box"
+        onkeydown="if(event.key==='Enter')doLogin()">
+    </div>
+    <button onclick="doLogin()"
+      style="width:100%;padding:13px;background:#2563eb;color:white;border:none;border-radius:10px;font-size:15px;font-weight:600;cursor:pointer">
+      Войти
+    </button>
+
+    <div style="text-align:center;margin-top:14px;font-size:12px;color:#9ca3af">
+      Своего ID не знаешь? Напиши <b>@userinfobot</b> в Telegram
+    </div>
+  </div>
 </div>
 
 <!-- HEADER -->
@@ -1087,269 +1093,136 @@ document.addEventListener('keydown', e => {
 
 // ── Telegram WebApp init ──
 const tg = window.Telegram?.WebApp;
-if (tg) {
-  tg.ready();
-  tg.expand();
-}
+if (tg) { tg.ready(); tg.expand(); }
 
-// ── GitHub данные — читаем напрямую с GitHub Pages ──
 const GITHUB_DATA_URL = 'https://boymamatov.github.io/DC_KPI_APP/data.json';
-const API_URL = localStorage.getItem('dc_api_url') || 'https://productions-knock-loans-mind.trycloudflare.com';
+const API_URL = localStorage.getItem('dc_api_url') || '';
 
-// ── Логин ──
-// ── Авторизация через Telegram ID + пароль ──
-async function doLogin() {
-  const userId = document.getElementById('login-id').value.trim();
-  const pass = document.getElementById('login-pass').value.trim();
-  const errEl = document.getElementById('login-error');
-  const btn = document.querySelector('.login-form .submit-btn');
+let currentUserId = null;
 
-  if (!userId || !pass) {
-    errEl.style.display = 'block';
-    errEl.textContent = 'Введите ID и пароль';
-    return;
-  }
-
-  if (!API_URL) {
-    errEl.style.display = 'block';
-    errEl.textContent = 'Адрес сервера не задан. Нажми ⚙️ внизу.';
-    return;
-  }
-
-  btn.disabled = true;
-  btn.textContent = 'Вхожу...';
-  errEl.style.display = 'none';
-
+// ── Загрузка данных из GitHub по Telegram ID ──
+async function loadUserData(userId) {
   try {
-    // Пробуем войти через API по Telegram ID + пароль
-    const resp = await fetch(API_URL + '/api/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ login: userId, password: pass })
-    });
-    const data = await resp.json();
-
-    if (!resp.ok) {
-      // Если API не поддерживает — пробуем напрямую по user_id
-      const resp2 = await fetch(`${API_URL}/api/me?user_id=${userId}`);
-      if (resp2.ok) {
-        const data2 = await resp2.json();
-        localStorage.setItem('dc_user_id', userId);
-        localStorage.setItem('dc_pass', pass);
-        hideLoginShowMain(data2);
-        return;
-      }
-      errEl.style.display = 'block';
-      errEl.textContent = data.error || 'Неверный ID или пароль';
-      btn.disabled = false; btn.textContent = 'Войти';
-      return;
-    }
-
-    localStorage.setItem('dc_user_id', userId);
-    localStorage.setItem('dc_pass', pass);
-    localStorage.setItem('dc_token', data.token || `tg:${userId}`);
-    // Сначала показываем данные из API, потом обновляем из GitHub
-    hideLoginShowMain(data);
-    // Обновляем данные из GitHub в фоне
-    setTimeout(() => loadDataFromGitHub(userId, pass), 1000);
-
-  } catch(e) {
-    errEl.style.display = 'block';
-    errEl.textContent = 'Нет соединения. Проверь интернет.';
-    btn.disabled = false; btn.textContent = 'Войти';
-  }
-  btn.disabled = false; btn.textContent = 'Войти';
-}
-
-// ── Авторизация через Telegram автоматически ──
-async function loginViaTelegram() {
-  const btn = document.getElementById('tg-auto-btn');
-  const errEl = document.getElementById('login-error');
-  btn.disabled = true;
-  btn.innerHTML = '⏳ Подключаюсь...';
-  errEl.style.display = 'none';
-
-  if (!API_URL) {
-    errEl.style.display = 'block';
-    errEl.textContent = 'Нажми ⚙️ и введи адрес сервера';
-    btn.disabled = false;
-    btn.innerHTML = '✈️ Войти через Telegram';
-    return;
-  }
-
-  const initData = tg?.initData || '';
-  const userId = tg?.initDataUnsafe?.user?.id || localStorage.getItem('dc_user_id');
-
-  if (!userId && !initData) {
-    errEl.style.display = 'block';
-    errEl.textContent = 'Введи свой Telegram ID в поле выше и нажми «Войти»';
-    btn.disabled = false;
-    btn.innerHTML = '✈️ Войти через Telegram';
-    return;
-  }
-
-  try {
-    const url = initData
-      ? `${API_URL}/api/me`
-      : `${API_URL}/api/me?user_id=${userId}`;
-    const headers = initData ? { 'X-Init-Data': initData } : {};
-
-    const resp = await fetch(url, { headers });
-    if (!resp.ok) {
-      const err = await resp.json().catch(() => ({}));
-      errEl.style.display = 'block';
-      errEl.textContent = err.error === 'user_not_found'
-        ? 'Ты не найден в системе. Напиши /start боту DC Эквайринг KPI.'
-        : 'Ошибка авторизации';
-      btn.disabled = false;
-      btn.innerHTML = '✈️ Войти через Telegram';
-      return;
-    }
-
-    const data = await resp.json();
-    localStorage.setItem('dc_user_id', String(data.user?.id || userId));
-    localStorage.setItem('dc_token', `tg:${data.user?.id || userId}`);
-    hideLoginShowMain(data);
-    tg?.HapticFeedback?.notificationOccurred('success');
-
-  } catch(e) {
-    errEl.style.display = 'block';
-    errEl.textContent = 'Нет соединения с сервером';
-    btn.disabled = false;
-    btn.innerHTML = '✈️ Войти через Telegram';
-  }
-}
-
-function hideLoginShowMain(data) {
-  document.getElementById('login-screen').classList.add('hidden');
-  document.querySelector('.header') && (document.querySelector('.header').style.display = 'block');
-  document.querySelector('.bottom-nav') && (document.querySelector('.bottom-nav').style.display = 'flex');
-  applyRealData(data);
-  window._apiLoaded = true;
-}
-
-async function loadDataFromGitHub(userId, pass) {
-  try {
-    // Сначала пробуем API (если работает)
-    if (API_URL) {
-      try {
-        const resp = await fetch(`${API_URL}/api/me?user_id=${userId}`, { signal: AbortSignal.timeout(3000) });
-        if (resp.ok) {
-          const data = await resp.json();
-          hideLoginShowMain(data);
-          return;
-        }
-      } catch(e) {}
-    }
-
-    // Fallback — читаем из GitHub data.json
     const resp = await fetch(GITHUB_DATA_URL + '?t=' + Date.now());
-    if (!resp.ok) throw new Error('Нет данных');
+    if (!resp.ok) throw new Error('GitHub недоступен');
     const allData = await resp.json();
-
-    // Ищем пользователя по ID
-    const empData = allData.employees && allData.employees[userId];
-    if (!empData) {
-      document.getElementById('login-error').textContent = 'Пользователь не найден. Обратитесь к руководителю.';
-      document.getElementById('login-error').style.display = 'block';
-      return;
+    const empData = allData.employees && allData.employees[String(userId)];
+    if (empData) {
+      currentUserId = String(userId);
+      localStorage.setItem('dc_user_id', currentUserId);
+      hideLoginShowMain(empData);
+      return true;
     }
-
-    hideLoginShowMain(empData);
-    window._githubLoaded = true;
-    window._githubUpdated = allData.updated || '';
-
+    return false;
   } catch(e) {
     console.log('Ошибка загрузки:', e);
-    document.getElementById('login-error').textContent = 'Ошибка загрузки данных. Проверь интернет.';
-    document.getElementById('login-error').style.display = 'block';
-  }
-}
-
-async function loadRealData() {
-  if (!API_URL) return false;
-  const initData = tg?.initData || '';
-  // Если нет initData (открыт не через Telegram) — пробуем по user_id из localStorage
-  const savedId = localStorage.getItem('dc_user_id');
-  const url = initData
-    ? `${API_URL}/api/me`
-    : `${API_URL}/api/me?user_id=${savedId || ''}`;
-  try {
-    const resp = await fetch(url, {
-      headers: { 'X-Init-Data': initData, 'X-Token': currentToken || '' }
-    });
-    if (!resp.ok) return false;
-    const data = await resp.json();
-    if (data.user?.id) localStorage.setItem('dc_user_id', data.user.id);
-    applyRealData(data);
-    return true;
-  } catch(e) {
-    console.log('API недоступен, демо-данные', e);
     return false;
   }
 }
 
-function applyRealData(data) {
-  const s = data.stats;
-  const u = data.user;
-  document.getElementById('user-name').textContent = u.name.split(' ')[0];
-  document.getElementById('user-avatar').textContent = u.name.charAt(0).toUpperCase();
-  document.getElementById('stat-today').textContent = s.today_pts;
-  const medals = ['🥇','🥈','🥉'];
-  document.getElementById('stat-place').textContent =
-    s.place_month > 0 ? (medals[s.place_month-1] || s.place_month) : '—';
-  document.getElementById('stat-streak').textContent = s.streak;
-  const weekPct = Math.min(s.week_pts / 100 * 100, 100);
-  document.getElementById('week-pts-label').textContent = `${s.week_pts} / 100`;
-  document.getElementById('week-pts-bar').style.width = weekPct + '%';
-  const exp = data.expenses;
-  if (exp.limit > 0) {
-    const expPct = Math.min(exp.month / exp.limit * 100, 100);
-    document.getElementById('week-exp-label').textContent = `${exp.month} / ${exp.limit}`;
-    document.getElementById('week-exp-bar').style.width = expPct + '%';
+// ── Показать/скрыть экраны ──
+function hideLoginShowMain(data) {
+  const loginScreen = document.getElementById('login-screen');
+  const header = document.querySelector('.header');
+  const nav = document.querySelector('.bottom-nav');
+  if (loginScreen) loginScreen.style.display = 'none';
+  if (header) header.style.display = 'block';
+  if (nav) nav.style.display = 'flex';
+  document.getElementById('screen-home').classList.add('active');
+  applyRealData(data);
+  window._apiLoaded = true;
+}
+
+function showLoginScreen() {
+  const loginScreen = document.getElementById('login-screen');
+  const header = document.querySelector('.header');
+  const nav = document.querySelector('.bottom-nav');
+  if (loginScreen) loginScreen.style.display = 'flex';
+  if (header) header.style.display = 'none';
+  if (nav) nav.style.display = 'none';
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+}
+
+function logout() {
+  localStorage.removeItem('dc_user_id');
+  currentUserId = null;
+  showLoginScreen();
+}
+
+// ── Авторизация через Telegram (главный способ) ──
+async function loginViaTelegram() {
+  const btn = document.getElementById('tg-auto-btn');
+  const errEl = document.getElementById('login-error');
+  if (btn) { btn.disabled = true; btn.innerHTML = '⏳ Подключаюсь...'; }
+  if (errEl) errEl.style.display = 'none';
+
+  // Получаем ID из Telegram WebApp
+  const tgUserId = tg?.initDataUnsafe?.user?.id;
+
+  if (!tgUserId) {
+    // Не в Telegram — просим ввести ID вручную
+    if (errEl) {
+      errEl.style.display = 'block';
+      errEl.textContent = 'Открой приложение через Telegram бота @dc_acquiring_bot';
+    }
+    if (btn) { btn.disabled = false; btn.innerHTML = '✈️ Войти через Telegram'; }
+    return;
   }
-  if (data.goal) {
-    document.getElementById('goal-pill').style.display = 'inline-flex';
-    document.getElementById('goal-text').textContent = data.goal;
+
+  const ok = await loadUserData(tgUserId);
+  if (!ok) {
+    if (errEl) {
+      errEl.style.display = 'block';
+      errEl.textContent = 'Тебя нет в системе. Напиши боту /start и попроси руководителя добавить тебя.';
+    }
+    if (btn) { btn.disabled = false; btn.innerHTML = '✈️ Войти через Telegram'; }
+    return;
   }
-  document.getElementById('tasks-count-badge').textContent =
-    data.tasks.length > 0 ? `${data.tasks.length} активных` : '';
-  // Рейтинг
-  const rEl = document.getElementById('rating-list');
-  if (rEl && data.rating.length) {
-    rEl.innerHTML = data.rating.map((r,i) => `
-      <div class="rating-item">
-        <div class="rating-pos ${['gold','silver','bronze'][i]||''}">${medals[i]||i+1}</div>
-        <div><div class="rating-name">${r.name}</div>
-          ${r.name===u.name?'<div class="rating-me">← это ты</div>':''}</div>
-        <div class="rating-pts">${r.pts} б.</div>
-      </div>`).join('');
+  tg?.HapticFeedback?.notificationOccurred('success');
+}
+
+// ── Вход по Telegram ID вручную (для случаев без Telegram) ──
+async function doLogin() {
+  const userId = document.getElementById('login-id')?.value?.trim();
+  const errEl = document.getElementById('login-error');
+  const btn = document.querySelector('#login-screen .submit-btn') || document.getElementById('login-btn');
+
+  if (!userId) {
+    if (errEl) { errEl.style.display = 'block'; errEl.textContent = 'Введи Telegram ID'; }
+    return;
   }
-  // Задачи
-  const tList = document.getElementById('tasks-list');
-  if (tList) {
-    if (!data.tasks.length) {
-      document.getElementById('tasks-empty').style.display = 'block';
-    } else {
-      tList.innerHTML = data.tasks.map(t => `
-        <div class="task-item${t.urgent?' urgent':''}">
-          <div class="task-priority">${t.priority}</div>
-          <div class="task-text">${t.text}</div>
-          ${t.deadline?`<div class="task-deadline">⏰ ${t.deadline}</div>`:''}
-          <button class="task-done-btn" onclick="markTaskDone(${t.id},this)">✅ Выполнено</button>
-        </div>`).join('');
+
+  if (btn) { btn.disabled = true; btn.textContent = 'Вхожу...'; }
+  if (errEl) errEl.style.display = 'none';
+
+  const ok = await loadUserData(userId);
+  if (!ok) {
+    if (errEl) {
+      errEl.style.display = 'block';
+      errEl.textContent = 'ID не найден в системе. Обратись к руководителю.';
     }
   }
-  // Неделя
-  const w = (id,v) => { const e=document.getElementById(id); if(e) e.textContent=v; };
-  w('w-points', s.week_pts+' б.'); w('w-records', s.records_week+' шт.');
-  w('w-place', s.place_month?`#${s.place_month}`:'—');
-  w('w-tasks', data.tasks_done_week+' шт.'); w('w-expenses', exp.week);
-  w('w-streak', s.streak+' дней 🔥'); w('w-bonus', '+'+data.bonus+' сомони');
-  w('my-today', s.today_pts+' б.'); w('my-week', s.week_pts+' б.');
-  w('my-month', s.month_pts+' б.'); w('my-streak-r', s.streak+' дней');
-  DEMO.user=u; DEMO.stats=s; DEMO.tasks=data.tasks; DEMO.rating=data.rating;
-  window._apiLoaded = true;
+  if (btn) { btn.disabled = false; btn.textContent = 'Войти'; }
+}
+
+// ── Проверка авторизации при запуске ──
+async function checkAuth() {
+  // Сначала пробуем Telegram авторизацию автоматически
+  const tgUserId = tg?.initDataUnsafe?.user?.id;
+  if (tgUserId) {
+    const ok = await loadUserData(tgUserId);
+    if (ok) return;
+  }
+
+  // Пробуем сохранённый ID
+  const savedId = localStorage.getItem('dc_user_id');
+  if (savedId) {
+    const ok = await loadUserData(savedId);
+    if (ok) return;
+  }
+
+  // Показываем экран входа
+  showLoginScreen();
 }
 
 // ── Данные (пока демо-данные, потом подключим к боту) ──
@@ -1383,6 +1256,7 @@ let selectedMood = '';
 
 // ── Инициализация ──
 function init() {
+  checkAuth(); // авторизация при запуске
   // Проверяем сохранённый логин
   const savedId = localStorage.getItem('dc_user_id');
   const savedPass = localStorage.getItem('dc_pass');
