@@ -1,0 +1,791 @@
+{
+  "updated": "2026-07-27 12:11",
+  "employees": {
+    "1721561085": {
+      "user": {
+        "id": 1721561085,
+        "name": "Иномҷон Юнусов",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 12,
+        "week_pts": 12,
+        "month_pts": 168,
+        "total_pts": 174,
+        "records_today": 3,
+        "records_week": 3,
+        "place_month": 2,
+        "streak": 1,
+        "top_work": "📄 Составление договора"
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [
+        {
+          "id": 1,
+          "priority": "🟡 Обычная",
+          "text": ".",
+          "deadline": "",
+          "urgent": false
+        },
+        {
+          "id": 3,
+          "priority": "🟡 Обычная",
+          "text": "МАЧЛИС",
+          "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
+          "urgent": false
+        }
+      ],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 70.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [
+        "points_100",
+        "streak_5",
+        "week_winner"
+      ],
+      "bonus": 168.0,
+      "login": "иномҷон"
+    },
+    "8684586957": {
+      "user": {
+        "id": 8684586957,
+        "name": "Jamshed",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 0,
+        "week_pts": 0,
+        "month_pts": 35,
+        "total_pts": 39,
+        "records_today": 0,
+        "records_week": 0,
+        "place_month": 8,
+        "streak": 1,
+        "top_work": "📈 Еженедельный мониторинг доходности"
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [
+        {
+          "id": 1,
+          "priority": "🟡 Обычная",
+          "text": "МАЧЛИС",
+          "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
+          "urgent": false
+        }
+      ],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 20.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [
+        "first_work"
+      ],
+      "bonus": 35.0,
+      "login": "jamshed"
+    },
+    "2045751852": {
+      "user": {
+        "id": 2045751852,
+        "name": "Абдукаримов Абдулаким",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 5,
+        "week_pts": 5,
+        "month_pts": 101,
+        "total_pts": 105,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 5,
+        "streak": 1,
+        "top_work": "📞 Телефонный разговор с мерчантом"
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [
+        {
+          "id": 0,
+          "priority": "🟡 Обычная",
+          "text": ".",
+          "deadline": "",
+          "urgent": false
+        }
+      ],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 60.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [
+        "first_work",
+        "streak_5",
+        "points_100"
+      ],
+      "bonus": 101.0,
+      "login": "абдукаримов"
+    },
+    "5113964899": {
+      "user": {
+        "id": 5113964899,
+        "name": "Mahkamov",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 9,
+        "week_pts": 9,
+        "month_pts": 132,
+        "total_pts": 132,
+        "records_today": 3,
+        "records_week": 3,
+        "place_month": 4,
+        "streak": 1,
+        "top_work": "📊 Ежедневный мониторинг транзакций"
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 31.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [
+        "first_work",
+        "streak_5",
+        "points_100"
+      ],
+      "bonus": 132.0,
+      "login": "mahkamov"
+    },
+    "1246960566": {
+      "user": {
+        "id": 1246960566,
+        "name": "Абдуллоев Амирчон",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 5,
+        "week_pts": 5,
+        "month_pts": 142,
+        "total_pts": 142,
+        "records_today": 2,
+        "records_week": 2,
+        "place_month": 3,
+        "streak": 1,
+        "top_work": "📞 Телефонный разговор с мерчантом"
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [
+        {
+          "id": 0,
+          "priority": "🟡 Обычная",
+          "text": ".",
+          "deadline": "",
+          "urgent": false
+        },
+        {
+          "id": 2,
+          "priority": "🟡 Обычная",
+          "text": "Исфара финансовый грамотность",
+          "deadline": "21.07-22.07",
+          "urgent": false
+        }
+      ],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 150.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [
+        "first_work",
+        "week_winner",
+        "points_100",
+        "streak_5"
+      ],
+      "bonus": 142.0,
+      "login": "абдуллоев"
+    },
+    "1449975876": {
+      "user": {
+        "id": 1449975876,
+        "name": "Faridun Sanginov",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 0,
+        "week_pts": 0,
+        "month_pts": 206,
+        "total_pts": 206,
+        "records_today": 0,
+        "records_week": 0,
+        "place_month": 1,
+        "streak": 1,
+        "top_work": "🔧 Обслуживание"
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [
+        {
+          "id": 0,
+          "priority": "🟡 Обычная",
+          "text": ".",
+          "deadline": "",
+          "urgent": false
+        },
+        {
+          "id": 1,
+          "priority": "🟡 Обычная",
+          "text": "МАЧЛИС",
+          "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
+          "urgent": false
+        }
+      ],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 60.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [
+        "first_work",
+        "points_100",
+        "streak_5",
+        "week_winner"
+      ],
+      "bonus": 206.0,
+      "login": "faridun"
+    },
+    "1951840787": {
+      "user": {
+        "id": 1951840787,
+        "name": "Murodjon Juraev",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 0,
+        "week_pts": 0,
+        "month_pts": 70,
+        "total_pts": 70,
+        "records_today": 0,
+        "records_week": 0,
+        "place_month": 7,
+        "streak": 1,
+        "top_work": "🚗 Выезд к мерчанту"
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [
+        {
+          "id": 4,
+          "priority": "🟡 Обычная",
+          "text": "МАЧЛИС",
+          "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
+          "urgent": false
+        }
+      ],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 0.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [
+        "first_work",
+        "streak_5"
+      ],
+      "bonus": 70.0,
+      "login": "murodjon"
+    },
+    "1337484691": {
+      "user": {
+        "id": 1337484691,
+        "name": "Saidjon Zokirov",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 0,
+        "week_pts": 0,
+        "month_pts": 82,
+        "total_pts": 82,
+        "records_today": 0,
+        "records_week": 0,
+        "place_month": 6,
+        "streak": 1,
+        "top_work": "📑 Отчёт POS для НБТ"
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [
+        {
+          "id": 0,
+          "priority": "🟡 Обычная",
+          "text": "МАЧЛИС",
+          "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
+          "urgent": false
+        }
+      ],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 0.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [],
+      "bonus": 82.0,
+      "login": "saidjon"
+    },
+    "929013169": {
+      "user": {
+        "id": 929013169,
+        "name": "SAIDOLIM TEMUROV️ ️",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 0,
+        "week_pts": 0,
+        "month_pts": 0,
+        "total_pts": 0,
+        "records_today": 0,
+        "records_week": 0,
+        "place_month": 0,
+        "streak": 0,
+        "top_work": ""
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 0.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [],
+      "bonus": 0.0,
+      "login": "saidolim"
+    },
+    "6030063729": {
+      "user": {
+        "id": 6030063729,
+        "name": "Руководитель",
+        "is_manager": true
+      },
+      "stats": {
+        "today_pts": 0,
+        "week_pts": 0,
+        "month_pts": 15,
+        "total_pts": 23,
+        "records_today": 0,
+        "records_week": 0,
+        "place_month": 0,
+        "streak": 2,
+        "top_work": "🔧 Обслуживание"
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 0.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Faridun Sanginov",
+          "pts": 206
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 168
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 142
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 132
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 101
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 70
+        },
+        {
+          "name": "Jamshed",
+          "pts": 35
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 15
+        }
+      ],
+      "badges": [
+        "first_work"
+      ],
+      "bonus": 15.0,
+      "login": "руководитель"
+    }
+  }
+}
