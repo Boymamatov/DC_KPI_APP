@@ -329,6 +329,30 @@
   .nav-item .nav-icon { font-size: 22px; line-height: 1; }
   .nav-item .nav-label { font-size: 10px; font-weight: 500; }
 
+
+  /* LOGIN SCREEN */
+  .login-screen {
+    position: fixed; inset: 0; background: var(--white);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 32px 24px; z-index: 1000;
+  }
+  .login-screen.hidden { display: none; }
+  .login-logo {
+    width: 80px; height: 80px; border-radius: 20px;
+    background: var(--blue); display: flex; align-items: center;
+    justify-content: center; font-size: 32px; font-weight: 700;
+    color: white; margin-bottom: 24px;
+  }
+  .login-title { font-size: 22px; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+  .login-sub { font-size: 14px; color: var(--text-2); margin-bottom: 32px; text-align: center; }
+  .login-form { width: 100%; max-width: 360px; }
+  .login-error {
+    background: var(--red-light); color: var(--red);
+    border-radius: 10px; padding: 12px; font-size: 13px;
+    margin-bottom: 12px; display: none; text-align: center;
+  }
+
   /* BADGE */
   .badge {
     display: inline-block; padding: 3px 8px;
@@ -356,9 +380,104 @@
     font-size: 13px; margin-bottom: 12px;
   }
   .alert-info { background: var(--blue-light); color: var(--blue-dark); }
+
+  /* ЭКРАН ВХОДА */
+  .login-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: linear-gradient(135deg, #1a73e8 0%, #1557b0 100%);
+  }
+  .login-logo {
+    width: 80px; height: 80px;
+    background: white;
+    border-radius: 20px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 28px; font-weight: 800; color: #1a73e8;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.2);
+  }
+  .login-title {
+    font-size: 22px; font-weight: 700; color: white;
+    margin-bottom: 6px;
+  }
+  .login-sub {
+    font-size: 13px; color: rgba(255,255,255,.7);
+    margin-bottom: 32px;
+  }
+  .login-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+    max-width: 340px;
+    box-shadow: 0 8px 32px rgba(0,0,0,.15);
+  }
+  .login-error {
+    background: #fce8e6;
+    border: 1.5px solid #d93025;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 13px;
+    color: #d93025;
+    margin-bottom: 12px;
+    display: none;
+  }
+  .api-url-note {
+    font-size: 11px; color: rgba(255,255,255,.6);
+    text-align: center; margin-top: 16px;
+  }
+  .settings-btn {
+    background: rgba(255,255,255,.15);
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 8px; color: white;
+    font-size: 12px; padding: 6px 12px;
+    margin-top: 8px; cursor: pointer;
+  }
 </style>
 </head>
 <body>
+
+
+<!-- ════════ ЭКРАН ВХОДА ════════ -->
+<div id="login-screen" class="login-screen" style="display:none">
+  <div class="login-logo">DC</div>
+  <div class="login-title">DC Эквайринг KPI</div>
+  <div class="login-sub">Войди чтобы увидеть свои данные</div>
+
+  <div class="login-card">
+    <div class="login-error" id="login-error"></div>
+    <div class="form-group">
+      <label class="form-label">Логин</label>
+      <input class="form-input" id="login-input" type="text"
+             placeholder="amirchon" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="text">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Пароль</label>
+      <input class="form-input" id="password-input" type="text"
+             placeholder="пароль" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="text">
+    </div>
+    <button class="submit-btn" id="login-btn" onclick="doLogin()">Войти</button>
+    <div style="display:flex;align-items:center;gap:10px;margin:14px 0">
+      <div style="flex:1;height:1px;background:var(--border)"></div>
+      <span style="font-size:12px;color:var(--text-3)">или</span>
+      <div style="flex:1;height:1px;background:var(--border)"></div>
+    </div>
+    <button class="submit-btn" id="tg-login-btn" onclick="doTelegramLogin()"
+      style="background:#229ED9;display:flex;align-items:center;justify-content:center;gap:8px">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/>
+      </svg>
+      Войти через Telegram
+    </button>
+  </div>
+
+  <div class="api-url-note">Адрес сервера: <span id="api-url-display"></span></div>
+  <button class="settings-btn" onclick="changeApiUrl()">⚙️ Изменить адрес сервера</button>
+</div>
 
 <!-- HEADER -->
 <div class="header">
@@ -367,7 +486,10 @@
       <h1>DC Эквайринг KPI</h1>
       <div class="date" id="header-date">Загрузка...</div>
     </div>
-    <div class="avatar" id="user-avatar">—</div>
+    <div style="display:flex;align-items:center;gap:8px">
+      <div class="avatar" id="user-avatar">—</div>
+      <button onclick="logout()" style="background:rgba(255,255,255,.2);border:none;color:white;border-radius:8px;padding:4px 8px;font-size:11px;cursor:pointer">Выйти</button>
+    </div>
   </div>
 </div>
 
@@ -583,6 +705,51 @@
   </div>
 </div>
 
+
+<!-- ════════ ЭКРАН ЛОГИНА ════════ -->
+<div class="login-screen" id="login-screen">
+  <div class="login-logo">DC</div>
+  <div class="login-title">DC Эквайринг KPI</div>
+  <div class="login-sub">Войдите чтобы увидеть свои данные</div>
+  <div class="login-form">
+    <div class="login-error" id="login-error">Неверный логин или пароль</div>
+    <div class="form-group">
+      <label class="form-label">👤 ID сотрудника</label>
+      <input class="form-input" id="login-id" type="number" 
+             placeholder="Ваш Telegram ID" inputmode="numeric">
+    </div>
+    <div class="form-group">
+      <label class="form-label">🔑 Пароль</label>
+      <input class="form-input" id="login-pass" type="password" 
+             placeholder="Пароль от руководителя">
+    </div>
+    <button class="submit-btn" onclick="doLogin()">Войти</button>
+
+    <div style="display:flex;align-items:center;gap:10px;margin:14px 0">
+      <div style="flex:1;height:1px;background:rgba(255,255,255,.3)"></div>
+      <span style="font-size:12px;color:rgba(255,255,255,.6)">или</span>
+      <div style="flex:1;height:1px;background:rgba(255,255,255,.3)"></div>
+    </div>
+
+    <button class="submit-btn" id="tg-auto-btn" onclick="loginViaTelegram()"
+      style="background:#229ED9;display:flex;align-items:center;justify-content:center;gap:8px">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/>
+      </svg>
+      Войти через Telegram
+    </button>
+
+    <div style="text-align:center;margin-top:12px;font-size:11px;color:rgba(255,255,255,.5)">
+      Не знаешь пароль? Спроси у руководителя
+    </div>
+  </div>
+  <div style="margin-top:12px;text-align:center">
+    <button onclick="changeApiUrl()" style="background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:8px;color:rgba(255,255,255,.7);font-size:11px;padding:6px 12px;cursor:pointer">
+      ⚙️ Адрес сервера: <span id="api-url-mini"></span>
+    </button>
+  </div>
+</div>
+
 <!-- ════════ BOTTOM NAV ════════ -->
 <div class="bottom-nav">
   <button class="nav-item active" id="nav-home" onclick="navTo('home')">
@@ -600,6 +767,232 @@
 </div>
 
 <script>
+
+// ── Логин и выход ──
+let currentToken = localStorage.getItem('dc_token') || '';
+let currentUser = JSON.parse(localStorage.getItem('dc_user') || 'null');
+
+function changeApiUrl() {
+  const url = prompt('Введи адрес сервера:\n(например: https://abc.trycloudflare.com)', API_URL);
+  if (url) {
+    localStorage.setItem('dc_api_url', url.trim());
+    location.reload();
+  }
+}
+
+async function doLogin() {
+  const login = document.getElementById('login-input').value.trim();
+  const password = document.getElementById('password-input').value.trim();
+  const errEl = document.getElementById('login-error');
+  const btn = document.getElementById('login-btn');
+
+  if (!login || !password) {
+    errEl.textContent = 'Введи логин и пароль';
+    errEl.style.display = 'block';
+    return;
+  }
+
+  if (!API_URL) {
+    errEl.textContent = 'Нажми «Изменить адрес сервера» и введи адрес';
+    errEl.style.display = 'block';
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Вхожу...';
+  errEl.style.display = 'none';
+
+  try {
+    const resp = await fetch(API_URL + '/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ login, password })
+    });
+    const data = await resp.json();
+
+    if (!resp.ok) {
+      errEl.textContent = data.error || 'Ошибка входа';
+      errEl.style.display = 'block';
+      btn.disabled = false;
+      btn.textContent = 'Войти';
+      return;
+    }
+
+    // Сохраняем токен и данные
+    currentToken = data.token;
+    currentUser = data.user;
+    localStorage.setItem('dc_token', currentToken);
+    localStorage.setItem('dc_user', JSON.stringify(currentUser));
+
+    // Показываем главный экран
+    showMainApp(data);
+
+  } catch(e) {
+    errEl.textContent = 'Нет соединения с сервером. Проверь адрес.';
+    errEl.style.display = 'block';
+  }
+  btn.disabled = false;
+  btn.textContent = 'Войти';
+}
+
+async function doTelegramLogin() {
+  const btn = document.getElementById('tg-login-btn');
+  const errEl = document.getElementById('login-error');
+  btn.disabled = true;
+  btn.innerHTML = '⏳ Подключаюсь...';
+  errEl.style.display = 'none';
+
+  if (!API_URL) {
+    errEl.textContent = 'Нажми «Изменить адрес сервера» и введи адрес';
+    errEl.style.display = 'block';
+    btn.disabled = false;
+    btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/></svg> Войти через Telegram';
+    return;
+  }
+
+  // Получаем initData от Telegram WebApp
+  const initData = tg?.initData || '';
+  const userId = tg?.initDataUnsafe?.user?.id;
+
+  if (!initData && !userId) {
+    errEl.textContent = 'Telegram авторизация доступна только внутри Telegram. Используй логин и пароль.';
+    errEl.style.display = 'block';
+    btn.disabled = false;
+    btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/></svg> Войти через Telegram';
+    return;
+  }
+
+  try {
+    // Пробуем по initData или по user_id
+    const url = initData
+      ? `${API_URL}/api/me`
+      : `${API_URL}/api/me?user_id=${userId}`;
+
+    const resp = await fetch(url, {
+      headers: initData ? { 'X-Init-Data': initData } : {}
+    });
+
+    if (!resp.ok) {
+      const err = await resp.json();
+      errEl.textContent = err.error === 'user_not_found'
+        ? 'Ты не зарегистрирован в боте. Напиши боту /start сначала.'
+        : 'Ошибка авторизации через Telegram';
+      errEl.style.display = 'block';
+      btn.disabled = false;
+      btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/></svg> Войти через Telegram';
+      return;
+    }
+
+    const data = await resp.json();
+    // Сохраняем user_id как токен для следующих входов
+    const token = `tg:${userId}`;
+    currentToken = token;
+    localStorage.setItem('dc_token', token);
+    localStorage.setItem('dc_user', JSON.stringify(data.user));
+    showMainApp(data);
+    tg?.HapticFeedback?.notificationOccurred('success');
+
+  } catch(e) {
+    errEl.textContent = 'Нет соединения с сервером';
+    errEl.style.display = 'block';
+  }
+  btn.disabled = false;
+  btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/></svg> Войти через Telegram';
+}
+
+
+function logout() {
+  localStorage.removeItem('dc_token');
+  localStorage.removeItem('dc_user');
+  currentToken = '';
+  currentUser = null;
+  document.getElementById('login-screen').style.display = 'flex';
+  document.querySelector('.header').style.display = 'none';
+  document.querySelector('.bottom-nav').style.display = 'none';
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+}
+
+async function checkAuth() {
+  // Обновляем отображение адреса сервера
+  const apiEl = document.getElementById('api-url-display');
+  if (apiEl) apiEl.textContent = API_URL || 'не задан';
+  const miniEl = document.getElementById('api-url-mini');
+  if (miniEl) miniEl.textContent = API_URL ? '✅' : '❌ не задан';
+
+  const savedId = localStorage.getItem('dc_user_id');
+  const savedPass = localStorage.getItem('dc_pass');
+  const savedToken = localStorage.getItem('dc_token');
+
+  // Пробуем автоматический вход если есть сохранённые данные
+  if (API_URL && (savedToken || savedId)) {
+    try {
+      const isTg = savedToken && savedToken.startsWith('tg:');
+      const uid = isTg ? savedToken.split(':')[1] : savedId;
+      const url = `${API_URL}/api/me?user_id=${uid}`;
+      const resp = await fetch(url);
+      if (resp.ok) {
+        const data = await resp.json();
+        hideLoginShowMain(data);
+        return;
+      }
+    } catch(e) {}
+  }
+
+  // Показываем экран логина
+  document.getElementById('login-screen').classList.remove('hidden');
+  if (savedId) document.getElementById('login-id').value = savedId;
+  return;
+}
+async function _checkAuthOld() {
+  // Показываем адрес сервера
+  const apiEl = document.getElementById('api-url-display');
+  if (apiEl) apiEl.textContent = API_URL || 'не задан';
+  const miniEl = document.getElementById('api-url-mini');
+  if (miniEl) miniEl.textContent = API_URL ? '✅' : '❌ не задан';
+
+  // Если есть сохранённый токен — пробуем войти автоматически
+  if (currentToken && API_URL) {
+    try {
+      // Telegram токен (tg:user_id) или логин:пароль
+      const isTgToken = currentToken.startsWith('tg:');
+      const userId = isTgToken ? currentToken.split(':')[1] : null;
+      const url = isTgToken ? `${API_URL}/api/me?user_id=${userId}` : `${API_URL}/api/me`;
+      const headers = isTgToken ? {} : { 'X-Token': currentToken };
+      const resp = await fetch(url, { headers });
+      if (resp.ok) {
+        const data = await resp.json();
+        document.getElementById('login-screen').style.display = 'none';
+        document.querySelector('.header').style.display = 'block';
+        document.querySelector('.bottom-nav').style.display = 'flex';
+        applyRealData(data);
+        return;
+      }
+    } catch(e) {}
+  }
+
+  // Telegram авторизация
+  const tgOk = await loadRealData();
+  if (tgOk) {
+    document.getElementById('login-screen').style.display = 'none';
+    document.querySelector('.header').style.display = 'block';
+    document.querySelector('.bottom-nav').style.display = 'flex';
+    return;
+  }
+
+  // Показываем экран входа
+  document.getElementById('login-screen').style.display = 'flex';
+  document.querySelector('.header').style.display = 'none';
+  document.querySelector('.bottom-nav').style.display = 'none';
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+}
+
+// Enter для входа
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && document.getElementById('login-screen').style.display !== 'none') {
+    doLogin();
+  }
+});
+
 // ── Telegram WebApp init ──
 const tg = window.Telegram?.WebApp;
 if (tg) {
@@ -607,9 +1000,181 @@ if (tg) {
   tg.expand();
 }
 
-// ── API URL — сюда подставится адрес туннеля ──
-// Когда запустишь cloudflared, замени эту строку на свой адрес
-const API_URL = localStorage.getItem('dc_api_url') || 'https://eye-circular-winners-woods.trycloudflare.com';
+// ── GitHub данные — читаем напрямую с GitHub Pages ──
+const GITHUB_DATA_URL = 'https://boymamatov.github.io/DC_KPI_APP/data.json';
+const API_URL = localStorage.getItem('dc_api_url') || 'https://productions-knock-loans-mind.trycloudflare.com';
+
+// ── Логин ──
+// ── Авторизация через Telegram ID + пароль ──
+async function doLogin() {
+  const userId = document.getElementById('login-id').value.trim();
+  const pass = document.getElementById('login-pass').value.trim();
+  const errEl = document.getElementById('login-error');
+  const btn = document.querySelector('.login-form .submit-btn');
+
+  if (!userId || !pass) {
+    errEl.style.display = 'block';
+    errEl.textContent = 'Введите ID и пароль';
+    return;
+  }
+
+  if (!API_URL) {
+    errEl.style.display = 'block';
+    errEl.textContent = 'Адрес сервера не задан. Нажми ⚙️ внизу.';
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Вхожу...';
+  errEl.style.display = 'none';
+
+  try {
+    // Пробуем войти через API по Telegram ID + пароль
+    const resp = await fetch(API_URL + '/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ login: userId, password: pass })
+    });
+    const data = await resp.json();
+
+    if (!resp.ok) {
+      // Если API не поддерживает — пробуем напрямую по user_id
+      const resp2 = await fetch(`${API_URL}/api/me?user_id=${userId}`);
+      if (resp2.ok) {
+        const data2 = await resp2.json();
+        localStorage.setItem('dc_user_id', userId);
+        localStorage.setItem('dc_pass', pass);
+        hideLoginShowMain(data2);
+        return;
+      }
+      errEl.style.display = 'block';
+      errEl.textContent = data.error || 'Неверный ID или пароль';
+      btn.disabled = false; btn.textContent = 'Войти';
+      return;
+    }
+
+    localStorage.setItem('dc_user_id', userId);
+    localStorage.setItem('dc_pass', pass);
+    localStorage.setItem('dc_token', data.token || `tg:${userId}`);
+    // Сначала показываем данные из API, потом обновляем из GitHub
+    hideLoginShowMain(data);
+    // Обновляем данные из GitHub в фоне
+    setTimeout(() => loadDataFromGitHub(userId, pass), 1000);
+
+  } catch(e) {
+    errEl.style.display = 'block';
+    errEl.textContent = 'Нет соединения. Проверь интернет.';
+    btn.disabled = false; btn.textContent = 'Войти';
+  }
+  btn.disabled = false; btn.textContent = 'Войти';
+}
+
+// ── Авторизация через Telegram автоматически ──
+async function loginViaTelegram() {
+  const btn = document.getElementById('tg-auto-btn');
+  const errEl = document.getElementById('login-error');
+  btn.disabled = true;
+  btn.innerHTML = '⏳ Подключаюсь...';
+  errEl.style.display = 'none';
+
+  if (!API_URL) {
+    errEl.style.display = 'block';
+    errEl.textContent = 'Нажми ⚙️ и введи адрес сервера';
+    btn.disabled = false;
+    btn.innerHTML = '✈️ Войти через Telegram';
+    return;
+  }
+
+  const initData = tg?.initData || '';
+  const userId = tg?.initDataUnsafe?.user?.id || localStorage.getItem('dc_user_id');
+
+  if (!userId && !initData) {
+    errEl.style.display = 'block';
+    errEl.textContent = 'Введи свой Telegram ID в поле выше и нажми «Войти»';
+    btn.disabled = false;
+    btn.innerHTML = '✈️ Войти через Telegram';
+    return;
+  }
+
+  try {
+    const url = initData
+      ? `${API_URL}/api/me`
+      : `${API_URL}/api/me?user_id=${userId}`;
+    const headers = initData ? { 'X-Init-Data': initData } : {};
+
+    const resp = await fetch(url, { headers });
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({}));
+      errEl.style.display = 'block';
+      errEl.textContent = err.error === 'user_not_found'
+        ? 'Ты не найден в системе. Напиши /start боту DC Эквайринг KPI.'
+        : 'Ошибка авторизации';
+      btn.disabled = false;
+      btn.innerHTML = '✈️ Войти через Telegram';
+      return;
+    }
+
+    const data = await resp.json();
+    localStorage.setItem('dc_user_id', String(data.user?.id || userId));
+    localStorage.setItem('dc_token', `tg:${data.user?.id || userId}`);
+    hideLoginShowMain(data);
+    tg?.HapticFeedback?.notificationOccurred('success');
+
+  } catch(e) {
+    errEl.style.display = 'block';
+    errEl.textContent = 'Нет соединения с сервером';
+    btn.disabled = false;
+    btn.innerHTML = '✈️ Войти через Telegram';
+  }
+}
+
+function hideLoginShowMain(data) {
+  document.getElementById('login-screen').classList.add('hidden');
+  document.querySelector('.header') && (document.querySelector('.header').style.display = 'block');
+  document.querySelector('.bottom-nav') && (document.querySelector('.bottom-nav').style.display = 'flex');
+  applyRealData(data);
+  window._apiLoaded = true;
+}
+
+const GITHUB_DATA_URL = 'https://boymamatov.github.io/DC_KPI_APP/data.json';
+
+async function loadDataFromGitHub(userId, pass) {
+  try {
+    // Сначала пробуем API (если работает)
+    if (API_URL) {
+      try {
+        const resp = await fetch(`${API_URL}/api/me?user_id=${userId}`, { signal: AbortSignal.timeout(3000) });
+        if (resp.ok) {
+          const data = await resp.json();
+          hideLoginShowMain(data);
+          return;
+        }
+      } catch(e) {}
+    }
+
+    // Fallback — читаем из GitHub data.json
+    const resp = await fetch(GITHUB_DATA_URL + '?t=' + Date.now());
+    if (!resp.ok) throw new Error('Нет данных');
+    const allData = await resp.json();
+
+    // Ищем пользователя по ID
+    const empData = allData.employees && allData.employees[userId];
+    if (!empData) {
+      document.getElementById('login-error').textContent = 'Пользователь не найден. Обратитесь к руководителю.';
+      document.getElementById('login-error').style.display = 'block';
+      return;
+    }
+
+    hideLoginShowMain(empData);
+    window._githubLoaded = true;
+    window._githubUpdated = allData.updated || '';
+
+  } catch(e) {
+    console.log('Ошибка загрузки:', e);
+    document.getElementById('login-error').textContent = 'Ошибка загрузки данных. Проверь интернет.';
+    document.getElementById('login-error').style.display = 'block';
+  }
+}
 
 async function loadRealData() {
   if (!API_URL) return false;
@@ -621,7 +1186,7 @@ async function loadRealData() {
     : `${API_URL}/api/me?user_id=${savedId || ''}`;
   try {
     const resp = await fetch(url, {
-      headers: initData ? { 'X-Init-Data': initData } : {}
+      headers: { 'X-Init-Data': initData, 'X-Token': currentToken || '' }
     });
     if (!resp.ok) return false;
     const data = await resp.json();
@@ -728,7 +1293,13 @@ let selectedMood = '';
 
 // ── Инициализация ──
 function init() {
-  loadRealData(); // загружаем реальные данные из бота
+  // Проверяем сохранённый логин
+  const savedId = localStorage.getItem('dc_user_id');
+  const savedPass = localStorage.getItem('dc_pass');
+  if (savedId && savedPass) {
+    loadDataFromGitHub(savedId, savedPass);
+  }
+  // loadRealData(); // туннель больше не нужен
   const today = new Date();
   const days = ['Воскресенье','Понедельник','Вторник','Среда','Четверг','Пятница','Суббота'];
   const months = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
@@ -966,6 +1537,78 @@ function navTo(name) {
   showScreen(name);
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   document.getElementById('nav-' + name)?.classList.add('active');
+}
+
+async function doTelegramLogin() {
+  const btn = document.getElementById('tg-login-btn');
+  const errEl = document.getElementById('login-error');
+  btn.disabled = true;
+  btn.innerHTML = '⏳ Подключаюсь...';
+  errEl.style.display = 'none';
+
+  if (!API_URL) {
+    errEl.textContent = 'Нажми «Изменить адрес сервера» и введи адрес';
+    errEl.style.display = 'block';
+    btn.disabled = false;
+    btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/></svg> Войти через Telegram';
+    return;
+  }
+
+  // Получаем initData от Telegram WebApp
+  const initData = tg?.initData || '';
+  const userId = tg?.initDataUnsafe?.user?.id;
+
+  if (!initData && !userId) {
+    errEl.textContent = 'Telegram авторизация доступна только внутри Telegram. Используй логин и пароль.';
+    errEl.style.display = 'block';
+    btn.disabled = false;
+    btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/></svg> Войти через Telegram';
+    return;
+  }
+
+  try {
+    // Пробуем по initData или по user_id
+    const url = initData
+      ? `${API_URL}/api/me`
+      : `${API_URL}/api/me?user_id=${userId}`;
+
+    const resp = await fetch(url, {
+      headers: initData ? { 'X-Init-Data': initData } : {}
+    });
+
+    if (!resp.ok) {
+      const err = await resp.json();
+      errEl.textContent = err.error === 'user_not_found'
+        ? 'Ты не зарегистрирован в боте. Напиши боту /start сначала.'
+        : 'Ошибка авторизации через Telegram';
+      errEl.style.display = 'block';
+      btn.disabled = false;
+      btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/></svg> Войти через Telegram';
+      return;
+    }
+
+    const data = await resp.json();
+    // Сохраняем user_id как токен для следующих входов
+    const token = `tg:${userId}`;
+    currentToken = token;
+    localStorage.setItem('dc_token', token);
+    localStorage.setItem('dc_user', JSON.stringify(data.user));
+    showMainApp(data);
+    tg?.HapticFeedback?.notificationOccurred('success');
+
+  } catch(e) {
+    errEl.textContent = 'Нет соединения с сервером';
+    errEl.style.display = 'block';
+  }
+  btn.disabled = false;
+  btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/></svg> Войти через Telegram';
+}
+
+
+function logout() {
+  localStorage.removeItem('dc_user_id');
+  localStorage.removeItem('dc_pass');
+  document.getElementById('login-screen').classList.remove('hidden');
 }
 
 init();
