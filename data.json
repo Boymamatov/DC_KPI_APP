@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27 12:11",
+  "updated": "2026-07-27 15:39",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
-        "week_pts": 12,
-        "month_pts": 168,
-        "total_pts": 174,
-        "records_today": 3,
-        "records_week": 3,
+        "today_pts": 18,
+        "week_pts": 18,
+        "month_pts": 174,
+        "total_pts": 180,
+        "records_today": 5,
+        "records_week": 5,
         "place_month": 2,
         "streak": 1,
         "top_work": "📄 Составление договора"
@@ -49,7 +49,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 168
+          "pts": 174
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -61,7 +61,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 101
+          "pts": 105
         },
         {
           "name": "Saidjon Zokirov",
@@ -85,8 +85,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 168.0,
-      "login": "иномҷон"
+      "bonus": 174.0
     },
     "8684586957": {
       "user": {
@@ -129,7 +128,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 168
+          "pts": 174
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -141,7 +140,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 101
+          "pts": 105
         },
         {
           "name": "Saidjon Zokirov",
@@ -163,8 +162,7 @@
       "badges": [
         "first_work"
       ],
-      "bonus": 35.0,
-      "login": "jamshed"
+      "bonus": 35.0
     },
     "2045751852": {
       "user": {
@@ -173,15 +171,15 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 5,
-        "week_pts": 5,
-        "month_pts": 101,
-        "total_pts": 105,
-        "records_today": 1,
-        "records_week": 1,
+        "today_pts": 9,
+        "week_pts": 9,
+        "month_pts": 105,
+        "total_pts": 109,
+        "records_today": 2,
+        "records_week": 2,
         "place_month": 5,
         "streak": 1,
-        "top_work": "📞 Телефонный разговор с мерчантом"
+        "top_work": "🔧 Решение проблем мерчанта"
       },
       "goal": "",
       "mood_today": "",
@@ -207,7 +205,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 168
+          "pts": 174
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -219,7 +217,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 101
+          "pts": 105
         },
         {
           "name": "Saidjon Zokirov",
@@ -243,8 +241,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 101.0,
-      "login": "абдукаримов"
+      "bonus": 105.0
     },
     "5113964899": {
       "user": {
@@ -279,7 +276,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 168
+          "pts": 174
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -291,7 +288,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 101
+          "pts": 105
         },
         {
           "name": "Saidjon Zokirov",
@@ -315,8 +312,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 132.0,
-      "login": "mahkamov"
+      "bonus": 132.0
     },
     "1246960566": {
       "user": {
@@ -366,7 +362,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 168
+          "pts": 174
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -378,7 +374,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 101
+          "pts": 105
         },
         {
           "name": "Saidjon Zokirov",
@@ -403,8 +399,7 @@
         "points_100",
         "streak_5"
       ],
-      "bonus": 142.0,
-      "login": "абдуллоев"
+      "bonus": 142.0
     },
     "1449975876": {
       "user": {
@@ -454,7 +449,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 168
+          "pts": 174
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -466,7 +461,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 101
+          "pts": 105
         },
         {
           "name": "Saidjon Zokirov",
@@ -491,8 +486,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 206.0,
-      "login": "faridun"
+      "bonus": 206.0
     },
     "1951840787": {
       "user": {
@@ -535,7 +529,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 168
+          "pts": 174
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -547,7 +541,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 101
+          "pts": 105
         },
         {
           "name": "Saidjon Zokirov",
@@ -570,8 +564,7 @@
         "first_work",
         "streak_5"
       ],
-      "bonus": 70.0,
-      "login": "murodjon"
+      "bonus": 70.0
     },
     "1337484691": {
       "user": {
@@ -614,7 +607,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 168
+          "pts": 174
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -626,7 +619,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 101
+          "pts": 105
         },
         {
           "name": "Saidjon Zokirov",
@@ -646,8 +639,7 @@
         }
       ],
       "badges": [],
-      "bonus": 82.0,
-      "login": "saidjon"
+      "bonus": 82.0
     },
     "929013169": {
       "user": {
@@ -682,7 +674,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 168
+          "pts": 174
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -694,7 +686,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 101
+          "pts": 105
         },
         {
           "name": "Saidjon Zokirov",
@@ -714,78 +706,7 @@
         }
       ],
       "badges": [],
-      "bonus": 0.0,
-      "login": "saidolim"
-    },
-    "6030063729": {
-      "user": {
-        "id": 6030063729,
-        "name": "Руководитель",
-        "is_manager": true
-      },
-      "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 15,
-        "total_pts": 23,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 0,
-        "streak": 2,
-        "top_work": "🔧 Обслуживание"
-      },
-      "goal": "",
-      "mood_today": "",
-      "tasks": [],
-      "tasks_done_week": 0,
-      "expenses": {
-        "week": 0.0,
-        "month": 0.0,
-        "limit": 0
-      },
-      "rating": [
-        {
-          "name": "Faridun Sanginov",
-          "pts": 206
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 168
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 142
-        },
-        {
-          "name": "Mahkamov",
-          "pts": 132
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 101
-        },
-        {
-          "name": "Saidjon Zokirov",
-          "pts": 82
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 70
-        },
-        {
-          "name": "Jamshed",
-          "pts": 35
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 15
-        }
-      ],
-      "badges": [
-        "first_work"
-      ],
-      "bonus": 15.0,
-      "login": "руководитель"
+      "bonus": 0.0
     }
   }
 }
