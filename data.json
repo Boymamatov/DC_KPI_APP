@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28 16:06",
+  "updated": "2026-07-28 17:15",
   "employees": {
     "1721561085": {
       "user": {
@@ -61,7 +61,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 107
+          "pts": 111
         },
         {
           "name": "Saidjon Zokirov",
@@ -140,7 +140,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 107
+          "pts": 111
         },
         {
           "name": "Saidjon Zokirov",
@@ -171,12 +171,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 2,
-        "week_pts": 11,
-        "month_pts": 107,
-        "total_pts": 111,
-        "records_today": 1,
-        "records_week": 3,
+        "today_pts": 6,
+        "week_pts": 15,
+        "month_pts": 111,
+        "total_pts": 115,
+        "records_today": 2,
+        "records_week": 4,
         "place_month": 5,
         "streak": 2,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -217,7 +217,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 107
+          "pts": 111
         },
         {
           "name": "Saidjon Zokirov",
@@ -241,7 +241,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 107.0
+      "bonus": 111.0
     },
     "5113964899": {
       "user": {
@@ -288,7 +288,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 107
+          "pts": 111
         },
         {
           "name": "Saidjon Zokirov",
@@ -374,7 +374,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 107
+          "pts": 111
         },
         {
           "name": "Saidjon Zokirov",
@@ -461,7 +461,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 107
+          "pts": 111
         },
         {
           "name": "Saidjon Zokirov",
@@ -542,7 +542,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 107
+          "pts": 111
         },
         {
           "name": "Saidjon Zokirov",
@@ -620,7 +620,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 107
+          "pts": 111
         },
         {
           "name": "Saidjon Zokirov",
@@ -687,7 +687,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 107
+          "pts": 111
         },
         {
           "name": "Saidjon Zokirov",
