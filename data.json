@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28 09:28",
+  "updated": "2026-07-28 09:29",
   "employees": {
     "1721561085": {
       "user": {
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 211
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -124,7 +124,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 211
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -201,7 +201,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 211
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -272,7 +272,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 211
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -358,7 +358,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 211
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -408,12 +408,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 5,
-        "week_pts": 5,
-        "month_pts": 211,
-        "total_pts": 211,
-        "records_today": 1,
-        "records_week": 1,
+        "today_pts": 9,
+        "week_pts": 9,
+        "month_pts": 215,
+        "total_pts": 215,
+        "records_today": 2,
+        "records_week": 2,
         "place_month": 1,
         "streak": 1,
         "top_work": "🔧 Обслуживание"
@@ -445,7 +445,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 211
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -484,9 +484,10 @@
         "first_work",
         "points_100",
         "streak_5",
-        "week_winner"
+        "week_winner",
+        "points_200"
       ],
-      "bonus": 211.0
+      "bonus": 215.0
     },
     "1951840787": {
       "user": {
@@ -525,7 +526,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 211
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -603,7 +604,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 211
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -670,7 +671,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 211
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
