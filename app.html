@@ -804,50 +804,6 @@
 </div>
 
 
-<!-- ════════ ЭКРАН ЛОГИНА ════════ -->
-<div class="login-screen" id="login-screen">
-  <div class="login-logo">DC</div>
-  <div class="login-title">DC Эквайринг KPI</div>
-  <div class="login-sub">Войдите чтобы увидеть свои данные</div>
-  <div class="login-form">
-    <div class="login-error" id="login-error">Неверный логин или пароль</div>
-    <div class="form-group">
-      <label class="form-label">👤 ID сотрудника</label>
-      <input class="form-input" id="login-id" type="number" 
-             placeholder="Ваш Telegram ID" inputmode="numeric">
-    </div>
-    <div class="form-group">
-      <label class="form-label">🔑 Пароль</label>
-      <input class="form-input" id="login-pass" type="password" 
-             placeholder="Пароль от руководителя">
-    </div>
-    <button class="submit-btn" onclick="doLogin()">Войти</button>
-
-    <div style="display:flex;align-items:center;gap:10px;margin:14px 0">
-      <div style="flex:1;height:1px;background:rgba(255,255,255,.3)"></div>
-      <span style="font-size:12px;color:rgba(255,255,255,.6)">или</span>
-      <div style="flex:1;height:1px;background:rgba(255,255,255,.3)"></div>
-    </div>
-
-    <button class="submit-btn" id="tg-auto-btn" onclick="loginViaTelegram()"
-      style="background:#229ED9;display:flex;align-items:center;justify-content:center;gap:8px">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
-        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248l-2.04 9.62c-.15.67-.54.835-1.084.52l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.48 14.667l-2.95-.924c-.64-.203-.655-.64.136-.948l11.527-4.448c.533-.194 1.003.13.37.901z"/>
-      </svg>
-      Войти через Telegram
-    </button>
-
-    <div style="text-align:center;margin-top:12px;font-size:11px;color:rgba(255,255,255,.5)">
-      Не знаешь пароль? Спроси у руководителя
-    </div>
-  </div>
-  <div style="margin-top:12px;text-align:center">
-    <button onclick="changeApiUrl()" style="background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:8px;color:rgba(255,255,255,.7);font-size:11px;padding:6px 12px;cursor:pointer">
-      ⚙️ Адрес сервера: <span id="api-url-mini"></span>
-    </button>
-  </div>
-</div>
-
 <!-- ════════ BOTTOM NAV ════════ -->
 <div class="bottom-nav">
   <button class="nav-item active" id="nav-home" onclick="navTo('home')">
@@ -1241,6 +1197,117 @@ const DEMO = {
     { name: 'Санжар Б.', pts: 54 },
   ],
 };
+
+// ── Применяем реальные данные из GitHub/API к интерфейсу ──
+function applyRealData(data) {
+  if (!data) return;
+
+  const u = data.user || {};
+  const s = data.stats || {};
+
+  // Имя и аватар
+  const name = u.name || DEMO.user.name;
+  const firstName = name.split(' ')[0];
+  const el_name = document.getElementById('user-name');
+  const el_avatar = document.getElementById('user-avatar');
+  if (el_name) el_name.textContent = firstName;
+  if (el_avatar) el_avatar.textContent = firstName.charAt(0).toUpperCase();
+
+  // Статистика
+  const set = (id, val) => { const e = document.getElementById(id); if(e) e.textContent = val; };
+  set('stat-today', s.today_pts ?? s.today ?? 0);
+  set('stat-streak', s.streak || 0);
+
+  // Место в рейтинге
+  const place = s.place_month || s.place || 0;
+  const medals = {1:'🥇',2:'🥈',3:'🥉'};
+  set('stat-place', place > 0 ? (medals[place] || place) : '—');
+
+  // Прогресс недели
+  const weekPts = s.week_pts || 0;
+  const weekPct = Math.min(weekPts / 100 * 100, 100);
+  const wLabel = document.getElementById('week-pts-label');
+  const wBar = document.getElementById('week-pts-bar');
+  if (wLabel) wLabel.textContent = `${weekPts} / 100`;
+  if (wBar) wBar.style.width = weekPct + '%';
+
+  // Расходы
+  const exp = data.expenses || {};
+  const limit = exp.limit || 0;
+  if (limit > 0) {
+    const expPct = Math.min((exp.month || 0) / limit * 100, 100);
+    const expLabel = document.getElementById('week-exp-label');
+    const expBar = document.getElementById('week-exp-bar');
+    if (expLabel) expLabel.textContent = `${exp.month || 0} / ${limit}`;
+    if (expBar) expBar.style.width = expPct + '%';
+  }
+
+  // Цель
+  if (data.goal) {
+    const gp = document.getElementById('goal-pill');
+    const gt = document.getElementById('goal-text');
+    if (gp) gp.style.display = 'inline-flex';
+    if (gt) gt.textContent = data.goal;
+  }
+
+  // Задачи
+  const tasks = data.tasks || [];
+  const tc = document.getElementById('tasks-count-badge');
+  if (tc) tc.textContent = tasks.length > 0 ? `${tasks.length} активных` : '';
+
+  // Рейтинг
+  const rating = data.rating || [];
+  const rEl = document.getElementById('rating-list');
+  if (rEl && rating.length) {
+    rEl.innerHTML = rating.map((r, i) => `
+      <div class="rating-item">
+        <div class="rating-pos ${['gold','silver','bronze'][i]||''}">${['🥇','🥈','🥉'][i]||i+1}</div>
+        <div>
+          <div class="rating-name">${r.name}</div>
+          ${r.name === name ? '<div class="rating-me">← это ты</div>' : ''}
+        </div>
+        <div class="rating-pts">${r.pts} б.</div>
+      </div>`).join('');
+  }
+
+  // Список задач
+  const tList = document.getElementById('tasks-list');
+  const tEmpty = document.getElementById('tasks-empty');
+  if (tList) {
+    if (tasks.length === 0) {
+      if (tEmpty) tEmpty.style.display = 'block';
+    } else {
+      tList.innerHTML = tasks.map(t => `
+        <div class="task-item ${t.urgent ? 'urgent' : ''}">
+          <div class="task-priority">${t.priority}</div>
+          <div class="task-text">${t.text}</div>
+          ${t.deadline ? `<div class="task-deadline">⏰ ${t.deadline}</div>` : ''}
+          <button class="task-done-btn" onclick="markTaskDone(${t.id},this)">✅ Выполнено</button>
+        </div>`).join('');
+    }
+  }
+
+  // Моя неделя
+  set('w-points', (s.week_pts || 0) + ' б.');
+  set('w-records', (s.records_week || 0) + ' шт.');
+  set('w-place', place ? `#${place}` : '—');
+  set('w-tasks', (data.tasks_done_week || 0) + ' шт.');
+  set('w-expenses', exp.week || 0);
+  set('w-streak', (s.streak || 0) + ' дней 🔥');
+  set('w-bonus', '+' + (data.bonus || 0) + ' сомони');
+  set('my-today', (s.today_pts || s.today || 0) + ' б.');
+  set('my-week', (s.week_pts || 0) + ' б.');
+  set('my-month', (s.month_pts || 0) + ' б.');
+  set('my-streak-r', (s.streak || 0) + ' дней');
+
+  // Обновляем DEMO для совместимости
+  DEMO.user = u;
+  DEMO.stats = { ...s, today: s.today_pts || s.today || 0 };
+  DEMO.tasks = tasks;
+  DEMO.rating = rating;
+  DEMO.goal = data.goal || '';
+  window._apiLoaded = true;
+}
 
 const CATEGORIES = {
   '🔌 Подключение и запуск': ['🔌 Подключение нового мерчанта','📝 Регистрация мерчанта в системе','⚙️ Настройка оборудования (POS)','✅ Установка и активация терминала','🎓 Обучение персонала мерчанта'],
