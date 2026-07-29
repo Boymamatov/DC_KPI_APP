@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 11:11",
+  "updated": "2026-07-29 11:14",
   "employees": {
     "1721561085": {
       "user": {
@@ -53,7 +53,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 152
+          "pts": 157
         },
         {
           "name": "Mahkamov",
@@ -132,7 +132,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 152
+          "pts": 157
         },
         {
           "name": "Mahkamov",
@@ -209,7 +209,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 152
+          "pts": 157
         },
         {
           "name": "Mahkamov",
@@ -280,7 +280,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 152
+          "pts": 157
         },
         {
           "name": "Mahkamov",
@@ -321,12 +321,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 5,
-        "week_pts": 15,
-        "month_pts": 152,
-        "total_pts": 152,
-        "records_today": 1,
-        "records_week": 5,
+        "today_pts": 10,
+        "week_pts": 20,
+        "month_pts": 157,
+        "total_pts": 157,
+        "records_today": 2,
+        "records_week": 6,
         "place_month": 3,
         "streak": 3,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -366,7 +366,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 152
+          "pts": 157
         },
         {
           "name": "Mahkamov",
@@ -399,7 +399,7 @@
         "points_100",
         "streak_5"
       ],
-      "bonus": 152.0
+      "bonus": 157.0
     },
     "1449975876": {
       "user": {
@@ -453,7 +453,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 152
+          "pts": 157
         },
         {
           "name": "Mahkamov",
@@ -534,7 +534,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 152
+          "pts": 157
         },
         {
           "name": "Mahkamov",
@@ -612,7 +612,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 152
+          "pts": 157
         },
         {
           "name": "Mahkamov",
@@ -679,7 +679,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 152
+          "pts": 157
         },
         {
           "name": "Mahkamov",
