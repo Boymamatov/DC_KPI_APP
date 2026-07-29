@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28 17:15",
+  "updated": "2026-07-29 09:15",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
+        "today_pts": 0,
         "week_pts": 13,
         "month_pts": 169,
         "total_pts": 175,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 6,
         "place_month": 2,
         "streak": 2,
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 239
+          "pts": 243
         },
         {
           "name": "Иномҷон Юнусов",
@@ -124,7 +124,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 239
+          "pts": 243
         },
         {
           "name": "Иномҷон Юнусов",
@@ -171,11 +171,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 6,
+        "today_pts": 0,
         "week_pts": 15,
         "month_pts": 111,
         "total_pts": 115,
-        "records_today": 2,
+        "records_today": 0,
         "records_week": 4,
         "place_month": 5,
         "streak": 2,
@@ -201,7 +201,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 239
+          "pts": 243
         },
         {
           "name": "Иномҷон Юнусов",
@@ -250,11 +250,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
+        "today_pts": 0,
         "week_pts": 12,
         "month_pts": 135,
         "total_pts": 135,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 4,
         "place_month": 4,
         "streak": 2,
@@ -272,7 +272,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 239
+          "pts": 243
         },
         {
           "name": "Иномҷон Юнусов",
@@ -321,11 +321,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 5,
+        "today_pts": 0,
         "week_pts": 10,
         "month_pts": 147,
         "total_pts": 147,
-        "records_today": 2,
+        "records_today": 0,
         "records_week": 4,
         "place_month": 3,
         "streak": 2,
@@ -358,7 +358,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 239
+          "pts": 243
         },
         {
           "name": "Иномҷон Юнусов",
@@ -408,14 +408,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 33,
-        "week_pts": 33,
-        "month_pts": 239,
-        "total_pts": 239,
-        "records_today": 8,
-        "records_week": 8,
+        "today_pts": 4,
+        "week_pts": 37,
+        "month_pts": 243,
+        "total_pts": 243,
+        "records_today": 1,
+        "records_week": 9,
         "place_month": 1,
-        "streak": 1,
+        "streak": 2,
         "top_work": "🔧 Обслуживание"
       },
       "goal": "",
@@ -445,7 +445,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 239
+          "pts": 243
         },
         {
           "name": "Иномҷон Юнусов",
@@ -487,7 +487,7 @@
         "week_winner",
         "points_200"
       ],
-      "bonus": 239.0
+      "bonus": 243.0
     },
     "1951840787": {
       "user": {
@@ -526,7 +526,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 239
+          "pts": 243
         },
         {
           "name": "Иномҷон Юнусов",
@@ -604,7 +604,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 239
+          "pts": 243
         },
         {
           "name": "Иномҷон Юнусов",
@@ -671,7 +671,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 239
+          "pts": 243
         },
         {
           "name": "Иномҷон Юнусов",
