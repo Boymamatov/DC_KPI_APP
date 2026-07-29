@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 15:20",
+  "updated": "2026-07-29 16:35",
   "employees": {
     "1721561085": {
       "user": {
@@ -57,7 +57,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 144
+          "pts": 148
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -136,7 +136,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 144
+          "pts": 148
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -213,7 +213,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 144
+          "pts": 148
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -250,12 +250,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 9,
-        "week_pts": 21,
-        "month_pts": 144,
-        "total_pts": 144,
-        "records_today": 2,
-        "records_week": 6,
+        "today_pts": 13,
+        "week_pts": 25,
+        "month_pts": 148,
+        "total_pts": 148,
+        "records_today": 3,
+        "records_week": 7,
         "place_month": 4,
         "streak": 3,
         "top_work": "🔌 Подключение нового мерчанта"
@@ -284,7 +284,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 144
+          "pts": 148
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -312,7 +312,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 144.0
+      "bonus": 148.0
     },
     "1246960566": {
       "user": {
@@ -370,7 +370,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 144
+          "pts": 148
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -457,7 +457,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 144
+          "pts": 148
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -538,7 +538,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 144
+          "pts": 148
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -616,7 +616,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 144
+          "pts": 148
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -683,7 +683,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 144
+          "pts": 148
         },
         {
           "name": "Абдукаримов Абдулаким",
