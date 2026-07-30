@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29 16:35",
+  "updated": "2026-07-30 08:47",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 13,
+        "today_pts": 0,
         "week_pts": 26,
         "month_pts": 182,
         "total_pts": 188,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 9,
         "place_month": 2,
         "streak": 3,
@@ -57,7 +57,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 148
+          "pts": 151
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -136,7 +136,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 148
+          "pts": 151
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -171,11 +171,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 15,
+        "today_pts": 0,
         "week_pts": 30,
         "month_pts": 126,
         "total_pts": 130,
-        "records_today": 4,
+        "records_today": 0,
         "records_week": 8,
         "place_month": 5,
         "streak": 3,
@@ -213,7 +213,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 148
+          "pts": 151
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -250,15 +250,15 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 13,
-        "week_pts": 25,
-        "month_pts": 148,
-        "total_pts": 148,
-        "records_today": 3,
-        "records_week": 7,
+        "today_pts": 3,
+        "week_pts": 28,
+        "month_pts": 151,
+        "total_pts": 151,
+        "records_today": 1,
+        "records_week": 8,
         "place_month": 4,
-        "streak": 3,
-        "top_work": "🔌 Подключение нового мерчанта"
+        "streak": 4,
+        "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
       "mood_today": "",
@@ -284,7 +284,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 148
+          "pts": 151
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -312,7 +312,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 148.0
+      "bonus": 151.0
     },
     "1246960566": {
       "user": {
@@ -321,11 +321,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 15,
+        "today_pts": 0,
         "week_pts": 25,
         "month_pts": 162,
         "total_pts": 162,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 7,
         "place_month": 3,
         "streak": 3,
@@ -370,7 +370,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 148
+          "pts": 151
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -408,11 +408,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 10,
+        "today_pts": 0,
         "week_pts": 43,
         "month_pts": 249,
         "total_pts": 249,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 11,
         "place_month": 1,
         "streak": 2,
@@ -457,7 +457,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 148
+          "pts": 151
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -538,7 +538,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 148
+          "pts": 151
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -616,7 +616,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 148
+          "pts": 151
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -683,7 +683,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 148
+          "pts": 151
         },
         {
           "name": "Абдукаримов Абдулаким",
