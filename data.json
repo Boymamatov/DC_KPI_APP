@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31 16:32",
+  "updated": "2026-08-01 16:02",
   "employees": {
     "1721561085": {
       "user": {
@@ -171,14 +171,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 2,
-        "week_pts": 34,
-        "month_pts": 130,
-        "total_pts": 134,
+        "today_pts": 3,
+        "week_pts": 37,
+        "month_pts": 3,
+        "total_pts": 137,
         "records_today": 1,
-        "records_week": 10,
-        "place_month": 5,
-        "streak": 5,
+        "records_week": 11,
+        "place_month": 1,
+        "streak": 6,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
       "goal": "",
@@ -195,45 +195,13 @@
       "tasks_done_week": 0,
       "expenses": {
         "week": 0.0,
-        "month": 60.0,
+        "month": 0.0,
         "limit": 0
       },
       "rating": [
         {
-          "name": "Faridun Sanginov",
-          "pts": 281
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 192
-        },
-        {
-          "name": "Mahkamov",
-          "pts": 172
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 162
-        },
-        {
           "name": "Абдукаримов Абдулаким",
-          "pts": 130
-        },
-        {
-          "name": "Saidjon Zokirov",
-          "pts": 82
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 78
-        },
-        {
-          "name": "Jamshed",
-          "pts": 35
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 15
+          "pts": 3
         }
       ],
       "badges": [
@@ -241,7 +209,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 130.0
+      "bonus": 3.0
     },
     "5113964899": {
       "user": {
@@ -250,11 +218,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 10,
+        "today_pts": 0,
         "week_pts": 49,
         "month_pts": 172,
         "total_pts": 172,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 14,
         "place_month": 3,
         "streak": 5,
@@ -408,11 +376,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
+        "today_pts": 0,
         "week_pts": 75,
         "month_pts": 281,
         "total_pts": 281,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 19,
         "place_month": 1,
         "streak": 4,
@@ -485,7 +453,8 @@
         "points_100",
         "streak_5",
         "week_winner",
-        "points_200"
+        "points_200",
+        "month_winner"
       ],
       "bonus": 281.0
     },
@@ -670,40 +639,8 @@
       },
       "rating": [
         {
-          "name": "Faridun Sanginov",
-          "pts": 281
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 192
-        },
-        {
-          "name": "Mahkamov",
-          "pts": 172
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 162
-        },
-        {
           "name": "Абдукаримов Абдулаким",
-          "pts": 130
-        },
-        {
-          "name": "Saidjon Zokirov",
-          "pts": 82
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 78
-        },
-        {
-          "name": "Jamshed",
-          "pts": 35
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 15
+          "pts": 3
         }
       ],
       "badges": [],
