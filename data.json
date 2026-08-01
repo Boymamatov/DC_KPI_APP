@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01 16:02",
+  "updated": "2026-08-01 16:03",
   "employees": {
     "1721561085": {
       "user": {
@@ -171,12 +171,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 37,
-        "month_pts": 3,
-        "total_pts": 137,
-        "records_today": 1,
-        "records_week": 11,
+        "today_pts": 5,
+        "week_pts": 39,
+        "month_pts": 5,
+        "total_pts": 139,
+        "records_today": 2,
+        "records_week": 12,
         "place_month": 1,
         "streak": 6,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -201,7 +201,7 @@
       "rating": [
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 3
+          "pts": 5
         }
       ],
       "badges": [
@@ -209,7 +209,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 3.0
+      "bonus": 5.0
     },
     "5113964899": {
       "user": {
@@ -640,7 +640,7 @@
       "rating": [
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 3
+          "pts": 5
         }
       ],
       "badges": [],
