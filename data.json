@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 14:33",
+  "updated": "2026-08-03 14:44",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,15 +8,15 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 17,
-        "week_pts": 17,
-        "month_pts": 17,
-        "total_pts": 215,
-        "records_today": 5,
-        "records_week": 5,
-        "place_month": 3,
+        "today_pts": 20,
+        "week_pts": 20,
+        "month_pts": 20,
+        "total_pts": 218,
+        "records_today": 6,
+        "records_week": 6,
+        "place_month": 2,
         "streak": 1,
-        "top_work": "📄 Составление договора"
+        "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
       "mood_today": "",
@@ -48,12 +48,12 @@
           "pts": 24
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 18
+          "name": "Иномҷон Юнусов",
+          "pts": 20
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 17
+          "name": "Faridun Sanginov",
+          "pts": 18
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -73,7 +73,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 17.0
+      "bonus": 20.0
     },
     "8684586957": {
       "user": {
@@ -192,12 +192,12 @@
           "pts": 24
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 18
+          "name": "Иномҷон Юнусов",
+          "pts": 20
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 17
+          "name": "Faridun Sanginov",
+          "pts": 18
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -251,12 +251,12 @@
           "pts": 24
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 18
+          "name": "Иномҷон Юнусов",
+          "pts": 20
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 17
+          "name": "Faridun Sanginov",
+          "pts": 18
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -378,7 +378,7 @@
         "total_pts": 299,
         "records_today": 5,
         "records_week": 5,
-        "place_month": 2,
+        "place_month": 3,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -412,12 +412,12 @@
           "pts": 24
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 18
+          "name": "Иномҷон Юнусов",
+          "pts": 20
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 17
+          "name": "Faridun Sanginov",
+          "pts": 18
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -482,12 +482,12 @@
           "pts": 24
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 18
+          "name": "Иномҷон Юнусов",
+          "pts": 20
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 17
+          "name": "Faridun Sanginov",
+          "pts": 18
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -615,12 +615,12 @@
           "pts": 24
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 18
+          "name": "Иномҷон Юнусов",
+          "pts": 20
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 17
+          "name": "Faridun Sanginov",
+          "pts": 18
         },
         {
           "name": "Абдукаримов Абдулаким",
