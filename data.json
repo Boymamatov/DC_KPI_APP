@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 14:32",
+  "updated": "2026-08-03 14:33",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,13 +8,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 14,
-        "week_pts": 14,
-        "month_pts": 14,
-        "total_pts": 212,
-        "records_today": 4,
-        "records_week": 4,
-        "place_month": 4,
+        "today_pts": 17,
+        "week_pts": 17,
+        "month_pts": 17,
+        "total_pts": 215,
+        "records_today": 5,
+        "records_week": 5,
+        "place_month": 3,
         "streak": 1,
         "top_work": "📄 Составление договора"
       },
@@ -52,12 +52,12 @@
           "pts": 18
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "name": "Иномҷон Юнусов",
+          "pts": 17
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 14
+          "name": "Абдукаримов Абдулаким",
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -73,7 +73,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 14.0
+      "bonus": 17.0
     },
     "8684586957": {
       "user": {
@@ -165,7 +165,7 @@
         "total_pts": 149,
         "records_today": 5,
         "records_week": 5,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -196,12 +196,12 @@
           "pts": 18
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "name": "Иномҷон Юнусов",
+          "pts": 17
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 14
+          "name": "Абдукаримов Абдулаким",
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -255,12 +255,12 @@
           "pts": 18
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "name": "Иномҷон Юнусов",
+          "pts": 17
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 14
+          "name": "Абдукаримов Абдулаким",
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -416,12 +416,12 @@
           "pts": 18
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "name": "Иномҷон Юнусов",
+          "pts": 17
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 14
+          "name": "Абдукаримов Абдулаким",
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -486,12 +486,12 @@
           "pts": 18
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "name": "Иномҷон Юнусов",
+          "pts": 17
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 14
+          "name": "Абдукаримов Абдулаким",
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -619,12 +619,12 @@
           "pts": 18
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "name": "Иномҷон Юнусов",
+          "pts": 17
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 14
+          "name": "Абдукаримов Абдулаким",
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
