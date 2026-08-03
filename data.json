@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 10:39",
+  "updated": "2026-08-03 11:17",
   "employees": {
     "1721561085": {
       "user": {
@@ -202,6 +202,10 @@
         {
           "name": "Абдукаримов Абдулаким",
           "pts": 9
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -465,13 +469,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 78,
-        "total_pts": 78,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 7,
+        "today_pts": 4,
+        "week_pts": 4,
+        "month_pts": 4,
+        "total_pts": 82,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 2,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
       },
@@ -494,47 +498,19 @@
       },
       "rating": [
         {
-          "name": "Faridun Sanginov",
-          "pts": 281
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 192
-        },
-        {
-          "name": "Mahkamov",
-          "pts": 172
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 162
-        },
-        {
           "name": "Абдукаримов Абдулаким",
-          "pts": 130
-        },
-        {
-          "name": "Saidjon Zokirov",
-          "pts": 82
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 78
-        },
-        {
-          "name": "Jamshed",
-          "pts": 35
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 15
+          "pts": 4
         }
       ],
       "badges": [
         "first_work",
         "streak_5"
       ],
-      "bonus": 78.0
+      "bonus": 4.0
     },
     "1337484691": {
       "user": {
@@ -641,6 +617,10 @@
         {
           "name": "Абдукаримов Абдулаким",
           "pts": 9
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [],
