@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 11:26",
+  "updated": "2026-08-03 11:37",
   "employees": {
     "1721561085": {
       "user": {
@@ -208,11 +208,11 @@
           "pts": 9
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Faridun Sanginov",
+          "pts": 8
         },
         {
-          "name": "Faridun Sanginov",
+          "name": "Murodjon Juraev",
           "pts": 4
         }
       ],
@@ -388,13 +388,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 4,
-        "month_pts": 4,
-        "total_pts": 285,
-        "records_today": 1,
-        "records_week": 1,
-        "place_month": 4,
+        "today_pts": 8,
+        "week_pts": 8,
+        "month_pts": 8,
+        "total_pts": 289,
+        "records_today": 2,
+        "records_week": 2,
+        "place_month": 3,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -432,11 +432,11 @@
           "pts": 9
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Faridun Sanginov",
+          "pts": 8
         },
         {
-          "name": "Faridun Sanginov",
+          "name": "Murodjon Juraev",
           "pts": 4
         }
       ],
@@ -448,7 +448,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 4.0
+      "bonus": 8.0
     },
     "1951840787": {
       "user": {
@@ -463,7 +463,7 @@
         "total_pts": 82,
         "records_today": 1,
         "records_week": 1,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
       },
@@ -494,11 +494,11 @@
           "pts": 9
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Faridun Sanginov",
+          "pts": 8
         },
         {
-          "name": "Faridun Sanginov",
+          "name": "Murodjon Juraev",
           "pts": 4
         }
       ],
@@ -619,11 +619,11 @@
           "pts": 9
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Faridun Sanginov",
+          "pts": 8
         },
         {
-          "name": "Faridun Sanginov",
+          "name": "Murodjon Juraev",
           "pts": 4
         }
       ],
