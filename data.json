@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 11:41",
+  "updated": "2026-08-03 11:44",
   "employees": {
     "1721561085": {
       "user": {
@@ -201,7 +201,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 16
         },
         {
           "name": "Sherzod Boymatov",
@@ -388,12 +388,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
-        "week_pts": 12,
-        "month_pts": 12,
-        "total_pts": 293,
-        "records_today": 3,
-        "records_week": 3,
+        "today_pts": 16,
+        "week_pts": 16,
+        "month_pts": 16,
+        "total_pts": 297,
+        "records_today": 4,
+        "records_week": 4,
         "place_month": 1,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -425,7 +425,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 16
         },
         {
           "name": "Sherzod Boymatov",
@@ -448,7 +448,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 12.0
+      "bonus": 16.0
     },
     "1951840787": {
       "user": {
@@ -487,7 +487,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 16
         },
         {
           "name": "Sherzod Boymatov",
@@ -612,7 +612,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 16
         },
         {
           "name": "Sherzod Boymatov",
