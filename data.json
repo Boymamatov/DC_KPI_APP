@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 11:37",
+  "updated": "2026-08-03 11:38",
   "employees": {
     "1721561085": {
       "user": {
@@ -177,7 +177,7 @@
         "total_pts": 143,
         "records_today": 2,
         "records_week": 2,
-        "place_month": 2,
+        "place_month": 3,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -200,16 +200,16 @@
       },
       "rating": [
         {
+          "name": "Faridun Sanginov",
+          "pts": 12
+        },
+        {
           "name": "Sherzod Boymatov",
           "pts": 12
         },
         {
           "name": "Абдукаримов Абдулаким",
           "pts": 9
-        },
-        {
-          "name": "Faridun Sanginov",
-          "pts": 8
         },
         {
           "name": "Murodjon Juraev",
@@ -388,13 +388,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 8,
-        "week_pts": 8,
-        "month_pts": 8,
-        "total_pts": 289,
-        "records_today": 2,
-        "records_week": 2,
-        "place_month": 3,
+        "today_pts": 12,
+        "week_pts": 12,
+        "month_pts": 12,
+        "total_pts": 293,
+        "records_today": 3,
+        "records_week": 3,
+        "place_month": 1,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -424,16 +424,16 @@
       },
       "rating": [
         {
+          "name": "Faridun Sanginov",
+          "pts": 12
+        },
+        {
           "name": "Sherzod Boymatov",
           "pts": 12
         },
         {
           "name": "Абдукаримов Абдулаким",
           "pts": 9
-        },
-        {
-          "name": "Faridun Sanginov",
-          "pts": 8
         },
         {
           "name": "Murodjon Juraev",
@@ -448,7 +448,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 8.0
+      "bonus": 12.0
     },
     "1951840787": {
       "user": {
@@ -486,16 +486,16 @@
       },
       "rating": [
         {
+          "name": "Faridun Sanginov",
+          "pts": 12
+        },
+        {
           "name": "Sherzod Boymatov",
           "pts": 12
         },
         {
           "name": "Абдукаримов Абдулаким",
           "pts": 9
-        },
-        {
-          "name": "Faridun Sanginov",
-          "pts": 8
         },
         {
           "name": "Murodjon Juraev",
@@ -611,16 +611,16 @@
       },
       "rating": [
         {
+          "name": "Faridun Sanginov",
+          "pts": 12
+        },
+        {
           "name": "Sherzod Boymatov",
           "pts": 12
         },
         {
           "name": "Абдукаримов Абдулаким",
           "pts": 9
-        },
-        {
-          "name": "Faridun Sanginov",
-          "pts": 8
         },
         {
           "name": "Murodjon Juraev",
