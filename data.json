@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 11:48",
+  "updated": "2026-08-03 11:50",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
-        "week_pts": 7,
-        "month_pts": 7,
-        "total_pts": 205,
-        "records_today": 2,
-        "records_week": 2,
+        "today_pts": 11,
+        "week_pts": 11,
+        "month_pts": 11,
+        "total_pts": 209,
+        "records_today": 3,
+        "records_week": 3,
         "place_month": 4,
         "streak": 1,
         "top_work": "📄 Составление договора"
@@ -57,7 +57,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 7
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -69,7 +69,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 7.0
+      "bonus": 11.0
     },
     "8684586957": {
       "user": {
@@ -197,7 +197,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 7
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -425,7 +425,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 7
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -491,7 +491,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 7
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -620,7 +620,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 7
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
