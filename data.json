@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 11:47",
+  "updated": "2026-08-03 11:48",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,13 +8,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 3,
-        "month_pts": 3,
-        "total_pts": 201,
-        "records_today": 1,
-        "records_week": 1,
-        "place_month": 5,
+        "today_pts": 7,
+        "week_pts": 7,
+        "month_pts": 7,
+        "total_pts": 205,
+        "records_today": 2,
+        "records_week": 2,
+        "place_month": 4,
         "streak": 1,
         "top_work": "📄 Составление договора"
       },
@@ -56,12 +56,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Иномҷон Юнусов",
+          "pts": 7
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -69,7 +69,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 3.0
+      "bonus": 7.0
     },
     "8684586957": {
       "user": {
@@ -196,12 +196,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Иномҷон Юнусов",
+          "pts": 7
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -424,12 +424,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Иномҷон Юнусов",
+          "pts": 7
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -455,7 +455,7 @@
         "total_pts": 82,
         "records_today": 1,
         "records_week": 1,
-        "place_month": 4,
+        "place_month": 5,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
       },
@@ -490,12 +490,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Иномҷон Юнусов",
+          "pts": 7
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -619,12 +619,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Иномҷон Юнусов",
+          "pts": 7
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [],
