@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 11:18",
+  "updated": "2026-08-03 11:22",
   "employees": {
     "1721561085": {
       "user": {
@@ -210,6 +210,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 4
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 3
         }
       ],
       "badges": [
@@ -430,6 +434,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 4
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 3
         }
       ],
       "badges": [
@@ -488,6 +496,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 4
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 3
         }
       ],
       "badges": [
@@ -609,6 +621,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 4
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 3
         }
       ],
       "badges": [],
