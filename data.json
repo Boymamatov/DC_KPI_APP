@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 14:57",
+  "updated": "2026-08-03 15:03",
   "employees": {
     "1721561085": {
       "user": {
@@ -57,7 +57,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -159,12 +159,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 10,
-        "week_pts": 10,
-        "month_pts": 15,
-        "total_pts": 149,
-        "records_today": 5,
-        "records_week": 5,
+        "today_pts": 12,
+        "week_pts": 12,
+        "month_pts": 17,
+        "total_pts": 151,
+        "records_today": 6,
+        "records_week": 6,
         "place_month": 4,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -201,7 +201,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -217,7 +217,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 15.0
+      "bonus": 17.0
     },
     "5113964899": {
       "user": {
@@ -260,7 +260,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -421,7 +421,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -491,7 +491,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -624,7 +624,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 15
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
