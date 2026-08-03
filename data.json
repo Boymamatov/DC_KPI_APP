@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 15:03",
+  "updated": "2026-08-03 15:04",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,13 +8,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 20,
-        "week_pts": 20,
-        "month_pts": 20,
-        "total_pts": 218,
-        "records_today": 6,
-        "records_week": 6,
-        "place_month": 3,
+        "today_pts": 23,
+        "week_pts": 23,
+        "month_pts": 23,
+        "total_pts": 221,
+        "records_today": 7,
+        "records_week": 7,
+        "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -48,11 +48,11 @@
           "pts": 28
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Иномҷон Юнусов",
+          "pts": 23
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Faridun Sanginov",
           "pts": 20
         },
         {
@@ -73,7 +73,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 20.0
+      "bonus": 23.0
     },
     "8684586957": {
       "user": {
@@ -192,11 +192,11 @@
           "pts": 28
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Иномҷон Юнусов",
+          "pts": 23
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Faridun Sanginov",
           "pts": 20
         },
         {
@@ -251,11 +251,11 @@
           "pts": 28
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Иномҷон Юнусов",
+          "pts": 23
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Faridun Sanginov",
           "pts": 20
         },
         {
@@ -378,7 +378,7 @@
         "total_pts": 301,
         "records_today": 6,
         "records_week": 6,
-        "place_month": 2,
+        "place_month": 3,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -412,11 +412,11 @@
           "pts": 28
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Иномҷон Юнусов",
+          "pts": 23
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Faridun Sanginov",
           "pts": 20
         },
         {
@@ -482,11 +482,11 @@
           "pts": 28
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Иномҷон Юнусов",
+          "pts": 23
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Faridun Sanginov",
           "pts": 20
         },
         {
@@ -615,11 +615,11 @@
           "pts": 28
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Иномҷон Юнусов",
+          "pts": 23
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Faridun Sanginov",
           "pts": 20
         },
         {
