@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03 16:16",
+  "updated": "2026-08-04 11:46",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 23,
+        "today_pts": 0,
         "week_pts": 23,
         "month_pts": 23,
         "total_pts": 221,
-        "records_today": 7,
+        "records_today": 0,
         "records_week": 7,
         "place_month": 2,
         "streak": 1,
@@ -60,12 +60,12 @@
           "pts": 17
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Mahkamov",
+          "pts": 6
         },
         {
-          "name": "Mahkamov",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -159,11 +159,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
+        "today_pts": 0,
         "week_pts": 12,
         "month_pts": 17,
         "total_pts": 151,
-        "records_today": 6,
+        "records_today": 0,
         "records_week": 6,
         "place_month": 4,
         "streak": 1,
@@ -204,12 +204,12 @@
           "pts": 17
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Mahkamov",
+          "pts": 6
         },
         {
-          "name": "Mahkamov",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -227,13 +227,13 @@
       },
       "stats": {
         "today_pts": 3,
-        "week_pts": 3,
-        "month_pts": 3,
-        "total_pts": 175,
+        "week_pts": 6,
+        "month_pts": 6,
+        "total_pts": 178,
         "records_today": 1,
-        "records_week": 1,
-        "place_month": 6,
-        "streak": 1,
+        "records_week": 2,
+        "place_month": 5,
+        "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
@@ -263,12 +263,12 @@
           "pts": 17
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Mahkamov",
+          "pts": 6
         },
         {
-          "name": "Mahkamov",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -276,7 +276,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 3.0
+      "bonus": 6.0
     },
     "1246960566": {
       "user": {
@@ -372,11 +372,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 20,
+        "today_pts": 0,
         "week_pts": 20,
         "month_pts": 20,
         "total_pts": 301,
-        "records_today": 6,
+        "records_today": 0,
         "records_week": 6,
         "place_month": 3,
         "streak": 1,
@@ -424,12 +424,12 @@
           "pts": 17
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Mahkamov",
+          "pts": 6
         },
         {
-          "name": "Mahkamov",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -449,13 +449,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
+        "today_pts": 0,
         "week_pts": 4,
         "month_pts": 4,
         "total_pts": 82,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 1,
-        "place_month": 5,
+        "place_month": 6,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
       },
@@ -494,12 +494,12 @@
           "pts": 17
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Mahkamov",
+          "pts": 6
         },
         {
-          "name": "Mahkamov",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [
@@ -627,12 +627,12 @@
           "pts": 17
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 4
+          "name": "Mahkamov",
+          "pts": 6
         },
         {
-          "name": "Mahkamov",
-          "pts": 3
+          "name": "Murodjon Juraev",
+          "pts": 4
         }
       ],
       "badges": [],
