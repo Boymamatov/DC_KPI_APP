@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04 13:19",
+  "updated": "2026-08-04 13:53",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,14 +8,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 23,
-        "month_pts": 23,
-        "total_pts": 221,
-        "records_today": 0,
-        "records_week": 7,
+        "today_pts": 3,
+        "week_pts": 26,
+        "month_pts": 26,
+        "total_pts": 224,
+        "records_today": 1,
+        "records_week": 8,
         "place_month": 2,
-        "streak": 1,
+        "streak": 2,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -49,7 +49,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 23
+          "pts": 26
         },
         {
           "name": "Faridun Sanginov",
@@ -73,7 +73,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 23.0
+      "bonus": 26.0
     },
     "8684586957": {
       "user": {
@@ -193,7 +193,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 23
+          "pts": 26
         },
         {
           "name": "Faridun Sanginov",
@@ -252,7 +252,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 23
+          "pts": 26
         },
         {
           "name": "Faridun Sanginov",
@@ -413,7 +413,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 23
+          "pts": 26
         },
         {
           "name": "Faridun Sanginov",
@@ -483,7 +483,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 23
+          "pts": 26
         },
         {
           "name": "Faridun Sanginov",
@@ -616,7 +616,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 23
+          "pts": 26
         },
         {
           "name": "Faridun Sanginov",
