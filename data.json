@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04 11:49",
+  "updated": "2026-08-04 11:51",
   "employees": {
     "1721561085": {
       "user": {
@@ -56,12 +56,12 @@
           "pts": 20
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
+          "name": "Mahkamov",
+          "pts": 19
         },
         {
-          "name": "Mahkamov",
-          "pts": 15
+          "name": "Абдукаримов Абдулаким",
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -165,7 +165,7 @@
         "total_pts": 151,
         "records_today": 0,
         "records_week": 6,
-        "place_month": 4,
+        "place_month": 5,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -200,12 +200,12 @@
           "pts": 20
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
+          "name": "Mahkamov",
+          "pts": 19
         },
         {
-          "name": "Mahkamov",
-          "pts": 15
+          "name": "Абдукаримов Абдулаким",
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -226,13 +226,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
-        "week_pts": 15,
-        "month_pts": 15,
-        "total_pts": 187,
-        "records_today": 4,
-        "records_week": 5,
-        "place_month": 5,
+        "today_pts": 16,
+        "week_pts": 19,
+        "month_pts": 19,
+        "total_pts": 191,
+        "records_today": 5,
+        "records_week": 6,
+        "place_month": 4,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -259,12 +259,12 @@
           "pts": 20
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
+          "name": "Mahkamov",
+          "pts": 19
         },
         {
-          "name": "Mahkamov",
-          "pts": 15
+          "name": "Абдукаримов Абдулаким",
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -276,7 +276,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 15.0
+      "bonus": 19.0
     },
     "1246960566": {
       "user": {
@@ -420,12 +420,12 @@
           "pts": 20
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
+          "name": "Mahkamov",
+          "pts": 19
         },
         {
-          "name": "Mahkamov",
-          "pts": 15
+          "name": "Абдукаримов Абдулаким",
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -490,12 +490,12 @@
           "pts": 20
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
+          "name": "Mahkamov",
+          "pts": 19
         },
         {
-          "name": "Mahkamov",
-          "pts": 15
+          "name": "Абдукаримов Абдулаким",
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -623,12 +623,12 @@
           "pts": 20
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
+          "name": "Mahkamov",
+          "pts": 19
         },
         {
-          "name": "Mahkamov",
-          "pts": 15
+          "name": "Абдукаримов Абдулаким",
+          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
