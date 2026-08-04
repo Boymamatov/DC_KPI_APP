@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04 16:02",
+  "updated": "2026-08-04 16:16",
   "employees": {
     "1721561085": {
       "user": {
@@ -52,16 +52,16 @@
           "pts": 26
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 20
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 20
         },
         {
           "name": "Mahkamov",
           "pts": 19
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -159,14 +159,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 12,
-        "month_pts": 17,
-        "total_pts": 151,
-        "records_today": 0,
-        "records_week": 6,
-        "place_month": 5,
-        "streak": 1,
+        "today_pts": 3,
+        "week_pts": 15,
+        "month_pts": 20,
+        "total_pts": 154,
+        "records_today": 1,
+        "records_week": 7,
+        "place_month": 3,
+        "streak": 2,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
       "goal": "",
@@ -196,16 +196,16 @@
           "pts": 26
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 20
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 20
         },
         {
           "name": "Mahkamov",
           "pts": 19
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -217,7 +217,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 17.0
+      "bonus": 20.0
     },
     "5113964899": {
       "user": {
@@ -232,7 +232,7 @@
         "total_pts": 191,
         "records_today": 5,
         "records_week": 6,
-        "place_month": 4,
+        "place_month": 5,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -255,16 +255,16 @@
           "pts": 26
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 20
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 20
         },
         {
           "name": "Mahkamov",
           "pts": 19
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -378,7 +378,7 @@
         "total_pts": 301,
         "records_today": 0,
         "records_week": 6,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -416,16 +416,16 @@
           "pts": 26
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 20
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 20
         },
         {
           "name": "Mahkamov",
           "pts": 19
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -486,16 +486,16 @@
           "pts": 26
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 20
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 20
         },
         {
           "name": "Mahkamov",
           "pts": 19
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
@@ -507,81 +507,6 @@
         "streak_5"
       ],
       "bonus": 4.0
-    },
-    "1337484691": {
-      "user": {
-        "id": 1337484691,
-        "name": "Saidjon Zokirov",
-        "is_manager": false
-      },
-      "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 82,
-        "total_pts": 82,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 6,
-        "streak": 1,
-        "top_work": "📑 Отчёт POS для НБТ"
-      },
-      "goal": "",
-      "mood_today": "",
-      "tasks": [
-        {
-          "id": 0,
-          "priority": "🟡 Обычная",
-          "text": "МАЧЛИС",
-          "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
-          "urgent": false
-        }
-      ],
-      "tasks_done_week": 0,
-      "expenses": {
-        "week": 0.0,
-        "month": 0.0,
-        "limit": 0
-      },
-      "rating": [
-        {
-          "name": "Faridun Sanginov",
-          "pts": 281
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 192
-        },
-        {
-          "name": "Mahkamov",
-          "pts": 172
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 162
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 130
-        },
-        {
-          "name": "Saidjon Zokirov",
-          "pts": 82
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 78
-        },
-        {
-          "name": "Jamshed",
-          "pts": 35
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 15
-        }
-      ],
-      "badges": [],
-      "bonus": 82.0
     },
     "929013169": {
       "user": {
@@ -619,16 +544,16 @@
           "pts": 26
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 20
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 20
         },
         {
           "name": "Mahkamov",
           "pts": 19
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 17
         },
         {
           "name": "Murodjon Juraev",
