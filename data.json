@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04 11:48",
+  "updated": "2026-08-04 11:49",
   "employees": {
     "1721561085": {
       "user": {
@@ -61,7 +61,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 11
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -205,7 +205,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 11
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -226,12 +226,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 8,
-        "week_pts": 11,
-        "month_pts": 11,
-        "total_pts": 183,
-        "records_today": 3,
-        "records_week": 4,
+        "today_pts": 12,
+        "week_pts": 15,
+        "month_pts": 15,
+        "total_pts": 187,
+        "records_today": 4,
+        "records_week": 5,
         "place_month": 5,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -264,7 +264,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 11
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -276,7 +276,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 11.0
+      "bonus": 15.0
     },
     "1246960566": {
       "user": {
@@ -425,7 +425,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 11
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -495,7 +495,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 11
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
@@ -628,7 +628,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 11
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
