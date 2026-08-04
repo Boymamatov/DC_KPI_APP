@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04 16:16",
+  "updated": "2026-08-04 16:48",
   "employees": {
     "1721561085": {
       "user": {
@@ -53,7 +53,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 20
+          "pts": 25
         },
         {
           "name": "Faridun Sanginov",
@@ -159,28 +159,20 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 15,
-        "month_pts": 20,
-        "total_pts": 154,
-        "records_today": 1,
-        "records_week": 7,
+        "today_pts": 8,
+        "week_pts": 20,
+        "month_pts": 25,
+        "total_pts": 159,
+        "records_today": 3,
+        "records_week": 9,
         "place_month": 3,
         "streak": 2,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
       "goal": "",
       "mood_today": "",
-      "tasks": [
-        {
-          "id": 0,
-          "priority": "🟡 Обычная",
-          "text": ".",
-          "deadline": "",
-          "urgent": false
-        }
-      ],
-      "tasks_done_week": 0,
+      "tasks": [],
+      "tasks_done_week": 1,
       "expenses": {
         "week": 0.0,
         "month": 0.0,
@@ -197,7 +189,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 20
+          "pts": 25
         },
         {
           "name": "Faridun Sanginov",
@@ -217,7 +209,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 20.0
+      "bonus": 25.0
     },
     "5113964899": {
       "user": {
@@ -256,7 +248,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 20
+          "pts": 25
         },
         {
           "name": "Faridun Sanginov",
@@ -310,6 +302,13 @@
           "priority": "🟡 Обычная",
           "text": "Исфара финансовый грамотность",
           "deadline": "21.07-22.07",
+          "urgent": false
+        },
+        {
+          "id": 3,
+          "priority": "🟡 Обычная",
+          "text": "Санадхоро супоред  нопурра",
+          "deadline": "то 10 август",
           "urgent": false
         }
       ],
@@ -417,7 +416,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 20
+          "pts": 25
         },
         {
           "name": "Faridun Sanginov",
@@ -487,7 +486,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 20
+          "pts": 25
         },
         {
           "name": "Faridun Sanginov",
@@ -545,7 +544,62 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
+          "pts": 25
+        },
+        {
+          "name": "Faridun Sanginov",
           "pts": 20
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 19
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 4
+        }
+      ],
+      "badges": [],
+      "bonus": 0.0
+    },
+    "5679125673": {
+      "user": {
+        "id": 5679125673,
+        "name": "Call centre",
+        "is_manager": false
+      },
+      "stats": {
+        "today_pts": 0,
+        "week_pts": 0,
+        "month_pts": 0,
+        "total_pts": 0,
+        "records_today": 0,
+        "records_week": 0,
+        "place_month": 0,
+        "streak": 0,
+        "top_work": ""
+      },
+      "goal": "",
+      "mood_today": "",
+      "tasks": [],
+      "tasks_done_week": 0,
+      "expenses": {
+        "week": 0.0,
+        "month": 0.0,
+        "limit": 0
+      },
+      "rating": [
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 40
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 26
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 25
         },
         {
           "name": "Faridun Sanginov",
