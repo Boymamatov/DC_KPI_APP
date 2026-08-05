@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05 09:30",
+  "updated": "2026-08-05 13:52",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 8,
-        "week_pts": 34,
-        "month_pts": 34,
-        "total_pts": 232,
-        "records_today": 2,
-        "records_week": 10,
+        "today_pts": 11,
+        "week_pts": 37,
+        "month_pts": 37,
+        "total_pts": 235,
+        "records_today": 3,
+        "records_week": 11,
         "place_month": 2,
         "streak": 3,
         "top_work": "📊 Подготовка актов сверки"
@@ -36,7 +36,7 @@
           "urgent": false
         }
       ],
-      "tasks_done_week": 0,
+      "tasks_done_week": 1,
       "expenses": {
         "week": 0.0,
         "month": 0.0,
@@ -49,11 +49,11 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 34
+          "pts": 37
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 25
+          "pts": 27
         },
         {
           "name": "Faridun Sanginov",
@@ -77,7 +77,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 34.0
+      "bonus": 37.0
     },
     "8684586957": {
       "user": {
@@ -163,14 +163,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 20,
-        "month_pts": 25,
-        "total_pts": 159,
-        "records_today": 0,
-        "records_week": 9,
+        "today_pts": 2,
+        "week_pts": 22,
+        "month_pts": 27,
+        "total_pts": 161,
+        "records_today": 1,
+        "records_week": 10,
         "place_month": 3,
-        "streak": 2,
+        "streak": 3,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
       "goal": "",
@@ -189,11 +189,11 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 34
+          "pts": 37
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 25
+          "pts": 27
         },
         {
           "name": "Faridun Sanginov",
@@ -217,7 +217,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 25.0
+      "bonus": 27.0
     },
     "5113964899": {
       "user": {
@@ -252,11 +252,11 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 34
+          "pts": 37
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 25
+          "pts": 27
         },
         {
           "name": "Faridun Sanginov",
@@ -322,6 +322,13 @@
           "text": "Санадхоро супоред  нопурра",
           "deadline": "то 10 август",
           "urgent": false
+        },
+        {
+          "id": 4,
+          "priority": "🟡 Обычная",
+          "text": "Санадхоро супоред  нопурра",
+          "deadline": "то 10 август",
+          "urgent": false
         }
       ],
       "tasks_done_week": 0,
@@ -337,11 +344,11 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 34
+          "pts": 37
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 25
+          "pts": 27
         },
         {
           "name": "Faridun Sanginov",
@@ -416,11 +423,11 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 34
+          "pts": 37
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 25
+          "pts": 27
         },
         {
           "name": "Faridun Sanginov",
@@ -490,11 +497,11 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 34
+          "pts": 37
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 25
+          "pts": 27
         },
         {
           "name": "Faridun Sanginov",
@@ -552,11 +559,11 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 34
+          "pts": 37
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 25
+          "pts": 27
         },
         {
           "name": "Faridun Sanginov",
@@ -611,11 +618,11 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 34
+          "pts": 37
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 25
+          "pts": 27
         },
         {
           "name": "Faridun Sanginov",
