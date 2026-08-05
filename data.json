@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05 13:52",
+  "updated": "2026-08-05 13:54",
   "employees": {
     "1721561085": {
       "user": {
@@ -53,7 +53,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 27
+          "pts": 32
         },
         {
           "name": "Faridun Sanginov",
@@ -163,12 +163,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 2,
-        "week_pts": 22,
-        "month_pts": 27,
-        "total_pts": 161,
-        "records_today": 1,
-        "records_week": 10,
+        "today_pts": 7,
+        "week_pts": 27,
+        "month_pts": 32,
+        "total_pts": 166,
+        "records_today": 2,
+        "records_week": 11,
         "place_month": 3,
         "streak": 3,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -193,7 +193,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 27
+          "pts": 32
         },
         {
           "name": "Faridun Sanginov",
@@ -217,7 +217,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 27.0
+      "bonus": 32.0
     },
     "5113964899": {
       "user": {
@@ -256,7 +256,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 27
+          "pts": 32
         },
         {
           "name": "Faridun Sanginov",
@@ -348,7 +348,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 27
+          "pts": 32
         },
         {
           "name": "Faridun Sanginov",
@@ -427,7 +427,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 27
+          "pts": 32
         },
         {
           "name": "Faridun Sanginov",
@@ -501,7 +501,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 27
+          "pts": 32
         },
         {
           "name": "Faridun Sanginov",
@@ -563,7 +563,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 27
+          "pts": 32
         },
         {
           "name": "Faridun Sanginov",
@@ -622,7 +622,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 27
+          "pts": 32
         },
         {
           "name": "Faridun Sanginov",
