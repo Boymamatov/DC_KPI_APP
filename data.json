@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05 13:54",
+  "updated": "2026-08-05 15:34",
   "employees": {
     "1721561085": {
       "user": {
@@ -61,7 +61,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 16
+          "pts": 19
         },
         {
           "name": "Murodjon Juraev",
@@ -201,7 +201,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 16
+          "pts": 19
         },
         {
           "name": "Murodjon Juraev",
@@ -226,14 +226,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 16,
-        "month_pts": 16,
-        "total_pts": 188,
-        "records_today": 0,
-        "records_week": 5,
+        "today_pts": 3,
+        "week_pts": 19,
+        "month_pts": 19,
+        "total_pts": 191,
+        "records_today": 1,
+        "records_week": 6,
         "place_month": 5,
-        "streak": 2,
+        "streak": 3,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
@@ -264,7 +264,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 16
+          "pts": 19
         },
         {
           "name": "Murodjon Juraev",
@@ -280,7 +280,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 16.0
+      "bonus": 19.0
     },
     "1246960566": {
       "user": {
@@ -356,7 +356,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 16
+          "pts": 19
         },
         {
           "name": "Murodjon Juraev",
@@ -435,7 +435,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 16
+          "pts": 19
         },
         {
           "name": "Murodjon Juraev",
@@ -509,7 +509,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 16
+          "pts": 19
         },
         {
           "name": "Murodjon Juraev",
@@ -571,7 +571,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 16
+          "pts": 19
         },
         {
           "name": "Murodjon Juraev",
@@ -630,7 +630,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 16
+          "pts": 19
         },
         {
           "name": "Murodjon Juraev",
