@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05 17:25",
+  "updated": "2026-08-05 18:18",
   "employees": {
     "1721561085": {
       "user": {
@@ -68,6 +68,10 @@
           "pts": 4
         },
         {
+          "name": "Jamshed",
+          "pts": 3
+        },
+        {
           "name": "Абдуллоев Амирчон",
           "pts": 3
         }
@@ -86,13 +90,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 35,
-        "total_pts": 39,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 8,
+        "today_pts": 3,
+        "week_pts": 3,
+        "month_pts": 3,
+        "total_pts": 42,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 7,
         "streak": 1,
         "top_work": "📈 Еженедельный мониторинг доходности"
       },
@@ -110,51 +114,47 @@
       "tasks_done_week": 0,
       "expenses": {
         "week": 0.0,
-        "month": 20.0,
+        "month": 0.0,
         "limit": 0
       },
       "rating": [
         {
-          "name": "Faridun Sanginov",
-          "pts": 281
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 192
-        },
-        {
-          "name": "Mahkamov",
-          "pts": 172
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 162
+          "pts": 37
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 130
+          "pts": 36
         },
         {
-          "name": "Saidjon Zokirov",
-          "pts": 82
+          "name": "Mahkamov",
+          "pts": 23
+        },
+        {
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 78
+          "pts": 4
         },
         {
           "name": "Jamshed",
-          "pts": 35
+          "pts": 3
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 15
+          "name": "Абдуллоев Амирчон",
+          "pts": 3
         }
       ],
       "badges": [
         "first_work"
       ],
-      "bonus": 35.0
+      "bonus": 3.0
     },
     "2045751852": {
       "user": {
@@ -206,6 +206,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 4
+        },
+        {
+          "name": "Jamshed",
+          "pts": 3
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -271,6 +275,10 @@
           "pts": 4
         },
         {
+          "name": "Jamshed",
+          "pts": 3
+        },
+        {
           "name": "Абдуллоев Амирчон",
           "pts": 3
         }
@@ -295,7 +303,7 @@
         "total_pts": 165,
         "records_today": 1,
         "records_week": 1,
-        "place_month": 7,
+        "place_month": 8,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -361,6 +369,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 4
+        },
+        {
+          "name": "Jamshed",
+          "pts": 3
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -442,6 +454,10 @@
           "pts": 4
         },
         {
+          "name": "Jamshed",
+          "pts": 3
+        },
+        {
           "name": "Абдуллоев Амирчон",
           "pts": 3
         }
@@ -516,6 +532,10 @@
           "pts": 4
         },
         {
+          "name": "Jamshed",
+          "pts": 3
+        },
+        {
           "name": "Абдуллоев Амирчон",
           "pts": 3
         }
@@ -578,6 +598,10 @@
           "pts": 4
         },
         {
+          "name": "Jamshed",
+          "pts": 3
+        },
+        {
           "name": "Абдуллоев Амирчон",
           "pts": 3
         }
@@ -635,6 +659,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 4
+        },
+        {
+          "name": "Jamshed",
+          "pts": 3
         },
         {
           "name": "Абдуллоев Амирчон",
