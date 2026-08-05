@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04 16:48",
+  "updated": "2026-08-05 08:43",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,14 +8,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 26,
-        "month_pts": 26,
-        "total_pts": 224,
+        "today_pts": 4,
+        "week_pts": 30,
+        "month_pts": 30,
+        "total_pts": 228,
         "records_today": 1,
-        "records_week": 8,
+        "records_week": 9,
         "place_month": 2,
-        "streak": 2,
+        "streak": 3,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -49,7 +49,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 30
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -61,7 +61,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 19
+          "pts": 16
         },
         {
           "name": "Murodjon Juraev",
@@ -73,7 +73,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 26.0
+      "bonus": 30.0
     },
     "8684586957": {
       "user": {
@@ -159,11 +159,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 8,
+        "today_pts": 0,
         "week_pts": 20,
         "month_pts": 25,
         "total_pts": 159,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 9,
         "place_month": 3,
         "streak": 2,
@@ -185,7 +185,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 30
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -197,7 +197,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 19
+          "pts": 16
         },
         {
           "name": "Murodjon Juraev",
@@ -218,12 +218,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 16,
-        "week_pts": 19,
-        "month_pts": 19,
-        "total_pts": 191,
-        "records_today": 5,
-        "records_week": 6,
+        "today_pts": 0,
+        "week_pts": 16,
+        "month_pts": 16,
+        "total_pts": 188,
+        "records_today": 0,
+        "records_week": 5,
         "place_month": 5,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -244,7 +244,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 30
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -256,7 +256,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 19
+          "pts": 16
         },
         {
           "name": "Murodjon Juraev",
@@ -268,7 +268,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 19.0
+      "bonus": 16.0
     },
     "1246960566": {
       "user": {
@@ -412,7 +412,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 30
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -424,7 +424,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 19
+          "pts": 16
         },
         {
           "name": "Murodjon Juraev",
@@ -482,7 +482,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 30
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -494,7 +494,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 19
+          "pts": 16
         },
         {
           "name": "Murodjon Juraev",
@@ -540,7 +540,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 30
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -552,7 +552,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 19
+          "pts": 16
         },
         {
           "name": "Murodjon Juraev",
@@ -595,7 +595,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 30
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -607,7 +607,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 19
+          "pts": 16
         },
         {
           "name": "Murodjon Juraev",
