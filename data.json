@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06 13:51",
+  "updated": "2026-08-06 13:53",
   "employees": {
     "1721561085": {
       "user": {
@@ -57,7 +57,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 30
+          "pts": 35
         },
         {
           "name": "Faridun Sanginov",
@@ -132,7 +132,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 30
+          "pts": 35
         },
         {
           "name": "Faridun Sanginov",
@@ -197,7 +197,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 30
+          "pts": 35
         },
         {
           "name": "Faridun Sanginov",
@@ -230,12 +230,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
-        "week_pts": 30,
-        "month_pts": 30,
-        "total_pts": 202,
-        "records_today": 2,
-        "records_week": 9,
+        "today_pts": 12,
+        "week_pts": 35,
+        "month_pts": 35,
+        "total_pts": 207,
+        "records_today": 3,
+        "records_week": 10,
         "place_month": 4,
         "streak": 4,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -264,7 +264,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 30
+          "pts": 35
         },
         {
           "name": "Faridun Sanginov",
@@ -288,7 +288,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 30.0
+      "bonus": 35.0
     },
     "1246960566": {
       "user": {
@@ -360,7 +360,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 30
+          "pts": 35
         },
         {
           "name": "Faridun Sanginov",
@@ -443,7 +443,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 30
+          "pts": 35
         },
         {
           "name": "Faridun Sanginov",
@@ -521,7 +521,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 30
+          "pts": 35
         },
         {
           "name": "Faridun Sanginov",
@@ -587,7 +587,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 30
+          "pts": 35
         },
         {
           "name": "Faridun Sanginov",
@@ -650,7 +650,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 30
+          "pts": 35
         },
         {
           "name": "Faridun Sanginov",
