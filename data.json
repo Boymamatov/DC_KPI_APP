@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05 18:18",
+  "updated": "2026-08-06 09:26",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,14 +8,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 11,
-        "week_pts": 37,
-        "month_pts": 37,
-        "total_pts": 235,
-        "records_today": 3,
-        "records_week": 11,
-        "place_month": 2,
-        "streak": 3,
+        "today_pts": 3,
+        "week_pts": 40,
+        "month_pts": 40,
+        "total_pts": 238,
+        "records_today": 1,
+        "records_week": 12,
+        "place_month": 1,
+        "streak": 4,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -44,12 +44,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
+          "name": "Иномҷон Юнусов",
           "pts": 40
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 37
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -81,7 +81,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 37.0
+      "bonus": 40.0
     },
     "8684586957": {
       "user": {
@@ -90,11 +90,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
+        "today_pts": 0,
         "week_pts": 3,
         "month_pts": 3,
         "total_pts": 42,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 1,
         "place_month": 7,
         "streak": 1,
@@ -119,12 +119,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
+          "name": "Иномҷон Юнусов",
           "pts": 40
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 37
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -163,11 +163,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 11,
+        "today_pts": 0,
         "week_pts": 31,
         "month_pts": 36,
         "total_pts": 170,
-        "records_today": 4,
+        "records_today": 0,
         "records_week": 13,
         "place_month": 3,
         "streak": 3,
@@ -184,12 +184,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
+          "name": "Иномҷон Юнусов",
           "pts": 40
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 37
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -230,11 +230,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
+        "today_pts": 0,
         "week_pts": 23,
         "month_pts": 23,
         "total_pts": 195,
-        "records_today": 2,
+        "records_today": 0,
         "records_week": 7,
         "place_month": 4,
         "streak": 3,
@@ -251,12 +251,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
+          "name": "Иномҷон Юнусов",
           "pts": 40
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 37
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -297,17 +297,17 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
+        "today_pts": 0,
         "week_pts": 3,
         "month_pts": 3,
         "total_pts": 165,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 1,
         "place_month": 8,
-        "streak": 1,
+        "streak": 2,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
-      "goal": "",
+      "goal": "📊 Контроль и мониторинг",
       "mood_today": "",
       "tasks": [
         {
@@ -347,12 +347,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
+          "name": "Иномҷон Юнусов",
           "pts": 40
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 37
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -430,12 +430,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
+          "name": "Иномҷон Юнусов",
           "pts": 40
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 37
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -508,12 +508,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
+          "name": "Иномҷон Юнусов",
           "pts": 40
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 37
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -574,12 +574,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
+          "name": "Иномҷон Юнусов",
           "pts": 40
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 37
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -637,12 +637,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
+          "name": "Иномҷон Юнусов",
           "pts": 40
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 37
+          "name": "Sherzod Boymatov",
+          "pts": 40
         },
         {
           "name": "Абдукаримов Абдулаким",
