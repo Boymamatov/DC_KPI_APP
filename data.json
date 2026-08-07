@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06 15:36",
+  "updated": "2026-08-07 13:31",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
+        "today_pts": 0,
         "week_pts": 49,
         "month_pts": 49,
         "total_pts": 247,
-        "records_today": 4,
+        "records_today": 0,
         "records_week": 15,
         "place_month": 1,
         "streak": 4,
@@ -90,11 +90,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
+        "today_pts": 0,
         "week_pts": 6,
         "month_pts": 6,
         "total_pts": 45,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 2,
         "place_month": 6,
         "streak": 2,
@@ -163,11 +163,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
+        "today_pts": 0,
         "week_pts": 35,
         "month_pts": 40,
         "total_pts": 174,
-        "records_today": 2,
+        "records_today": 0,
         "records_week": 15,
         "place_month": 3,
         "streak": 4,
@@ -230,11 +230,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 16,
+        "today_pts": 0,
         "week_pts": 39,
         "month_pts": 39,
         "total_pts": 211,
-        "records_today": 4,
+        "records_today": 0,
         "records_week": 11,
         "place_month": 4,
         "streak": 4,
@@ -307,7 +307,7 @@
         "streak": 2,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
-      "goal": "📊 Контроль и мониторинг",
+      "goal": "",
       "mood_today": "",
       "tasks": [
         {
