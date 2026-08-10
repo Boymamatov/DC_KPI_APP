@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07 16:37",
+  "updated": "2026-08-10 08:32",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 53,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 53,
         "total_pts": 251,
-        "records_today": 1,
-        "records_week": 16,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 2,
         "streak": 5,
         "top_work": "📊 Подготовка актов сверки"
@@ -36,7 +36,7 @@
           "urgent": false
         }
       ],
-      "tasks_done_week": 1,
+      "tasks_done_week": 0,
       "expenses": {
         "week": 0.0,
         "month": 0.0,
@@ -52,12 +52,12 @@
           "pts": 53
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 40
+          "name": "Mahkamov",
+          "pts": 42
         },
         {
-          "name": "Mahkamov",
-          "pts": 39
+          "name": "Абдукаримов Абдулаким",
+          "pts": 40
         },
         {
           "name": "Faridun Sanginov",
@@ -91,11 +91,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 6,
+        "week_pts": 0,
         "month_pts": 6,
         "total_pts": 45,
         "records_today": 0,
-        "records_week": 2,
+        "records_week": 0,
         "place_month": 6,
         "streak": 2,
         "top_work": "📈 Еженедельный мониторинг доходности"
@@ -127,12 +127,12 @@
           "pts": 53
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 40
+          "name": "Mahkamov",
+          "pts": 42
         },
         {
-          "name": "Mahkamov",
-          "pts": 39
+          "name": "Абдукаримов Абдулаким",
+          "pts": 40
         },
         {
           "name": "Faridun Sanginov",
@@ -164,19 +164,19 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 35,
+        "week_pts": 0,
         "month_pts": 40,
         "total_pts": 174,
         "records_today": 0,
-        "records_week": 15,
-        "place_month": 3,
+        "records_week": 0,
+        "place_month": 4,
         "streak": 4,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
       "goal": "",
       "mood_today": "",
       "tasks": [],
-      "tasks_done_week": 1,
+      "tasks_done_week": 0,
       "expenses": {
         "week": 0.0,
         "month": 0.0,
@@ -192,12 +192,12 @@
           "pts": 53
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 40
+          "name": "Mahkamov",
+          "pts": 42
         },
         {
-          "name": "Mahkamov",
-          "pts": 39
+          "name": "Абдукаримов Абдулаким",
+          "pts": 40
         },
         {
           "name": "Faridun Sanginov",
@@ -230,14 +230,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 39,
-        "month_pts": 39,
-        "total_pts": 211,
-        "records_today": 0,
-        "records_week": 11,
-        "place_month": 4,
-        "streak": 4,
+        "today_pts": 3,
+        "week_pts": 3,
+        "month_pts": 42,
+        "total_pts": 214,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 3,
+        "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
@@ -259,12 +259,12 @@
           "pts": 53
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 40
+          "name": "Mahkamov",
+          "pts": 42
         },
         {
-          "name": "Mahkamov",
-          "pts": 39
+          "name": "Абдукаримов Абдулаким",
+          "pts": 40
         },
         {
           "name": "Faridun Sanginov",
@@ -288,7 +288,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 39.0
+      "bonus": 42.0
     },
     "1246960566": {
       "user": {
@@ -298,11 +298,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 3,
+        "week_pts": 0,
         "month_pts": 3,
         "total_pts": 165,
         "records_today": 0,
-        "records_week": 1,
+        "records_week": 0,
         "place_month": 8,
         "streak": 2,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -355,12 +355,12 @@
           "pts": 53
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 40
+          "name": "Mahkamov",
+          "pts": 42
         },
         {
-          "name": "Mahkamov",
-          "pts": 39
+          "name": "Абдукаримов Абдулаким",
+          "pts": 40
         },
         {
           "name": "Faridun Sanginov",
@@ -395,11 +395,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 20,
+        "week_pts": 0,
         "month_pts": 20,
         "total_pts": 301,
         "records_today": 0,
-        "records_week": 6,
+        "records_week": 0,
         "place_month": 5,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -438,12 +438,12 @@
           "pts": 53
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 40
+          "name": "Mahkamov",
+          "pts": 42
         },
         {
-          "name": "Mahkamov",
-          "pts": 39
+          "name": "Абдукаримов Абдулаким",
+          "pts": 40
         },
         {
           "name": "Faridun Sanginov",
@@ -480,11 +480,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 4,
+        "week_pts": 0,
         "month_pts": 4,
         "total_pts": 82,
         "records_today": 0,
-        "records_week": 1,
+        "records_week": 0,
         "place_month": 7,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
@@ -516,12 +516,12 @@
           "pts": 53
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 40
+          "name": "Mahkamov",
+          "pts": 42
         },
         {
-          "name": "Mahkamov",
-          "pts": 39
+          "name": "Абдукаримов Абдулаким",
+          "pts": 40
         },
         {
           "name": "Faridun Sanginov",
@@ -582,12 +582,12 @@
           "pts": 53
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 40
+          "name": "Mahkamov",
+          "pts": 42
         },
         {
-          "name": "Mahkamov",
-          "pts": 39
+          "name": "Абдукаримов Абдулаким",
+          "pts": 40
         },
         {
           "name": "Faridun Sanginov",
@@ -645,12 +645,12 @@
           "pts": 53
         },
         {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 40
+          "name": "Mahkamov",
+          "pts": 42
         },
         {
-          "name": "Mahkamov",
-          "pts": 39
+          "name": "Абдукаримов Абдулаким",
+          "pts": 40
         },
         {
           "name": "Faridun Sanginov",
