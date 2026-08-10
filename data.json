@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10 15:47",
+  "updated": "2026-08-10 15:50",
   "employees": {
     "1721561085": {
       "user": {
@@ -60,12 +60,12 @@
           "pts": 42
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Jamshed",
+          "pts": 21
         },
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
@@ -90,13 +90,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
-        "week_pts": 12,
-        "month_pts": 18,
-        "total_pts": 57,
-        "records_today": 4,
-        "records_week": 4,
-        "place_month": 6,
+        "today_pts": 15,
+        "week_pts": 15,
+        "month_pts": 21,
+        "total_pts": 60,
+        "records_today": 5,
+        "records_week": 5,
+        "place_month": 5,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -135,12 +135,12 @@
           "pts": 42
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Jamshed",
+          "pts": 21
         },
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
@@ -154,7 +154,7 @@
       "badges": [
         "first_work"
       ],
-      "bonus": 18.0
+      "bonus": 21.0
     },
     "2045751852": {
       "user": {
@@ -200,12 +200,12 @@
           "pts": 42
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Jamshed",
+          "pts": 21
         },
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
@@ -267,12 +267,12 @@
           "pts": 42
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Jamshed",
+          "pts": 21
         },
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
@@ -363,12 +363,12 @@
           "pts": 42
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Jamshed",
+          "pts": 21
         },
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
@@ -400,7 +400,7 @@
         "total_pts": 301,
         "records_today": 0,
         "records_week": 0,
-        "place_month": 5,
+        "place_month": 6,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -446,12 +446,12 @@
           "pts": 42
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Jamshed",
+          "pts": 21
         },
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
@@ -524,12 +524,12 @@
           "pts": 42
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Jamshed",
+          "pts": 21
         },
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
@@ -590,12 +590,12 @@
           "pts": 42
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Jamshed",
+          "pts": 21
         },
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
@@ -653,12 +653,12 @@
           "pts": 42
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 20
+          "name": "Jamshed",
+          "pts": 21
         },
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Faridun Sanginov",
+          "pts": 20
         },
         {
           "name": "Murodjon Juraev",
