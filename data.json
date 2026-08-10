@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10 16:49",
+  "updated": "2026-08-10 17:01",
   "employees": {
     "1721561085": {
       "user": {
@@ -14,7 +14,7 @@
         "total_pts": 251,
         "records_today": 0,
         "records_week": 0,
-        "place_month": 2,
+        "place_month": 3,
         "streak": 5,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -48,12 +48,12 @@
           "pts": 73
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
-          "name": "Mahkamov",
-          "pts": 50
+          "name": "Иномҷон Юнусов",
+          "pts": 53
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -123,12 +123,12 @@
           "pts": 73
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
-          "name": "Mahkamov",
-          "pts": 50
+          "name": "Иномҷон Юнусов",
+          "pts": 53
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -188,12 +188,12 @@
           "pts": 73
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
-          "name": "Mahkamov",
-          "pts": 50
+          "name": "Иномҷон Юнусов",
+          "pts": 53
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -230,13 +230,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 11,
-        "week_pts": 11,
-        "month_pts": 50,
-        "total_pts": 222,
-        "records_today": 3,
-        "records_week": 3,
-        "place_month": 3,
+        "today_pts": 14,
+        "week_pts": 14,
+        "month_pts": 53,
+        "total_pts": 225,
+        "records_today": 4,
+        "records_week": 4,
+        "place_month": 2,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -255,12 +255,12 @@
           "pts": 73
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
-          "name": "Mahkamov",
-          "pts": 50
+          "name": "Иномҷон Юнусов",
+          "pts": 53
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -288,7 +288,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 50.0
+      "bonus": 53.0
     },
     "1246960566": {
       "user": {
@@ -351,12 +351,12 @@
           "pts": 73
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
-          "name": "Mahkamov",
-          "pts": 50
+          "name": "Иномҷон Юнусов",
+          "pts": 53
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -434,12 +434,12 @@
           "pts": 73
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
-          "name": "Mahkamov",
-          "pts": 50
+          "name": "Иномҷон Юнусов",
+          "pts": 53
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -512,12 +512,12 @@
           "pts": 73
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
-          "name": "Mahkamov",
-          "pts": 50
+          "name": "Иномҷон Юнусов",
+          "pts": 53
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -578,12 +578,12 @@
           "pts": 73
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
-          "name": "Mahkamov",
-          "pts": 50
+          "name": "Иномҷон Юнусов",
+          "pts": 53
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -641,12 +641,12 @@
           "pts": 73
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
-          "name": "Mahkamov",
-          "pts": 50
+          "name": "Иномҷон Юнусов",
+          "pts": 53
         },
         {
           "name": "Абдукаримов Абдулаким",
