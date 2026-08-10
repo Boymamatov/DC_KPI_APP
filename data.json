@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10 17:01",
+  "updated": "2026-08-10 17:02",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,14 +8,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 53,
-        "total_pts": 251,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 3,
-        "streak": 5,
+        "today_pts": 4,
+        "week_pts": 4,
+        "month_pts": 57,
+        "total_pts": 255,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 2,
+        "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -48,11 +48,11 @@
           "pts": 73
         },
         {
-          "name": "Mahkamov",
-          "pts": 53
+          "name": "Иномҷон Юнусов",
+          "pts": 57
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
@@ -81,7 +81,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 53.0
+      "bonus": 57.0
     },
     "8684586957": {
       "user": {
@@ -123,11 +123,11 @@
           "pts": 73
         },
         {
-          "name": "Mahkamov",
-          "pts": 53
+          "name": "Иномҷон Юнусов",
+          "pts": 57
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
@@ -188,11 +188,11 @@
           "pts": 73
         },
         {
-          "name": "Mahkamov",
-          "pts": 53
+          "name": "Иномҷон Юнусов",
+          "pts": 57
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
@@ -236,7 +236,7 @@
         "total_pts": 225,
         "records_today": 4,
         "records_week": 4,
-        "place_month": 2,
+        "place_month": 3,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -255,11 +255,11 @@
           "pts": 73
         },
         {
-          "name": "Mahkamov",
-          "pts": 53
+          "name": "Иномҷон Юнусов",
+          "pts": 57
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
@@ -351,11 +351,11 @@
           "pts": 73
         },
         {
-          "name": "Mahkamov",
-          "pts": 53
+          "name": "Иномҷон Юнусов",
+          "pts": 57
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
@@ -434,11 +434,11 @@
           "pts": 73
         },
         {
-          "name": "Mahkamov",
-          "pts": 53
+          "name": "Иномҷон Юнусов",
+          "pts": 57
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
@@ -512,11 +512,11 @@
           "pts": 73
         },
         {
-          "name": "Mahkamov",
-          "pts": 53
+          "name": "Иномҷон Юнусов",
+          "pts": 57
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
@@ -578,11 +578,11 @@
           "pts": 73
         },
         {
-          "name": "Mahkamov",
-          "pts": 53
+          "name": "Иномҷон Юнусов",
+          "pts": 57
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
@@ -641,11 +641,11 @@
           "pts": 73
         },
         {
-          "name": "Mahkamov",
-          "pts": 53
+          "name": "Иномҷон Юнусов",
+          "pts": 57
         },
         {
-          "name": "Иномҷон Юнусов",
+          "name": "Mahkamov",
           "pts": 53
         },
         {
