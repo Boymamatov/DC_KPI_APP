@@ -65,7 +65,7 @@
         },
         {
           "name": "Jamshed",
-          "pts": 9
+          "pts": 12
         },
         {
           "name": "Murodjon Juraev",
@@ -90,15 +90,15 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 3,
-        "month_pts": 9,
-        "total_pts": 48,
-        "records_today": 1,
-        "records_week": 1,
+        "today_pts": 6,
+        "week_pts": 6,
+        "month_pts": 12,
+        "total_pts": 51,
+        "records_today": 2,
+        "records_week": 2,
         "place_month": 6,
         "streak": 1,
-        "top_work": "📈 Еженедельный мониторинг доходности"
+        "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
       "mood_today": "",
@@ -140,7 +140,7 @@
         },
         {
           "name": "Jamshed",
-          "pts": 9
+          "pts": 12
         },
         {
           "name": "Murodjon Juraev",
@@ -154,7 +154,7 @@
       "badges": [
         "first_work"
       ],
-      "bonus": 9.0
+      "bonus": 12.0
     },
     "2045751852": {
       "user": {
@@ -205,7 +205,7 @@
         },
         {
           "name": "Jamshed",
-          "pts": 9
+          "pts": 12
         },
         {
           "name": "Murodjon Juraev",
@@ -272,7 +272,7 @@
         },
         {
           "name": "Jamshed",
-          "pts": 9
+          "pts": 12
         },
         {
           "name": "Murodjon Juraev",
@@ -368,7 +368,7 @@
         },
         {
           "name": "Jamshed",
-          "pts": 9
+          "pts": 12
         },
         {
           "name": "Murodjon Juraev",
@@ -451,7 +451,7 @@
         },
         {
           "name": "Jamshed",
-          "pts": 9
+          "pts": 12
         },
         {
           "name": "Murodjon Juraev",
@@ -529,7 +529,7 @@
         },
         {
           "name": "Jamshed",
-          "pts": 9
+          "pts": 12
         },
         {
           "name": "Murodjon Juraev",
@@ -595,7 +595,7 @@
         },
         {
           "name": "Jamshed",
-          "pts": 9
+          "pts": 12
         },
         {
           "name": "Murodjon Juraev",
@@ -658,7 +658,7 @@
         },
         {
           "name": "Jamshed",
-          "pts": 9
+          "pts": 12
         },
         {
           "name": "Murodjon Juraev",
