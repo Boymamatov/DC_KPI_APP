@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10 17:03",
+  "updated": "2026-08-11 16:09",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
+        "today_pts": 0,
         "week_pts": 4,
         "month_pts": 57,
         "total_pts": 255,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 1,
         "place_month": 3,
         "streak": 1,
@@ -49,7 +49,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 60
+          "pts": 63
         },
         {
           "name": "Иномҷон Юнусов",
@@ -90,11 +90,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 18,
+        "today_pts": 0,
         "week_pts": 18,
         "month_pts": 24,
         "total_pts": 63,
-        "records_today": 6,
+        "records_today": 0,
         "records_week": 6,
         "place_month": 5,
         "streak": 1,
@@ -124,7 +124,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 60
+          "pts": 63
         },
         {
           "name": "Иномҷон Юнусов",
@@ -163,11 +163,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 2,
+        "today_pts": 0,
         "week_pts": 2,
         "month_pts": 42,
         "total_pts": 176,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 1,
         "place_month": 4,
         "streak": 1,
@@ -189,7 +189,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 60
+          "pts": 63
         },
         {
           "name": "Иномҷон Юнусов",
@@ -230,12 +230,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 21,
-        "week_pts": 21,
-        "month_pts": 60,
-        "total_pts": 232,
-        "records_today": 6,
-        "records_week": 6,
+        "today_pts": 0,
+        "week_pts": 24,
+        "month_pts": 63,
+        "total_pts": 235,
+        "records_today": 0,
+        "records_week": 7,
         "place_month": 2,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -256,7 +256,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 60
+          "pts": 63
         },
         {
           "name": "Иномҷон Юнусов",
@@ -288,7 +288,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 60.0
+      "bonus": 63.0
     },
     "1246960566": {
       "user": {
@@ -352,7 +352,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 60
+          "pts": 63
         },
         {
           "name": "Иномҷон Юнусов",
@@ -435,7 +435,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 60
+          "pts": 63
         },
         {
           "name": "Иномҷон Юнусов",
@@ -513,7 +513,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 60
+          "pts": 63
         },
         {
           "name": "Иномҷон Юнусов",
@@ -579,7 +579,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 60
+          "pts": 63
         },
         {
           "name": "Иномҷон Юнусов",
@@ -642,7 +642,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 60
+          "pts": 63
         },
         {
           "name": "Иномҷон Юнусов",
