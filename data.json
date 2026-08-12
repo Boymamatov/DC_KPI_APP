@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12 09:27",
+  "updated": "2026-08-12 10:21",
   "employees": {
     "1721561085": {
       "user": {
@@ -44,12 +44,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Mahkamov",
+          "pts": 75
         },
         {
-          "name": "Mahkamov",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Иномҷон Юнусов",
@@ -119,12 +119,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Mahkamov",
+          "pts": 75
         },
         {
-          "name": "Mahkamov",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Иномҷон Юнусов",
@@ -184,12 +184,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Mahkamov",
+          "pts": 75
         },
         {
-          "name": "Mahkamov",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Иномҷон Юнусов",
@@ -230,13 +230,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 9,
-        "week_pts": 33,
-        "month_pts": 72,
-        "total_pts": 244,
-        "records_today": 3,
-        "records_week": 10,
-        "place_month": 2,
+        "today_pts": 12,
+        "week_pts": 36,
+        "month_pts": 75,
+        "total_pts": 247,
+        "records_today": 4,
+        "records_week": 11,
+        "place_month": 1,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -251,12 +251,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Mahkamov",
+          "pts": 75
         },
         {
-          "name": "Mahkamov",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Иномҷон Юнусов",
@@ -288,7 +288,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 72.0
+      "bonus": 75.0
     },
     "1246960566": {
       "user": {
@@ -347,12 +347,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Mahkamov",
+          "pts": 75
         },
         {
-          "name": "Mahkamov",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Иномҷон Юнусов",
@@ -430,12 +430,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Mahkamov",
+          "pts": 75
         },
         {
-          "name": "Mahkamov",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Иномҷон Юнусов",
@@ -508,12 +508,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Mahkamov",
+          "pts": 75
         },
         {
-          "name": "Mahkamov",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Иномҷон Юнусов",
@@ -574,12 +574,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Mahkamov",
+          "pts": 75
         },
         {
-          "name": "Mahkamov",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Иномҷон Юнусов",
@@ -637,12 +637,12 @@
       },
       "rating": [
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Mahkamov",
+          "pts": 75
         },
         {
-          "name": "Mahkamov",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Иномҷон Юнусов",
