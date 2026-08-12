@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12 10:21",
+  "updated": "2026-08-12 10:53",
   "employees": {
     "1721561085": {
       "user": {
@@ -57,7 +57,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 49
+          "pts": 51
         },
         {
           "name": "Jamshed",
@@ -132,7 +132,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 49
+          "pts": 51
         },
         {
           "name": "Jamshed",
@@ -163,12 +163,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 2,
-        "week_pts": 9,
-        "month_pts": 49,
-        "total_pts": 183,
-        "records_today": 1,
-        "records_week": 3,
+        "today_pts": 4,
+        "week_pts": 11,
+        "month_pts": 51,
+        "total_pts": 185,
+        "records_today": 2,
+        "records_week": 4,
         "place_month": 4,
         "streak": 3,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -197,7 +197,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 49
+          "pts": 51
         },
         {
           "name": "Jamshed",
@@ -221,7 +221,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 49.0
+      "bonus": 51.0
     },
     "5113964899": {
       "user": {
@@ -241,7 +241,7 @@
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
-      "mood_today": "",
+      "mood_today": "good",
       "tasks": [],
       "tasks_done_week": 0,
       "expenses": {
@@ -264,7 +264,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 49
+          "pts": 51
         },
         {
           "name": "Jamshed",
@@ -360,7 +360,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 49
+          "pts": 51
         },
         {
           "name": "Jamshed",
@@ -443,7 +443,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 49
+          "pts": 51
         },
         {
           "name": "Jamshed",
@@ -521,7 +521,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 49
+          "pts": 51
         },
         {
           "name": "Jamshed",
@@ -587,7 +587,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 49
+          "pts": 51
         },
         {
           "name": "Jamshed",
@@ -650,7 +650,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 49
+          "pts": 51
         },
         {
           "name": "Jamshed",
