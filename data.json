@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12 11:03",
+  "updated": "2026-08-13 09:24",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 5,
+        "today_pts": 0,
         "week_pts": 9,
         "month_pts": 62,
         "total_pts": 260,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 2,
         "place_month": 3,
         "streak": 1,
@@ -163,11 +163,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
+        "today_pts": 0,
         "week_pts": 11,
         "month_pts": 51,
         "total_pts": 185,
-        "records_today": 2,
+        "records_today": 0,
         "records_week": 4,
         "place_month": 4,
         "streak": 3,
@@ -230,18 +230,18 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
+        "today_pts": 0,
         "week_pts": 36,
         "month_pts": 75,
         "total_pts": 247,
-        "records_today": 4,
+        "records_today": 0,
         "records_week": 11,
         "place_month": 1,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
-      "mood_today": "good",
+      "mood_today": "",
       "tasks": [],
       "tasks_done_week": 0,
       "expenses": {
