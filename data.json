@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13 13:43",
+  "updated": "2026-08-13 15:01",
   "employees": {
     "1721561085": {
       "user": {
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 82
+          "pts": 86
         },
         {
           "name": "Sherzod Boymatov",
@@ -120,7 +120,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 82
+          "pts": 86
         },
         {
           "name": "Sherzod Boymatov",
@@ -185,7 +185,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 82
+          "pts": 86
         },
         {
           "name": "Sherzod Boymatov",
@@ -230,12 +230,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
-        "week_pts": 43,
-        "month_pts": 82,
-        "total_pts": 254,
-        "records_today": 2,
-        "records_week": 13,
+        "today_pts": 11,
+        "week_pts": 47,
+        "month_pts": 86,
+        "total_pts": 258,
+        "records_today": 3,
+        "records_week": 14,
         "place_month": 1,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -260,7 +260,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 82
+          "pts": 86
         },
         {
           "name": "Sherzod Boymatov",
@@ -296,7 +296,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 82.0
+      "bonus": 86.0
     },
     "1246960566": {
       "user": {
@@ -356,7 +356,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 82
+          "pts": 86
         },
         {
           "name": "Sherzod Boymatov",
@@ -439,7 +439,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 82
+          "pts": 86
         },
         {
           "name": "Sherzod Boymatov",
@@ -517,7 +517,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 82
+          "pts": 86
         },
         {
           "name": "Sherzod Boymatov",
@@ -583,7 +583,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 82
+          "pts": 86
         },
         {
           "name": "Sherzod Boymatov",
@@ -646,7 +646,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 82
+          "pts": 86
         },
         {
           "name": "Sherzod Boymatov",
