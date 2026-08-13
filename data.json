@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13 12:59",
+  "updated": "2026-08-13 13:29",
   "employees": {
     "1721561085": {
       "user": {
@@ -69,7 +69,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -144,7 +144,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -209,7 +209,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -284,7 +284,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -380,7 +380,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -463,7 +463,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -487,12 +487,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 4,
-        "total_pts": 82,
-        "records_today": 0,
-        "records_week": 0,
+        "today_pts": 4,
+        "week_pts": 4,
+        "month_pts": 8,
+        "total_pts": 86,
+        "records_today": 1,
+        "records_week": 1,
         "place_month": 7,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
@@ -541,7 +541,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -552,7 +552,7 @@
         "first_work",
         "streak_5"
       ],
-      "bonus": 4.0
+      "bonus": 8.0
     },
     "929013169": {
       "user": {
@@ -607,7 +607,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -670,7 +670,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Абдуллоев Амирчон",
