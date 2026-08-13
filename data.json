@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13 15:02",
+  "updated": "2026-08-13 16:20",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,13 +8,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 10,
-        "week_pts": 19,
-        "month_pts": 72,
-        "total_pts": 270,
-        "records_today": 2,
-        "records_week": 4,
-        "place_month": 3,
+        "today_pts": 14,
+        "week_pts": 23,
+        "month_pts": 76,
+        "total_pts": 274,
+        "records_today": 3,
+        "records_week": 5,
+        "place_month": 2,
         "streak": 2,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -48,12 +48,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Иномҷон Юнусов",
+          "pts": 76
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -81,7 +81,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 72.0
+      "bonus": 76.0
     },
     "8684586957": {
       "user": {
@@ -123,12 +123,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Иномҷон Юнусов",
+          "pts": 76
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -188,12 +188,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Иномҷон Юнусов",
+          "pts": 76
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -249,6 +249,13 @@
           "text": "магозаи себзорба постерминалро астрас кунед",
           "deadline": "сегодня до 17:00",
           "urgent": false
+        },
+        {
+          "id": 4,
+          "priority": "🟡 Обычная",
+          "text": "себхор постерминал расонида шавад то пагох",
+          "deadline": "до ч",
+          "urgent": false
         }
       ],
       "tasks_done_week": 0,
@@ -263,12 +270,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Иномҷон Юнусов",
+          "pts": 76
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -359,12 +366,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Иномҷон Юнусов",
+          "pts": 76
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -442,12 +449,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Иномҷон Юнусов",
+          "pts": 76
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -520,12 +527,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Иномҷон Юнусов",
+          "pts": 76
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -586,12 +593,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Иномҷон Юнусов",
+          "pts": 76
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -649,12 +656,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Иномҷон Юнусов",
+          "pts": 76
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 72
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Абдукаримов Абдулаким",
