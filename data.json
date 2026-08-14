@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14 09:37",
+  "updated": "2026-08-14 09:39",
   "employees": {
     "1721561085": {
       "user": {
@@ -69,7 +69,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 10
+          "pts": 13
         },
         {
           "name": "Murodjon Juraev",
@@ -144,7 +144,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 10
+          "pts": 13
         },
         {
           "name": "Murodjon Juraev",
@@ -209,7 +209,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 10
+          "pts": 13
         },
         {
           "name": "Murodjon Juraev",
@@ -291,7 +291,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 10
+          "pts": 13
         },
         {
           "name": "Murodjon Juraev",
@@ -312,12 +312,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
-        "week_pts": 7,
-        "month_pts": 10,
-        "total_pts": 172,
-        "records_today": 2,
-        "records_week": 2,
+        "today_pts": 10,
+        "week_pts": 10,
+        "month_pts": 13,
+        "total_pts": 175,
+        "records_today": 3,
+        "records_week": 3,
         "place_month": 7,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -387,7 +387,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 10
+          "pts": 13
         },
         {
           "name": "Murodjon Juraev",
@@ -400,7 +400,7 @@
         "points_100",
         "streak_5"
       ],
-      "bonus": 10.0
+      "bonus": 13.0
     },
     "1449975876": {
       "user": {
@@ -470,7 +470,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 10
+          "pts": 13
         },
         {
           "name": "Murodjon Juraev",
@@ -548,7 +548,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 10
+          "pts": 13
         },
         {
           "name": "Murodjon Juraev",
@@ -614,7 +614,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 10
+          "pts": 13
         },
         {
           "name": "Murodjon Juraev",
@@ -677,7 +677,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 10
+          "pts": 13
         },
         {
           "name": "Murodjon Juraev",
