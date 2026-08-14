@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13 16:20",
+  "updated": "2026-08-14 09:36",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 14,
+        "today_pts": 0,
         "week_pts": 23,
         "month_pts": 76,
         "total_pts": 274,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 5,
         "place_month": 2,
         "streak": 2,
@@ -73,7 +73,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 3
+          "pts": 8
         }
       ],
       "badges": [
@@ -90,11 +90,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 9,
+        "today_pts": 0,
         "week_pts": 30,
         "month_pts": 36,
         "total_pts": 75,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 10,
         "place_month": 5,
         "streak": 1,
@@ -148,7 +148,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 3
+          "pts": 8
         }
       ],
       "badges": [
@@ -213,7 +213,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 3
+          "pts": 8
         }
       ],
       "badges": [
@@ -230,11 +230,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 14,
+        "today_pts": 0,
         "week_pts": 50,
         "month_pts": 89,
         "total_pts": 261,
-        "records_today": 4,
+        "records_today": 0,
         "records_week": 15,
         "place_month": 1,
         "streak": 2,
@@ -295,7 +295,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 3
+          "pts": 8
         }
       ],
       "badges": [
@@ -312,14 +312,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 3,
-        "total_pts": 165,
-        "records_today": 0,
-        "records_week": 0,
+        "today_pts": 5,
+        "week_pts": 5,
+        "month_pts": 8,
+        "total_pts": 170,
+        "records_today": 1,
+        "records_week": 1,
         "place_month": 8,
-        "streak": 2,
+        "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
       "goal": "",
@@ -391,7 +391,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 3
+          "pts": 8
         }
       ],
       "badges": [
@@ -400,7 +400,7 @@
         "points_100",
         "streak_5"
       ],
-      "bonus": 3.0
+      "bonus": 8.0
     },
     "1449975876": {
       "user": {
@@ -474,7 +474,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 3
+          "pts": 8
         }
       ],
       "badges": [
@@ -494,11 +494,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
+        "today_pts": 0,
         "week_pts": 4,
         "month_pts": 8,
         "total_pts": 86,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 1,
         "place_month": 7,
         "streak": 1,
@@ -552,7 +552,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 3
+          "pts": 8
         }
       ],
       "badges": [
@@ -618,7 +618,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 3
+          "pts": 8
         }
       ],
       "badges": [],
@@ -681,7 +681,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 3
+          "pts": 8
         }
       ],
       "badges": [],
