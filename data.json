@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14 16:50",
+  "updated": "2026-08-17 08:01",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 11,
-        "week_pts": 34,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 87,
         "total_pts": 285,
-        "records_today": 3,
-        "records_week": 8,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 2,
         "streak": 3,
         "top_work": "📊 Подготовка актов сверки"
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 105
         },
         {
           "name": "Иномҷон Юнусов",
@@ -91,11 +91,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 30,
+        "week_pts": 0,
         "month_pts": 36,
         "total_pts": 75,
         "records_today": 0,
-        "records_week": 10,
+        "records_week": 0,
         "place_month": 5,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -120,7 +120,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 105
         },
         {
           "name": "Иномҷон Юнусов",
@@ -164,11 +164,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 11,
+        "week_pts": 0,
         "month_pts": 51,
         "total_pts": 185,
         "records_today": 0,
-        "records_week": 4,
+        "records_week": 0,
         "place_month": 4,
         "streak": 3,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -185,7 +185,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 105
         },
         {
           "name": "Иномҷон Юнусов",
@@ -230,14 +230,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 10,
-        "week_pts": 60,
-        "month_pts": 99,
-        "total_pts": 271,
-        "records_today": 3,
-        "records_week": 18,
+        "today_pts": 3,
+        "week_pts": 3,
+        "month_pts": 105,
+        "total_pts": 277,
+        "records_today": 1,
+        "records_week": 1,
         "place_month": 1,
-        "streak": 3,
+        "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
@@ -248,13 +248,6 @@
           "priority": "🟡 Обычная",
           "text": "магозаи себзорба постерминалро астрас кунед",
           "deadline": "сегодня до 17:00",
-          "urgent": false
-        },
-        {
-          "id": 4,
-          "priority": "🟡 Обычная",
-          "text": "себхор постерминал расонида шавад то пагох",
-          "deadline": "до ч",
           "urgent": false
         }
       ],
@@ -267,7 +260,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 105
         },
         {
           "name": "Иномҷон Юнусов",
@@ -304,7 +297,7 @@
         "points_100",
         "week_winner"
       ],
-      "bonus": 99.0
+      "bonus": 105.0
     },
     "1246960566": {
       "user": {
@@ -313,12 +306,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 10,
-        "week_pts": 10,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 13,
         "total_pts": 175,
-        "records_today": 3,
-        "records_week": 3,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 7,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -364,7 +357,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 105
         },
         {
           "name": "Иномҷон Юнусов",
@@ -447,7 +440,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 105
         },
         {
           "name": "Иномҷон Юнусов",
@@ -496,11 +489,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 4,
+        "week_pts": 0,
         "month_pts": 8,
         "total_pts": 86,
         "records_today": 0,
-        "records_week": 1,
+        "records_week": 0,
         "place_month": 8,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
@@ -525,7 +518,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 105
         },
         {
           "name": "Иномҷон Юнусов",
@@ -591,7 +584,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 105
         },
         {
           "name": "Иномҷон Юнусов",
@@ -654,7 +647,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 105
         },
         {
           "name": "Иномҷон Юнусов",
