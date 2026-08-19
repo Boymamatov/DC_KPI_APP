@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18 16:33",
+  "updated": "2026-08-19 10:16",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
+        "today_pts": 0,
         "week_pts": 25,
         "month_pts": 112,
         "total_pts": 310,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 8,
         "place_month": 2,
         "streak": 2,
@@ -57,7 +57,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 58
+          "pts": 62
         },
         {
           "name": "Jamshed",
@@ -90,11 +90,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 21,
+        "today_pts": 0,
         "week_pts": 21,
         "month_pts": 57,
         "total_pts": 96,
-        "records_today": 7,
+        "records_today": 0,
         "records_week": 7,
         "place_month": 5,
         "streak": 1,
@@ -132,7 +132,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 58
+          "pts": 62
         },
         {
           "name": "Jamshed",
@@ -163,14 +163,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 5,
-        "week_pts": 7,
-        "month_pts": 58,
-        "total_pts": 192,
+        "today_pts": 4,
+        "week_pts": 11,
+        "month_pts": 62,
+        "total_pts": 196,
         "records_today": 1,
-        "records_week": 2,
+        "records_week": 3,
         "place_month": 4,
-        "streak": 2,
+        "streak": 3,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
       "goal": "",
@@ -197,7 +197,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 58
+          "pts": 62
         },
         {
           "name": "Jamshed",
@@ -221,7 +221,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 58.0
+      "bonus": 62.0
     },
     "5113964899": {
       "user": {
@@ -230,11 +230,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 11,
+        "today_pts": 0,
         "week_pts": 37,
         "month_pts": 139,
         "total_pts": 311,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 10,
         "place_month": 1,
         "streak": 2,
@@ -272,7 +272,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 58
+          "pts": 62
         },
         {
           "name": "Jamshed",
@@ -369,7 +369,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 58
+          "pts": 62
         },
         {
           "name": "Jamshed",
@@ -452,7 +452,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 58
+          "pts": 62
         },
         {
           "name": "Jamshed",
@@ -530,7 +530,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 58
+          "pts": 62
         },
         {
           "name": "Jamshed",
@@ -596,7 +596,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 58
+          "pts": 62
         },
         {
           "name": "Jamshed",
@@ -659,7 +659,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 58
+          "pts": 62
         },
         {
           "name": "Jamshed",
