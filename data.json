@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20 12:51",
+  "updated": "2026-08-20 16:03",
   "employees": {
     "1721561085": {
       "user": {
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 155
+          "pts": 159
         },
         {
           "name": "Иномҷон Юнусов",
@@ -120,7 +120,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 155
+          "pts": 159
         },
         {
           "name": "Иномҷон Юнусов",
@@ -185,7 +185,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 155
+          "pts": 159
         },
         {
           "name": "Иномҷон Юнусов",
@@ -230,14 +230,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 53,
-        "month_pts": 155,
-        "total_pts": 327,
-        "records_today": 0,
-        "records_week": 15,
+        "today_pts": 4,
+        "week_pts": 57,
+        "month_pts": 159,
+        "total_pts": 331,
+        "records_today": 1,
+        "records_week": 16,
         "place_month": 1,
-        "streak": 3,
+        "streak": 4,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
@@ -260,7 +260,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 155
+          "pts": 159
         },
         {
           "name": "Иномҷон Юнусов",
@@ -297,7 +297,7 @@
         "points_100",
         "week_winner"
       ],
-      "bonus": 155.0
+      "bonus": 159.0
     },
     "1246960566": {
       "user": {
@@ -357,7 +357,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 155
+          "pts": 159
         },
         {
           "name": "Иномҷон Юнусов",
@@ -429,6 +429,13 @@
           "text": "МАЧЛИС",
           "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
           "urgent": false
+        },
+        {
+          "id": 2,
+          "priority": "🟡 Обычная",
+          "text": "Бокимонда санадхоя пешниход кунед дар мудати хамин мох",
+          "deadline": "Бокимонда санадхоя пешниход кунед дар мудати хамин мох",
+          "urgent": false
         }
       ],
       "tasks_done_week": 0,
@@ -440,7 +447,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 155
+          "pts": 159
         },
         {
           "name": "Иномҷон Юнусов",
@@ -518,7 +525,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 155
+          "pts": 159
         },
         {
           "name": "Иномҷон Юнусов",
@@ -584,7 +591,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 155
+          "pts": 159
         },
         {
           "name": "Иномҷон Юнусов",
@@ -647,7 +654,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 155
+          "pts": 159
         },
         {
           "name": "Иномҷон Юнусов",
