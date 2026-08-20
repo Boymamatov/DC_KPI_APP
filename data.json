@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19 16:50",
+  "updated": "2026-08-20 12:51",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,14 +8,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
-        "week_pts": 32,
-        "month_pts": 119,
-        "total_pts": 317,
-        "records_today": 3,
-        "records_week": 11,
+        "today_pts": 4,
+        "week_pts": 36,
+        "month_pts": 123,
+        "total_pts": 321,
+        "records_today": 1,
+        "records_week": 12,
         "place_month": 2,
-        "streak": 3,
+        "streak": 4,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -49,7 +49,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 119
+          "pts": 123
         },
         {
           "name": "Sherzod Boymatov",
@@ -81,7 +81,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 119.0
+      "bonus": 123.0
     },
     "8684586957": {
       "user": {
@@ -124,7 +124,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 119
+          "pts": 123
         },
         {
           "name": "Sherzod Boymatov",
@@ -163,11 +163,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 6,
+        "today_pts": 0,
         "week_pts": 13,
         "month_pts": 64,
         "total_pts": 198,
-        "records_today": 2,
+        "records_today": 0,
         "records_week": 4,
         "place_month": 4,
         "streak": 3,
@@ -189,7 +189,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 119
+          "pts": 123
         },
         {
           "name": "Sherzod Boymatov",
@@ -230,11 +230,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 16,
+        "today_pts": 0,
         "week_pts": 53,
         "month_pts": 155,
         "total_pts": 327,
-        "records_today": 5,
+        "records_today": 0,
         "records_week": 15,
         "place_month": 1,
         "streak": 3,
@@ -264,7 +264,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 119
+          "pts": 123
         },
         {
           "name": "Sherzod Boymatov",
@@ -361,7 +361,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 119
+          "pts": 123
         },
         {
           "name": "Sherzod Boymatov",
@@ -444,7 +444,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 119
+          "pts": 123
         },
         {
           "name": "Sherzod Boymatov",
@@ -522,7 +522,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 119
+          "pts": 123
         },
         {
           "name": "Sherzod Boymatov",
@@ -588,7 +588,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 119
+          "pts": 123
         },
         {
           "name": "Sherzod Boymatov",
@@ -651,7 +651,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 119
+          "pts": 123
         },
         {
           "name": "Sherzod Boymatov",
