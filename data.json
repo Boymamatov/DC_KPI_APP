@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25 16:24",
+  "updated": "2026-08-25 16:25",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
-        "week_pts": 25,
-        "month_pts": 150,
-        "total_pts": 348,
-        "records_today": 3,
-        "records_week": 7,
+        "today_pts": 9,
+        "week_pts": 27,
+        "month_pts": 152,
+        "total_pts": 350,
+        "records_today": 4,
+        "records_week": 8,
         "place_month": 2,
         "streak": 2,
         "top_work": "📊 Подготовка актов сверки"
@@ -49,7 +49,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 150
+          "pts": 152
         },
         {
           "name": "Sherzod Boymatov",
@@ -81,7 +81,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 150.0
+      "bonus": 152.0
     },
     "8684586957": {
       "user": {
@@ -124,7 +124,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 150
+          "pts": 152
         },
         {
           "name": "Sherzod Boymatov",
@@ -189,7 +189,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 150
+          "pts": 152
         },
         {
           "name": "Sherzod Boymatov",
@@ -264,7 +264,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 150
+          "pts": 152
         },
         {
           "name": "Sherzod Boymatov",
@@ -361,7 +361,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 150
+          "pts": 152
         },
         {
           "name": "Sherzod Boymatov",
@@ -451,7 +451,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 150
+          "pts": 152
         },
         {
           "name": "Sherzod Boymatov",
@@ -529,7 +529,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 150
+          "pts": 152
         },
         {
           "name": "Sherzod Boymatov",
@@ -595,7 +595,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 150
+          "pts": 152
         },
         {
           "name": "Sherzod Boymatov",
@@ -658,7 +658,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 150
+          "pts": 152
         },
         {
           "name": "Sherzod Boymatov",
