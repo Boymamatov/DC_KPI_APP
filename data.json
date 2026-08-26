@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26 16:55",
+  "updated": "2026-08-26 16:56",
   "employees": {
     "1721561085": {
       "user": {
@@ -53,7 +53,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 76
+          "pts": 81
         },
         {
           "name": "Sherzod Boymatov",
@@ -128,7 +128,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 76
+          "pts": 81
         },
         {
           "name": "Sherzod Boymatov",
@@ -163,12 +163,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 5,
-        "week_pts": 10,
-        "month_pts": 76,
-        "total_pts": 210,
-        "records_today": 1,
-        "records_week": 2,
+        "today_pts": 10,
+        "week_pts": 15,
+        "month_pts": 81,
+        "total_pts": 215,
+        "records_today": 2,
+        "records_week": 3,
         "place_month": 3,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -193,7 +193,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 76
+          "pts": 81
         },
         {
           "name": "Sherzod Boymatov",
@@ -221,7 +221,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 76.0
+      "bonus": 81.0
     },
     "5113964899": {
       "user": {
@@ -268,7 +268,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 76
+          "pts": 81
         },
         {
           "name": "Sherzod Boymatov",
@@ -365,7 +365,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 76
+          "pts": 81
         },
         {
           "name": "Sherzod Boymatov",
@@ -455,7 +455,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 76
+          "pts": 81
         },
         {
           "name": "Sherzod Boymatov",
@@ -533,7 +533,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 76
+          "pts": 81
         },
         {
           "name": "Sherzod Boymatov",
@@ -599,7 +599,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 76
+          "pts": 81
         },
         {
           "name": "Sherzod Boymatov",
@@ -662,7 +662,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 76
+          "pts": 81
         },
         {
           "name": "Sherzod Boymatov",
