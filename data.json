@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27 15:04",
+  "updated": "2026-08-27 15:07",
   "employees": {
     "1721561085": {
       "user": {
@@ -56,12 +56,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Jamshed",
+          "pts": 75
         },
         {
-          "name": "Jamshed",
-          "pts": 70
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Faridun Sanginov",
@@ -90,13 +90,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 4,
-        "month_pts": 70,
-        "total_pts": 109,
-        "records_today": 1,
-        "records_week": 1,
-        "place_month": 5,
+        "today_pts": 9,
+        "week_pts": 9,
+        "month_pts": 75,
+        "total_pts": 114,
+        "records_today": 2,
+        "records_week": 2,
+        "place_month": 4,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -131,12 +131,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Jamshed",
+          "pts": 75
         },
         {
-          "name": "Jamshed",
-          "pts": 70
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Faridun Sanginov",
@@ -154,7 +154,7 @@
       "badges": [
         "first_work"
       ],
-      "bonus": 70.0
+      "bonus": 75.0
     },
     "2045751852": {
       "user": {
@@ -196,12 +196,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Jamshed",
+          "pts": 75
         },
         {
-          "name": "Jamshed",
-          "pts": 70
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Faridun Sanginov",
@@ -271,12 +271,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Jamshed",
+          "pts": 75
         },
         {
-          "name": "Jamshed",
-          "pts": 70
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Faridun Sanginov",
@@ -369,12 +369,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Jamshed",
+          "pts": 75
         },
         {
-          "name": "Jamshed",
-          "pts": 70
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Faridun Sanginov",
@@ -459,12 +459,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Jamshed",
+          "pts": 75
         },
         {
-          "name": "Jamshed",
-          "pts": 70
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Faridun Sanginov",
@@ -537,12 +537,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Jamshed",
+          "pts": 75
         },
         {
-          "name": "Jamshed",
-          "pts": 70
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Faridun Sanginov",
@@ -603,12 +603,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Jamshed",
+          "pts": 75
         },
         {
-          "name": "Jamshed",
-          "pts": 70
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Faridun Sanginov",
@@ -666,12 +666,12 @@
           "pts": 89
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 73
+          "name": "Jamshed",
+          "pts": 75
         },
         {
-          "name": "Jamshed",
-          "pts": 70
+          "name": "Sherzod Boymatov",
+          "pts": 73
         },
         {
           "name": "Faridun Sanginov",
