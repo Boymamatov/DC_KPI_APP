@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27 16:31",
+  "updated": "2026-08-28 10:50",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 9,
+        "today_pts": 0,
         "week_pts": 39,
         "month_pts": 164,
         "total_pts": 362,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 13,
         "place_month": 2,
         "streak": 4,
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 212
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -90,11 +90,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 9,
+        "today_pts": 0,
         "week_pts": 9,
         "month_pts": 75,
         "total_pts": 114,
-        "records_today": 2,
+        "records_today": 0,
         "records_week": 2,
         "place_month": 4,
         "streak": 1,
@@ -120,7 +120,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 212
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -185,7 +185,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 212
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -230,14 +230,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 15,
-        "week_pts": 53,
-        "month_pts": 212,
-        "total_pts": 384,
-        "records_today": 4,
-        "records_week": 14,
+        "today_pts": 3,
+        "week_pts": 56,
+        "month_pts": 215,
+        "total_pts": 387,
+        "records_today": 1,
+        "records_week": 15,
         "place_month": 1,
-        "streak": 3,
+        "streak": 4,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
@@ -260,7 +260,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 212
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -298,7 +298,7 @@
         "week_winner",
         "points_200"
       ],
-      "bonus": 212.0
+      "bonus": 215.0
     },
     "1246960566": {
       "user": {
@@ -358,7 +358,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 212
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -448,7 +448,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 212
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -526,7 +526,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 212
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -592,7 +592,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 212
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
@@ -655,7 +655,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 212
+          "pts": 215
         },
         {
           "name": "Иномҷон Юнусов",
