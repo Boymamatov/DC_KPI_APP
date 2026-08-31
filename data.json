@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31 09:49",
+  "updated": "2026-08-31 10:56",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 166,
-        "total_pts": 364,
-        "records_today": 0,
-        "records_week": 0,
+        "today_pts": 3,
+        "week_pts": 3,
+        "month_pts": 169,
+        "total_pts": 367,
+        "records_today": 1,
+        "records_week": 1,
         "place_month": 2,
         "streak": 5,
         "top_work": "📊 Подготовка актов сверки"
@@ -36,7 +36,7 @@
           "urgent": false
         }
       ],
-      "tasks_done_week": 0,
+      "tasks_done_week": 1,
       "expenses": {
         "week": 0.0,
         "month": 0.0,
@@ -45,15 +45,15 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 221
+          "pts": 225
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 166
+          "pts": 169
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 92
+          "pts": 91
         },
         {
           "name": "Jamshed",
@@ -81,7 +81,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 166.0
+      "bonus": 169.0
     },
     "8684586957": {
       "user": {
@@ -109,6 +109,13 @@
           "text": "МАЧЛИС",
           "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
           "urgent": false
+        },
+        {
+          "id": 2,
+          "priority": "🟡 Обычная",
+          "text": "Дастрас пайваст намоед ба хаменатон",
+          "deadline": "Дастрас пайваст намоед ба хаменатон",
+          "urgent": false
         }
       ],
       "tasks_done_week": 0,
@@ -120,15 +127,15 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 221
+          "pts": 225
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 166
+          "pts": 169
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 92
+          "pts": 91
         },
         {
           "name": "Jamshed",
@@ -163,12 +170,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 92,
-        "total_pts": 226,
-        "records_today": 0,
-        "records_week": 0,
+        "today_pts": -1,
+        "week_pts": -1,
+        "month_pts": 91,
+        "total_pts": 225,
+        "records_today": 1,
+        "records_week": 1,
         "place_month": 3,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -185,15 +192,15 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 221
+          "pts": 225
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 166
+          "pts": 169
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 92
+          "pts": 91
         },
         {
           "name": "Jamshed",
@@ -221,7 +228,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 92.0
+      "bonus": 91.0
     },
     "5113964899": {
       "user": {
@@ -230,12 +237,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 3,
-        "month_pts": 221,
-        "total_pts": 393,
-        "records_today": 1,
-        "records_week": 1,
+        "today_pts": 7,
+        "week_pts": 7,
+        "month_pts": 225,
+        "total_pts": 397,
+        "records_today": 2,
+        "records_week": 2,
         "place_month": 1,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -249,6 +256,13 @@
           "text": "магозаи себзорба постерминалро астрас кунед",
           "deadline": "сегодня до 17:00",
           "urgent": false
+        },
+        {
+          "id": 5,
+          "priority": "🟡 Обычная",
+          "text": "Дастрас пайваст намоед ба хаменатон",
+          "deadline": "Дастрас пайваст намоед ба хаменатон",
+          "urgent": false
         }
       ],
       "tasks_done_week": 0,
@@ -260,15 +274,15 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 221
+          "pts": 225
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 166
+          "pts": 169
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 92
+          "pts": 91
         },
         {
           "name": "Jamshed",
@@ -298,7 +312,7 @@
         "week_winner",
         "points_200"
       ],
-      "bonus": 221.0
+      "bonus": 225.0
     },
     "1246960566": {
       "user": {
@@ -347,6 +361,13 @@
           "text": "Санадхоро супоред  нопурра",
           "deadline": "то 10 август",
           "urgent": false
+        },
+        {
+          "id": 5,
+          "priority": "🟡 Обычная",
+          "text": "Дастрас пайваст намоед ба хаменатон",
+          "deadline": "Дастрас пайваст намоед ба хаменатон",
+          "urgent": false
         }
       ],
       "tasks_done_week": 0,
@@ -358,15 +379,15 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 221
+          "pts": 225
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 166
+          "pts": 169
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 92
+          "pts": 91
         },
         {
           "name": "Jamshed",
@@ -437,6 +458,13 @@
           "text": "Бокимонда санадхоя пешниход кунед дар мудати хамин мох",
           "deadline": "Бокимонда санадхоя пешниход кунед дар мудати хамин мох",
           "urgent": false
+        },
+        {
+          "id": 3,
+          "priority": "🟡 Обычная",
+          "text": "Дастрас пайваст намоед ба хаменатон",
+          "deadline": "Дастрас пайваст намоед ба хаменатон",
+          "urgent": false
         }
       ],
       "tasks_done_week": 0,
@@ -448,15 +476,15 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 221
+          "pts": 225
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 166
+          "pts": 169
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 92
+          "pts": 91
         },
         {
           "name": "Jamshed",
@@ -522,6 +550,13 @@
           "text": "Ба сеганч АЗс Ором батарейка расонед постерминал аз кор мондаги",
           "deadline": "Ба сеганч АЗс Ором батарейка расонед постерминал аз кор мондаги",
           "urgent": false
+        },
+        {
+          "id": 6,
+          "priority": "🟡 Обычная",
+          "text": "Дастрас пайваст намоед ба хаменатон",
+          "deadline": "Дастрас пайваст намоед ба хаменатон",
+          "urgent": false
         }
       ],
       "tasks_done_week": 0,
@@ -533,15 +568,15 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 221
+          "pts": 225
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 166
+          "pts": 169
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 92
+          "pts": 91
         },
         {
           "name": "Jamshed",
@@ -599,15 +634,15 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 221
+          "pts": 225
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 166
+          "pts": 169
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 92
+          "pts": 91
         },
         {
           "name": "Jamshed",
@@ -662,15 +697,15 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 221
+          "pts": 225
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 166
+          "pts": 169
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 92
+          "pts": 91
         },
         {
           "name": "Jamshed",
