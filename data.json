@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28 15:06",
+  "updated": "2026-08-31 09:49",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 2,
-        "week_pts": 41,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 166,
         "total_pts": 364,
-        "records_today": 1,
-        "records_week": 14,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 2,
         "streak": 5,
         "top_work": "📊 Подготовка актов сверки"
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 218
+          "pts": 221
         },
         {
           "name": "Иномҷон Юнусов",
@@ -53,7 +53,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 89
+          "pts": 92
         },
         {
           "name": "Jamshed",
@@ -91,11 +91,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 9,
+        "week_pts": 0,
         "month_pts": 75,
         "total_pts": 114,
         "records_today": 0,
-        "records_week": 2,
+        "records_week": 0,
         "place_month": 4,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -120,7 +120,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 218
+          "pts": 221
         },
         {
           "name": "Иномҷон Юнусов",
@@ -128,7 +128,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 89
+          "pts": 92
         },
         {
           "name": "Jamshed",
@@ -164,11 +164,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 23,
-        "month_pts": 89,
-        "total_pts": 223,
+        "week_pts": 0,
+        "month_pts": 92,
+        "total_pts": 226,
         "records_today": 0,
-        "records_week": 5,
+        "records_week": 0,
         "place_month": 3,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -185,7 +185,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 218
+          "pts": 221
         },
         {
           "name": "Иномҷон Юнусов",
@@ -193,7 +193,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 89
+          "pts": 92
         },
         {
           "name": "Jamshed",
@@ -221,7 +221,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 89.0
+      "bonus": 92.0
     },
     "5113964899": {
       "user": {
@@ -230,14 +230,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 6,
-        "week_pts": 59,
-        "month_pts": 218,
-        "total_pts": 390,
-        "records_today": 2,
-        "records_week": 16,
+        "today_pts": 3,
+        "week_pts": 3,
+        "month_pts": 221,
+        "total_pts": 393,
+        "records_today": 1,
+        "records_week": 1,
         "place_month": 1,
-        "streak": 4,
+        "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
@@ -260,7 +260,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 218
+          "pts": 221
         },
         {
           "name": "Иномҷон Юнусов",
@@ -268,7 +268,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 89
+          "pts": 92
         },
         {
           "name": "Jamshed",
@@ -298,7 +298,7 @@
         "week_winner",
         "points_200"
       ],
-      "bonus": 218.0
+      "bonus": 221.0
     },
     "1246960566": {
       "user": {
@@ -358,7 +358,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 218
+          "pts": 221
         },
         {
           "name": "Иномҷон Юнусов",
@@ -366,7 +366,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 89
+          "pts": 92
         },
         {
           "name": "Jamshed",
@@ -448,7 +448,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 218
+          "pts": 221
         },
         {
           "name": "Иномҷон Юнусов",
@@ -456,7 +456,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 89
+          "pts": 92
         },
         {
           "name": "Jamshed",
@@ -515,6 +515,13 @@
           "text": "МАЧЛИС",
           "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
           "urgent": false
+        },
+        {
+          "id": 5,
+          "priority": "🟡 Обычная",
+          "text": "Ба сеганч АЗс Ором батарейка расонед постерминал аз кор мондаги",
+          "deadline": "Ба сеганч АЗс Ором батарейка расонед постерминал аз кор мондаги",
+          "urgent": false
         }
       ],
       "tasks_done_week": 0,
@@ -526,7 +533,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 218
+          "pts": 221
         },
         {
           "name": "Иномҷон Юнусов",
@@ -534,7 +541,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 89
+          "pts": 92
         },
         {
           "name": "Jamshed",
@@ -592,7 +599,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 218
+          "pts": 221
         },
         {
           "name": "Иномҷон Юнусов",
@@ -600,7 +607,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 89
+          "pts": 92
         },
         {
           "name": "Jamshed",
@@ -655,7 +662,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 218
+          "pts": 221
         },
         {
           "name": "Иномҷон Юнусов",
@@ -663,7 +670,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 89
+          "pts": 92
         },
         {
           "name": "Jamshed",
