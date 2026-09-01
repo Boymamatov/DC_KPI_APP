@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 09:15",
+  "updated": "2026-09-01 11:06",
   "employees": {
     "1721561085": {
       "user": {
@@ -426,12 +426,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 4,
-        "month_pts": 4,
-        "total_pts": 305,
-        "records_today": 1,
-        "records_week": 1,
+        "today_pts": 8,
+        "week_pts": 8,
+        "month_pts": 8,
+        "total_pts": 309,
+        "records_today": 2,
+        "records_week": 2,
         "place_month": 1,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -477,7 +477,11 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 4
+          "pts": 8
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 3
         }
       ],
       "badges": [
@@ -488,7 +492,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 4.0
+      "bonus": 8.0
     },
     "1951840787": {
       "user": {
@@ -497,13 +501,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 8,
-        "total_pts": 86,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 8,
+        "today_pts": 3,
+        "week_pts": 3,
+        "month_pts": 3,
+        "total_pts": 89,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 2,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
       },
@@ -518,13 +522,6 @@
           "urgent": false
         },
         {
-          "id": 5,
-          "priority": "🟡 Обычная",
-          "text": "Ба сеганч АЗс Ором батарейка расонед постерминал аз кор мондаги",
-          "deadline": "Ба сеганч АЗс Ором батарейка расонед постерминал аз кор мондаги",
-          "urgent": false
-        },
-        {
           "id": 6,
           "priority": "🟡 Обычная",
           "text": "Дастрас пайваст намоед ба хаменатон",
@@ -532,7 +529,7 @@
           "urgent": false
         }
       ],
-      "tasks_done_week": 0,
+      "tasks_done_week": 1,
       "expenses": {
         "week": 0.0,
         "month": 0.0,
@@ -540,43 +537,19 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 229
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 178
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 91
-        },
-        {
-          "name": "Jamshed",
-          "pts": 75
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 73
-        },
-        {
           "name": "Faridun Sanginov",
-          "pts": 20
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "pts": 8
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 8
+          "pts": 3
         }
       ],
       "badges": [
         "first_work",
         "streak_5"
       ],
-      "bonus": 8.0
+      "bonus": 3.0
     },
     "929013169": {
       "user": {
@@ -607,7 +580,11 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 4
+          "pts": 8
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 3
         }
       ],
       "badges": [],
@@ -642,7 +619,11 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 4
+          "pts": 8
+        },
+        {
+          "name": "Murodjon Juraev",
+          "pts": 3
         }
       ],
       "badges": [],
