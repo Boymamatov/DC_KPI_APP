@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 15:32",
+  "updated": "2026-09-01 16:16",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,14 +8,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 12,
-        "month_pts": 178,
-        "total_pts": 376,
-        "records_today": 0,
-        "records_week": 3,
-        "place_month": 2,
-        "streak": 1,
+        "today_pts": 5,
+        "week_pts": 17,
+        "month_pts": 5,
+        "total_pts": 381,
+        "records_today": 1,
+        "records_week": 4,
+        "place_month": 5,
+        "streak": 2,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -44,36 +44,28 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 229
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 178
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 91
-        },
-        {
-          "name": "Jamshed",
-          "pts": 75
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 73
-        },
-        {
           "name": "Faridun Sanginov",
-          "pts": 20
+          "pts": 15
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 11
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 8
+          "pts": 7
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 5
+        },
+        {
+          "name": "Jamshed",
+          "pts": 2
         }
       ],
       "badges": [
@@ -81,7 +73,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 178.0
+      "bonus": 5.0
     },
     "8684586957": {
       "user": {
@@ -96,7 +88,7 @@
         "total_pts": 116,
         "records_today": 1,
         "records_week": 1,
-        "place_month": 5,
+        "place_month": 6,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -140,6 +132,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 7
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 5
         },
         {
           "name": "Jamshed",
@@ -277,6 +273,10 @@
           "pts": 7
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 5
+        },
+        {
           "name": "Jamshed",
           "pts": 2
         }
@@ -371,6 +371,10 @@
           "pts": 7
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 5
+        },
+        {
           "name": "Jamshed",
           "pts": 2
         }
@@ -456,6 +460,10 @@
           "pts": 7
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 5
+        },
+        {
           "name": "Jamshed",
           "pts": 2
         }
@@ -529,6 +537,10 @@
           "pts": 7
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 5
+        },
+        {
           "name": "Jamshed",
           "pts": 2
         }
@@ -583,6 +595,10 @@
           "pts": 7
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 5
+        },
+        {
           "name": "Jamshed",
           "pts": 2
         }
@@ -632,6 +648,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 7
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 5
         },
         {
           "name": "Jamshed",
