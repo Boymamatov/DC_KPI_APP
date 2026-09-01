@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 11:06",
+  "updated": "2026-09-01 11:09",
   "employees": {
     "1721561085": {
       "user": {
@@ -426,12 +426,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 8,
-        "week_pts": 8,
-        "month_pts": 8,
-        "total_pts": 309,
-        "records_today": 2,
-        "records_week": 2,
+        "today_pts": 11,
+        "week_pts": 11,
+        "month_pts": 11,
+        "total_pts": 312,
+        "records_today": 3,
+        "records_week": 3,
         "place_month": 1,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -477,7 +477,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 8
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -492,7 +492,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 8.0
+      "bonus": 11.0
     },
     "1951840787": {
       "user": {
@@ -538,7 +538,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 8
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -580,7 +580,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 8
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -619,7 +619,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 8
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
