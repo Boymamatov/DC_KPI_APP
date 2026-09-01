@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 14:03",
+  "updated": "2026-09-01 14:49",
   "employees": {
     "1721561085": {
       "user": {
@@ -131,7 +131,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 9
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -306,12 +306,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 9,
-        "week_pts": 9,
-        "month_pts": 9,
-        "total_pts": 184,
-        "records_today": 3,
-        "records_week": 3,
+        "today_pts": 11,
+        "week_pts": 11,
+        "month_pts": 11,
+        "total_pts": 186,
+        "records_today": 4,
+        "records_week": 4,
         "place_month": 2,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -368,7 +368,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 9
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -385,7 +385,7 @@
         "points_100",
         "streak_5"
       ],
-      "bonus": 9.0
+      "bonus": 11.0
     },
     "1449975876": {
       "user": {
@@ -449,7 +449,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 9
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -518,7 +518,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 9
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -568,7 +568,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 9
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -615,7 +615,7 @@
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 9
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
