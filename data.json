@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 14:49",
+  "updated": "2026-09-01 15:30",
   "employees": {
     "1721561085": {
       "user": {
@@ -96,7 +96,7 @@
         "total_pts": 116,
         "records_today": 1,
         "records_week": 1,
-        "place_month": 4,
+        "place_month": 5,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -136,6 +136,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 7
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 4
         },
         {
           "name": "Jamshed",
@@ -221,14 +225,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 11,
-        "month_pts": 229,
-        "total_pts": 401,
-        "records_today": 0,
-        "records_week": 3,
-        "place_month": 1,
-        "streak": 1,
+        "today_pts": 4,
+        "week_pts": 15,
+        "month_pts": 4,
+        "total_pts": 405,
+        "records_today": 1,
+        "records_week": 4,
+        "place_month": 4,
+        "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
@@ -257,36 +261,24 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 229
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 178
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 91
-        },
-        {
-          "name": "Jamshed",
-          "pts": 75
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 73
-        },
-        {
           "name": "Faridun Sanginov",
-          "pts": 20
+          "pts": 15
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 8
+          "pts": 7
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 4
+        },
+        {
+          "name": "Jamshed",
+          "pts": 2
         }
       ],
       "badges": [
@@ -297,7 +289,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 229.0
+      "bonus": 4.0
     },
     "1246960566": {
       "user": {
@@ -373,6 +365,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 7
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 4
         },
         {
           "name": "Jamshed",
@@ -456,6 +452,10 @@
           "pts": 7
         },
         {
+          "name": "Mahkamov",
+          "pts": 4
+        },
+        {
           "name": "Jamshed",
           "pts": 2
         }
@@ -525,6 +525,10 @@
           "pts": 7
         },
         {
+          "name": "Mahkamov",
+          "pts": 4
+        },
+        {
           "name": "Jamshed",
           "pts": 2
         }
@@ -575,6 +579,10 @@
           "pts": 7
         },
         {
+          "name": "Mahkamov",
+          "pts": 4
+        },
+        {
           "name": "Jamshed",
           "pts": 2
         }
@@ -620,6 +628,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 7
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 4
         },
         {
           "name": "Jamshed",
