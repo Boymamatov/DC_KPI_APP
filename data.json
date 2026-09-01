@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 13:21",
+  "updated": "2026-09-01 14:02",
   "employees": {
     "1721561085": {
       "user": {
@@ -96,7 +96,7 @@
         "total_pts": 116,
         "records_today": 1,
         "records_week": 1,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -134,11 +134,11 @@
           "pts": 7
         },
         {
-          "name": "Jamshed",
-          "pts": 2
+          "name": "Абдуллоев Амирчон",
+          "pts": 7
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Jamshed",
           "pts": 2
         }
       ],
@@ -306,13 +306,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 2,
-        "week_pts": 2,
-        "month_pts": 2,
-        "total_pts": 177,
-        "records_today": 1,
-        "records_week": 1,
-        "place_month": 4,
+        "today_pts": 7,
+        "week_pts": 7,
+        "month_pts": 7,
+        "total_pts": 182,
+        "records_today": 2,
+        "records_week": 2,
+        "place_month": 3,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -371,11 +371,11 @@
           "pts": 7
         },
         {
-          "name": "Jamshed",
-          "pts": 2
+          "name": "Абдуллоев Амирчон",
+          "pts": 7
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Jamshed",
           "pts": 2
         }
       ],
@@ -385,7 +385,7 @@
         "points_100",
         "streak_5"
       ],
-      "bonus": 2.0
+      "bonus": 7.0
     },
     "1449975876": {
       "user": {
@@ -452,11 +452,11 @@
           "pts": 7
         },
         {
-          "name": "Jamshed",
-          "pts": 2
+          "name": "Абдуллоев Амирчон",
+          "pts": 7
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Jamshed",
           "pts": 2
         }
       ],
@@ -521,11 +521,11 @@
           "pts": 7
         },
         {
-          "name": "Jamshed",
-          "pts": 2
+          "name": "Абдуллоев Амирчон",
+          "pts": 7
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Jamshed",
           "pts": 2
         }
       ],
@@ -571,11 +571,11 @@
           "pts": 7
         },
         {
-          "name": "Jamshed",
-          "pts": 2
+          "name": "Абдуллоев Амирчон",
+          "pts": 7
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Jamshed",
           "pts": 2
         }
       ],
@@ -618,11 +618,11 @@
           "pts": 7
         },
         {
-          "name": "Jamshed",
-          "pts": 2
+          "name": "Абдуллоев Амирчон",
+          "pts": 7
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Jamshed",
           "pts": 2
         }
       ],
