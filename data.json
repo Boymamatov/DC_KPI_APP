@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 13:13",
+  "updated": "2026-09-01 13:21",
   "employees": {
     "1721561085": {
       "user": {
@@ -90,13 +90,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 75,
-        "total_pts": 114,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 4,
+        "today_pts": 2,
+        "week_pts": 2,
+        "month_pts": 2,
+        "total_pts": 116,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 3,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -126,42 +126,26 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 229
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 178
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 91
-        },
-        {
-          "name": "Jamshed",
-          "pts": 75
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 73
-        },
-        {
           "name": "Faridun Sanginov",
-          "pts": 20
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "pts": 15
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 8
+          "pts": 7
+        },
+        {
+          "name": "Jamshed",
+          "pts": 2
+        },
+        {
+          "name": "Абдуллоев Амирчон",
+          "pts": 2
         }
       ],
       "badges": [
         "first_work"
       ],
-      "bonus": 75.0
+      "bonus": 2.0
     },
     "2045751852": {
       "user": {
@@ -328,7 +312,7 @@
         "total_pts": 177,
         "records_today": 1,
         "records_week": 1,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -385,6 +369,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 7
+        },
+        {
+          "name": "Jamshed",
+          "pts": 2
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -464,6 +452,10 @@
           "pts": 7
         },
         {
+          "name": "Jamshed",
+          "pts": 2
+        },
+        {
           "name": "Абдуллоев Амирчон",
           "pts": 2
         }
@@ -529,6 +521,10 @@
           "pts": 7
         },
         {
+          "name": "Jamshed",
+          "pts": 2
+        },
+        {
           "name": "Абдуллоев Амирчон",
           "pts": 2
         }
@@ -575,6 +571,10 @@
           "pts": 7
         },
         {
+          "name": "Jamshed",
+          "pts": 2
+        },
+        {
           "name": "Абдуллоев Амирчон",
           "pts": 2
         }
@@ -616,6 +616,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 7
+        },
+        {
+          "name": "Jamshed",
+          "pts": 2
         },
         {
           "name": "Абдуллоев Амирчон",
