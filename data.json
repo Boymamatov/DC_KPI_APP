@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 16:16",
+  "updated": "2026-09-01 17:03",
   "employees": {
     "1721561085": {
       "user": {
@@ -14,7 +14,7 @@
         "total_pts": 381,
         "records_today": 1,
         "records_week": 4,
-        "place_month": 5,
+        "place_month": 6,
         "streak": 2,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -60,6 +60,10 @@
           "pts": 7
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 5
+        },
+        {
           "name": "Иномҷон Юнусов",
           "pts": 5
         },
@@ -88,7 +92,7 @@
         "total_pts": 116,
         "records_today": 1,
         "records_week": 1,
-        "place_month": 6,
+        "place_month": 7,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -134,6 +138,10 @@
           "pts": 7
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 5
+        },
+        {
           "name": "Иномҷон Юнусов",
           "pts": 5
         },
@@ -154,13 +162,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": -1,
-        "month_pts": 91,
-        "total_pts": 225,
-        "records_today": 0,
-        "records_week": 1,
-        "place_month": 3,
+        "today_pts": 5,
+        "week_pts": 4,
+        "month_pts": 5,
+        "total_pts": 230,
+        "records_today": 1,
+        "records_week": 2,
+        "place_month": 5,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -175,36 +183,32 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 229
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 178
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 91
-        },
-        {
-          "name": "Jamshed",
-          "pts": 75
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 73
-        },
-        {
           "name": "Faridun Sanginov",
-          "pts": 20
+          "pts": 15
+        },
+        {
+          "name": "Mahkamov",
+          "pts": 11
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 8
+          "pts": 7
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 5
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 5
+        },
+        {
+          "name": "Jamshed",
+          "pts": 2
         }
       ],
       "badges": [
@@ -212,7 +216,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 91.0
+      "bonus": 5.0
     },
     "5113964899": {
       "user": {
@@ -271,6 +275,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 7
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 5
         },
         {
           "name": "Иномҷон Юнусов",
@@ -371,6 +379,10 @@
           "pts": 7
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 5
+        },
+        {
           "name": "Иномҷон Юнусов",
           "pts": 5
         },
@@ -460,6 +472,10 @@
           "pts": 7
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 5
+        },
+        {
           "name": "Иномҷон Юнусов",
           "pts": 5
         },
@@ -537,6 +553,10 @@
           "pts": 7
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 5
+        },
+        {
           "name": "Иномҷон Юнусов",
           "pts": 5
         },
@@ -595,6 +615,10 @@
           "pts": 7
         },
         {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 5
+        },
+        {
           "name": "Иномҷон Юнусов",
           "pts": 5
         },
@@ -648,6 +672,10 @@
         {
           "name": "Murodjon Juraev",
           "pts": 7
+        },
+        {
+          "name": "Абдукаримов Абдулаким",
+          "pts": 5
         },
         {
           "name": "Иномҷон Юнусов",
