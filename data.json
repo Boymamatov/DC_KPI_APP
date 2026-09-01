@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 12:02",
+  "updated": "2026-09-01 12:07",
   "employees": {
     "1721561085": {
       "user": {
@@ -384,7 +384,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 3
+          "pts": 5
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -461,7 +461,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 3
+          "pts": 5
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -485,12 +485,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 3,
-        "month_pts": 3,
-        "total_pts": 89,
-        "records_today": 1,
-        "records_week": 1,
+        "today_pts": 5,
+        "week_pts": 5,
+        "month_pts": 5,
+        "total_pts": 91,
+        "records_today": 2,
+        "records_week": 2,
         "place_month": 2,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
@@ -526,7 +526,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 3
+          "pts": 5
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -537,7 +537,7 @@
         "first_work",
         "streak_5"
       ],
-      "bonus": 3.0
+      "bonus": 5.0
     },
     "929013169": {
       "user": {
@@ -572,7 +572,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 3
+          "pts": 5
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -615,7 +615,7 @@
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 3
+          "pts": 5
         },
         {
           "name": "Абдуллоев Амирчон",
