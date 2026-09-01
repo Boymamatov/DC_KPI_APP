@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 15:31",
+  "updated": "2026-09-01 15:32",
   "employees": {
     "1721561085": {
       "user": {
@@ -130,12 +130,12 @@
           "pts": 15
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
-          "name": "Mahkamov",
-          "pts": 8
+          "name": "Абдуллоев Амирчон",
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -225,13 +225,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 8,
-        "week_pts": 19,
-        "month_pts": 8,
-        "total_pts": 409,
-        "records_today": 2,
-        "records_week": 5,
-        "place_month": 3,
+        "today_pts": 11,
+        "week_pts": 22,
+        "month_pts": 11,
+        "total_pts": 412,
+        "records_today": 3,
+        "records_week": 6,
+        "place_month": 2,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -265,12 +265,12 @@
           "pts": 15
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
-          "name": "Mahkamov",
-          "pts": 8
+          "name": "Абдуллоев Амирчон",
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -289,7 +289,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 8.0
+      "bonus": 11.0
     },
     "1246960566": {
       "user": {
@@ -304,7 +304,7 @@
         "total_pts": 186,
         "records_today": 4,
         "records_week": 4,
-        "place_month": 2,
+        "place_month": 3,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -359,12 +359,12 @@
           "pts": 15
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
-          "name": "Mahkamov",
-          "pts": 8
+          "name": "Абдуллоев Амирчон",
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -444,12 +444,12 @@
           "pts": 15
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
-          "name": "Mahkamov",
-          "pts": 8
+          "name": "Абдуллоев Амирчон",
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -517,12 +517,12 @@
           "pts": 15
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
-          "name": "Mahkamov",
-          "pts": 8
+          "name": "Абдуллоев Амирчон",
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -571,12 +571,12 @@
           "pts": 15
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
-          "name": "Mahkamov",
-          "pts": 8
+          "name": "Абдуллоев Амирчон",
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
@@ -622,12 +622,12 @@
           "pts": 15
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
-          "name": "Mahkamov",
-          "pts": 8
+          "name": "Абдуллоев Амирчон",
+          "pts": 11
         },
         {
           "name": "Murodjon Juraev",
