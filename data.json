@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31 16:10",
+  "updated": "2026-09-01 09:15",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
+        "today_pts": 0,
         "week_pts": 12,
         "month_pts": 178,
         "total_pts": 376,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 3,
         "place_month": 2,
         "streak": 1,
@@ -170,11 +170,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": -1,
+        "today_pts": 0,
         "week_pts": -1,
         "month_pts": 91,
         "total_pts": 225,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 1,
         "place_month": 3,
         "streak": 1,
@@ -237,11 +237,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 11,
+        "today_pts": 0,
         "week_pts": 11,
         "month_pts": 229,
         "total_pts": 401,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 3,
         "place_month": 1,
         "streak": 1,
@@ -310,7 +310,8 @@
         "streak_5",
         "points_100",
         "week_winner",
-        "points_200"
+        "points_200",
+        "month_winner"
       ],
       "bonus": 229.0
     },
@@ -425,13 +426,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 20,
-        "total_pts": 301,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 6,
+        "today_pts": 4,
+        "week_pts": 4,
+        "month_pts": 4,
+        "total_pts": 305,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 1,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -475,36 +476,8 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 229
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 178
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 91
-        },
-        {
-          "name": "Jamshed",
-          "pts": 75
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 73
-        },
-        {
           "name": "Faridun Sanginov",
-          "pts": 20
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 8
+          "pts": 4
         }
       ],
       "badges": [
@@ -515,7 +488,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 20.0
+      "bonus": 4.0
     },
     "1951840787": {
       "user": {
@@ -633,36 +606,8 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 229
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 178
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 91
-        },
-        {
-          "name": "Jamshed",
-          "pts": 75
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 73
-        },
-        {
           "name": "Faridun Sanginov",
-          "pts": 20
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 8
+          "pts": 4
         }
       ],
       "badges": [],
@@ -696,36 +641,8 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 229
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 178
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 91
-        },
-        {
-          "name": "Jamshed",
-          "pts": 75
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 73
-        },
-        {
           "name": "Faridun Sanginov",
-          "pts": 20
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 8
+          "pts": 4
         }
       ],
       "badges": [],
