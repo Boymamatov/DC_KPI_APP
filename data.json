@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 15:30",
+  "updated": "2026-09-01 15:31",
   "employees": {
     "1721561085": {
       "user": {
@@ -134,12 +134,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "name": "Mahkamov",
+          "pts": 8
         },
         {
-          "name": "Mahkamov",
-          "pts": 4
+          "name": "Murodjon Juraev",
+          "pts": 7
         },
         {
           "name": "Jamshed",
@@ -225,13 +225,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 15,
-        "month_pts": 4,
-        "total_pts": 405,
-        "records_today": 1,
-        "records_week": 4,
-        "place_month": 4,
+        "today_pts": 8,
+        "week_pts": 19,
+        "month_pts": 8,
+        "total_pts": 409,
+        "records_today": 2,
+        "records_week": 5,
+        "place_month": 3,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -269,12 +269,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "name": "Mahkamov",
+          "pts": 8
         },
         {
-          "name": "Mahkamov",
-          "pts": 4
+          "name": "Murodjon Juraev",
+          "pts": 7
         },
         {
           "name": "Jamshed",
@@ -289,7 +289,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 4.0
+      "bonus": 8.0
     },
     "1246960566": {
       "user": {
@@ -363,12 +363,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "name": "Mahkamov",
+          "pts": 8
         },
         {
-          "name": "Mahkamov",
-          "pts": 4
+          "name": "Murodjon Juraev",
+          "pts": 7
         },
         {
           "name": "Jamshed",
@@ -448,12 +448,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "name": "Mahkamov",
+          "pts": 8
         },
         {
-          "name": "Mahkamov",
-          "pts": 4
+          "name": "Murodjon Juraev",
+          "pts": 7
         },
         {
           "name": "Jamshed",
@@ -483,7 +483,7 @@
         "total_pts": 93,
         "records_today": 3,
         "records_week": 3,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
       },
@@ -521,12 +521,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "name": "Mahkamov",
+          "pts": 8
         },
         {
-          "name": "Mahkamov",
-          "pts": 4
+          "name": "Murodjon Juraev",
+          "pts": 7
         },
         {
           "name": "Jamshed",
@@ -575,12 +575,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "name": "Mahkamov",
+          "pts": 8
         },
         {
-          "name": "Mahkamov",
-          "pts": 4
+          "name": "Murodjon Juraev",
+          "pts": 7
         },
         {
           "name": "Jamshed",
@@ -626,12 +626,12 @@
           "pts": 11
         },
         {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "name": "Mahkamov",
+          "pts": 8
         },
         {
-          "name": "Mahkamov",
-          "pts": 4
+          "name": "Murodjon Juraev",
+          "pts": 7
         },
         {
           "name": "Jamshed",
