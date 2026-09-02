@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 13:16",
+  "updated": "2026-09-02 13:22",
   "employees": {
     "1721561085": {
       "user": {
@@ -52,11 +52,11 @@
           "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
@@ -130,11 +130,11 @@
           "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
@@ -191,11 +191,11 @@
           "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
@@ -231,7 +231,7 @@
         "total_pts": 412,
         "records_today": 0,
         "records_week": 6,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -269,11 +269,11 @@
           "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
@@ -306,14 +306,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 11,
-        "month_pts": 11,
-        "total_pts": 186,
-        "records_today": 0,
-        "records_week": 4,
-        "place_month": 4,
-        "streak": 1,
+        "today_pts": 2,
+        "week_pts": 13,
+        "month_pts": 13,
+        "total_pts": 188,
+        "records_today": 1,
+        "records_week": 5,
+        "place_month": 3,
+        "streak": 2,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
       "goal": "",
@@ -371,11 +371,11 @@
           "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
@@ -397,7 +397,7 @@
         "points_100",
         "streak_5"
       ],
-      "bonus": 11.0
+      "bonus": 13.0
     },
     "1449975876": {
       "user": {
@@ -464,11 +464,11 @@
           "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
@@ -545,11 +545,11 @@
           "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
@@ -607,11 +607,11 @@
           "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
@@ -666,11 +666,11 @@
           "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
-          "name": "Абдуллоев Амирчон",
+          "name": "Mahkamov",
           "pts": 11
         },
         {
