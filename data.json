@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01 17:04",
+  "updated": "2026-09-02 13:06",
   "employees": {
     "1721561085": {
       "user": {
@@ -9,13 +9,13 @@
       },
       "stats": {
         "today_pts": 5,
-        "week_pts": 17,
-        "month_pts": 5,
-        "total_pts": 381,
+        "week_pts": 22,
+        "month_pts": 10,
+        "total_pts": 386,
         "records_today": 1,
-        "records_week": 4,
-        "place_month": 6,
-        "streak": 2,
+        "records_week": 5,
+        "place_month": 4,
+        "streak": 3,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -56,16 +56,16 @@
           "pts": 11
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 10
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 5
         },
         {
           "name": "Jamshed",
@@ -77,7 +77,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 5.0
+      "bonus": 10.0
     },
     "8684586957": {
       "user": {
@@ -86,11 +86,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 2,
+        "today_pts": 0,
         "week_pts": 2,
         "month_pts": 2,
         "total_pts": 116,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 1,
         "place_month": 7,
         "streak": 1,
@@ -134,16 +134,16 @@
           "pts": 11
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 10
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 5
         },
         {
           "name": "Jamshed",
@@ -162,13 +162,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
+        "today_pts": 0,
         "week_pts": 6,
         "month_pts": 7,
         "total_pts": 232,
-        "records_today": 2,
+        "records_today": 0,
         "records_week": 3,
-        "place_month": 4,
+        "place_month": 5,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -195,16 +195,16 @@
           "pts": 11
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 10
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 5
         },
         {
           "name": "Jamshed",
@@ -225,11 +225,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 11,
+        "today_pts": 0,
         "week_pts": 22,
         "month_pts": 11,
         "total_pts": 412,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 6,
         "place_month": 2,
         "streak": 2,
@@ -273,16 +273,16 @@
           "pts": 11
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 10
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 5
         },
         {
           "name": "Jamshed",
@@ -306,11 +306,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 11,
+        "today_pts": 0,
         "week_pts": 11,
         "month_pts": 11,
         "total_pts": 186,
-        "records_today": 4,
+        "records_today": 0,
         "records_week": 4,
         "place_month": 3,
         "streak": 1,
@@ -375,16 +375,16 @@
           "pts": 11
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 10
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 5
         },
         {
           "name": "Jamshed",
@@ -406,11 +406,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 15,
+        "today_pts": 0,
         "week_pts": 15,
         "month_pts": 15,
         "total_pts": 316,
-        "records_today": 4,
+        "records_today": 0,
         "records_week": 4,
         "place_month": 1,
         "streak": 1,
@@ -468,16 +468,16 @@
           "pts": 11
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 10
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 5
         },
         {
           "name": "Jamshed",
@@ -501,13 +501,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
+        "today_pts": 0,
         "week_pts": 7,
         "month_pts": 7,
         "total_pts": 93,
-        "records_today": 3,
+        "records_today": 0,
         "records_week": 3,
-        "place_month": 5,
+        "place_month": 6,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
       },
@@ -549,16 +549,16 @@
           "pts": 11
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 10
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 5
         },
         {
           "name": "Jamshed",
@@ -611,16 +611,16 @@
           "pts": 11
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 10
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 5
         },
         {
           "name": "Jamshed",
@@ -670,16 +670,16 @@
           "pts": 11
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 10
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 5
         },
         {
           "name": "Jamshed",
