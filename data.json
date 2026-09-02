@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 13:13",
+  "updated": "2026-09-02 13:15",
   "employees": {
     "1721561085": {
       "user": {
@@ -14,7 +14,7 @@
         "total_pts": 386,
         "records_today": 1,
         "records_week": 5,
-        "place_month": 4,
+        "place_month": 5,
         "streak": 3,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -48,6 +48,10 @@
           "pts": 15
         },
         {
+          "name": "Jamshed",
+          "pts": 11
+        },
+        {
           "name": "Mahkamov",
           "pts": 11
         },
@@ -58,10 +62,6 @@
         {
           "name": "Иномҷон Юнусов",
           "pts": 10
-        },
-        {
-          "name": "Jamshed",
-          "pts": 8
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -86,13 +86,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 6,
-        "week_pts": 8,
-        "month_pts": 8,
-        "total_pts": 122,
-        "records_today": 2,
-        "records_week": 3,
-        "place_month": 5,
+        "today_pts": 9,
+        "week_pts": 11,
+        "month_pts": 11,
+        "total_pts": 125,
+        "records_today": 3,
+        "records_week": 4,
+        "place_month": 2,
         "streak": 2,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -126,6 +126,10 @@
           "pts": 15
         },
         {
+          "name": "Jamshed",
+          "pts": 11
+        },
+        {
           "name": "Mahkamov",
           "pts": 11
         },
@@ -136,10 +140,6 @@
         {
           "name": "Иномҷон Юнусов",
           "pts": 10
-        },
-        {
-          "name": "Jamshed",
-          "pts": 8
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -153,7 +153,7 @@
       "badges": [
         "first_work"
       ],
-      "bonus": 8.0
+      "bonus": 11.0
     },
     "2045751852": {
       "user": {
@@ -187,6 +187,10 @@
           "pts": 15
         },
         {
+          "name": "Jamshed",
+          "pts": 11
+        },
+        {
           "name": "Mahkamov",
           "pts": 11
         },
@@ -197,10 +201,6 @@
         {
           "name": "Иномҷон Юнусов",
           "pts": 10
-        },
-        {
-          "name": "Jamshed",
-          "pts": 8
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -231,7 +231,7 @@
         "total_pts": 412,
         "records_today": 0,
         "records_week": 6,
-        "place_month": 2,
+        "place_month": 3,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -265,6 +265,10 @@
           "pts": 15
         },
         {
+          "name": "Jamshed",
+          "pts": 11
+        },
+        {
           "name": "Mahkamov",
           "pts": 11
         },
@@ -275,10 +279,6 @@
         {
           "name": "Иномҷон Юнусов",
           "pts": 10
-        },
-        {
-          "name": "Jamshed",
-          "pts": 8
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -312,7 +312,7 @@
         "total_pts": 186,
         "records_today": 0,
         "records_week": 4,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -367,6 +367,10 @@
           "pts": 15
         },
         {
+          "name": "Jamshed",
+          "pts": 11
+        },
+        {
           "name": "Mahkamov",
           "pts": 11
         },
@@ -377,10 +381,6 @@
         {
           "name": "Иномҷон Юнусов",
           "pts": 10
-        },
-        {
-          "name": "Jamshed",
-          "pts": 8
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -460,6 +460,10 @@
           "pts": 15
         },
         {
+          "name": "Jamshed",
+          "pts": 11
+        },
+        {
           "name": "Mahkamov",
           "pts": 11
         },
@@ -470,10 +474,6 @@
         {
           "name": "Иномҷон Юнусов",
           "pts": 10
-        },
-        {
-          "name": "Jamshed",
-          "pts": 8
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -541,6 +541,10 @@
           "pts": 15
         },
         {
+          "name": "Jamshed",
+          "pts": 11
+        },
+        {
           "name": "Mahkamov",
           "pts": 11
         },
@@ -551,10 +555,6 @@
         {
           "name": "Иномҷон Юнусов",
           "pts": 10
-        },
-        {
-          "name": "Jamshed",
-          "pts": 8
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -603,6 +603,10 @@
           "pts": 15
         },
         {
+          "name": "Jamshed",
+          "pts": 11
+        },
+        {
           "name": "Mahkamov",
           "pts": 11
         },
@@ -613,10 +617,6 @@
         {
           "name": "Иномҷон Юнусов",
           "pts": 10
-        },
-        {
-          "name": "Jamshed",
-          "pts": 8
         },
         {
           "name": "Абдукаримов Абдулаким",
@@ -662,6 +662,10 @@
           "pts": 15
         },
         {
+          "name": "Jamshed",
+          "pts": 11
+        },
+        {
           "name": "Mahkamov",
           "pts": 11
         },
@@ -672,10 +676,6 @@
         {
           "name": "Иномҷон Юнусов",
           "pts": 10
-        },
-        {
-          "name": "Jamshed",
-          "pts": 8
         },
         {
           "name": "Абдукаримов Абдулаким",
