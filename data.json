@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 13:26",
+  "updated": "2026-09-02 13:32",
   "employees": {
     "1721561085": {
       "user": {
@@ -44,11 +44,11 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Mahkamov",
+          "pts": 22
         },
         {
-          "name": "Mahkamov",
+          "name": "Jamshed",
           "pts": 18
         },
         {
@@ -92,7 +92,7 @@
         "total_pts": 132,
         "records_today": 5,
         "records_week": 6,
-        "place_month": 1,
+        "place_month": 2,
         "streak": 2,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -122,11 +122,11 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Mahkamov",
+          "pts": 22
         },
         {
-          "name": "Mahkamov",
+          "name": "Jamshed",
           "pts": 18
         },
         {
@@ -183,11 +183,11 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Mahkamov",
+          "pts": 22
         },
         {
-          "name": "Mahkamov",
+          "name": "Jamshed",
           "pts": 18
         },
         {
@@ -225,13 +225,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
-        "week_pts": 29,
-        "month_pts": 18,
-        "total_pts": 419,
-        "records_today": 2,
-        "records_week": 8,
-        "place_month": 2,
+        "today_pts": 11,
+        "week_pts": 33,
+        "month_pts": 22,
+        "total_pts": 423,
+        "records_today": 3,
+        "records_week": 9,
+        "place_month": 1,
         "streak": 3,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -261,11 +261,11 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Mahkamov",
+          "pts": 22
         },
         {
-          "name": "Mahkamov",
+          "name": "Jamshed",
           "pts": 18
         },
         {
@@ -297,7 +297,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 18.0
+      "bonus": 22.0
     },
     "1246960566": {
       "user": {
@@ -363,11 +363,11 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Mahkamov",
+          "pts": 22
         },
         {
-          "name": "Mahkamov",
+          "name": "Jamshed",
           "pts": 18
         },
         {
@@ -456,11 +456,11 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Mahkamov",
+          "pts": 22
         },
         {
-          "name": "Mahkamov",
+          "name": "Jamshed",
           "pts": 18
         },
         {
@@ -537,11 +537,11 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Mahkamov",
+          "pts": 22
         },
         {
-          "name": "Mahkamov",
+          "name": "Jamshed",
           "pts": 18
         },
         {
@@ -599,11 +599,11 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Mahkamov",
+          "pts": 22
         },
         {
-          "name": "Mahkamov",
+          "name": "Jamshed",
           "pts": 18
         },
         {
@@ -658,11 +658,11 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 18
+          "name": "Mahkamov",
+          "pts": 22
         },
         {
-          "name": "Mahkamov",
+          "name": "Jamshed",
           "pts": 18
         },
         {
