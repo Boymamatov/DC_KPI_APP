@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 13:42",
+  "updated": "2026-09-02 14:36",
   "employees": {
     "1721561085": {
       "user": {
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 32
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -123,7 +123,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 32
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -184,7 +184,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 32
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -225,12 +225,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 21,
-        "week_pts": 43,
-        "month_pts": 32,
-        "total_pts": 433,
-        "records_today": 6,
-        "records_week": 12,
+        "today_pts": 24,
+        "week_pts": 46,
+        "month_pts": 35,
+        "total_pts": 436,
+        "records_today": 7,
+        "records_week": 13,
         "place_month": 1,
         "streak": 3,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -262,7 +262,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 32
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -297,7 +297,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 32.0
+      "bonus": 35.0
     },
     "1246960566": {
       "user": {
@@ -364,7 +364,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 32
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -457,7 +457,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 32
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -538,7 +538,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 32
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -600,7 +600,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 32
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -659,7 +659,7 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 32
+          "pts": 35
         },
         {
           "name": "Jamshed",
