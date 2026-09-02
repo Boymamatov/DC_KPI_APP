@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 13:22",
+  "updated": "2026-09-02 13:25",
   "employees": {
     "1721561085": {
       "user": {
@@ -52,12 +52,12 @@
           "pts": 14
         },
         {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "name": "Mahkamov",
+          "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
           "name": "Иномҷон Юнусов",
@@ -130,12 +130,12 @@
           "pts": 14
         },
         {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "name": "Mahkamov",
+          "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
           "name": "Иномҷон Юнусов",
@@ -191,12 +191,12 @@
           "pts": 14
         },
         {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "name": "Mahkamov",
+          "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
           "name": "Иномҷон Юнусов",
@@ -225,14 +225,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 22,
-        "month_pts": 11,
-        "total_pts": 412,
-        "records_today": 0,
-        "records_week": 6,
-        "place_month": 4,
-        "streak": 2,
+        "today_pts": 3,
+        "week_pts": 25,
+        "month_pts": 14,
+        "total_pts": 415,
+        "records_today": 1,
+        "records_week": 7,
+        "place_month": 3,
+        "streak": 3,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
       "goal": "",
@@ -269,12 +269,12 @@
           "pts": 14
         },
         {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "name": "Mahkamov",
+          "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
           "name": "Иномҷон Юнусов",
@@ -297,7 +297,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 11.0
+      "bonus": 14.0
     },
     "1246960566": {
       "user": {
@@ -312,7 +312,7 @@
         "total_pts": 188,
         "records_today": 1,
         "records_week": 5,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 2,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -371,12 +371,12 @@
           "pts": 14
         },
         {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "name": "Mahkamov",
+          "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
           "name": "Иномҷон Юнусов",
@@ -464,12 +464,12 @@
           "pts": 14
         },
         {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "name": "Mahkamov",
+          "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
           "name": "Иномҷон Юнусов",
@@ -545,12 +545,12 @@
           "pts": 14
         },
         {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "name": "Mahkamov",
+          "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
           "name": "Иномҷон Юнусов",
@@ -607,12 +607,12 @@
           "pts": 14
         },
         {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "name": "Mahkamov",
+          "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
           "name": "Иномҷон Юнусов",
@@ -666,12 +666,12 @@
           "pts": 14
         },
         {
-          "name": "Абдуллоев Амирчон",
-          "pts": 13
+          "name": "Mahkamov",
+          "pts": 14
         },
         {
-          "name": "Mahkamov",
-          "pts": 11
+          "name": "Абдуллоев Амирчон",
+          "pts": 13
         },
         {
           "name": "Иномҷон Юнусов",
