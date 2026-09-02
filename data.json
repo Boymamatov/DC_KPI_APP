@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 13:12",
+  "updated": "2026-09-02 13:13",
   "employees": {
     "1721561085": {
       "user": {
@@ -60,16 +60,16 @@
           "pts": 10
         },
         {
+          "name": "Jamshed",
+          "pts": 8
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Jamshed",
-          "pts": 5
         }
       ],
       "badges": [
@@ -86,13 +86,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 5,
-        "month_pts": 5,
-        "total_pts": 119,
-        "records_today": 1,
-        "records_week": 2,
-        "place_month": 7,
+        "today_pts": 6,
+        "week_pts": 8,
+        "month_pts": 8,
+        "total_pts": 122,
+        "records_today": 2,
+        "records_week": 3,
+        "place_month": 5,
         "streak": 2,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -138,22 +138,22 @@
           "pts": 10
         },
         {
+          "name": "Jamshed",
+          "pts": 8
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Jamshed",
-          "pts": 5
         }
       ],
       "badges": [
         "first_work"
       ],
-      "bonus": 5.0
+      "bonus": 8.0
     },
     "2045751852": {
       "user": {
@@ -168,7 +168,7 @@
         "total_pts": 232,
         "records_today": 0,
         "records_week": 3,
-        "place_month": 5,
+        "place_month": 6,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
       },
@@ -199,16 +199,16 @@
           "pts": 10
         },
         {
+          "name": "Jamshed",
+          "pts": 8
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Jamshed",
-          "pts": 5
         }
       ],
       "badges": [
@@ -277,16 +277,16 @@
           "pts": 10
         },
         {
+          "name": "Jamshed",
+          "pts": 8
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Jamshed",
-          "pts": 5
         }
       ],
       "badges": [
@@ -379,16 +379,16 @@
           "pts": 10
         },
         {
+          "name": "Jamshed",
+          "pts": 8
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Jamshed",
-          "pts": 5
         }
       ],
       "badges": [
@@ -472,16 +472,16 @@
           "pts": 10
         },
         {
+          "name": "Jamshed",
+          "pts": 8
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Jamshed",
-          "pts": 5
         }
       ],
       "badges": [
@@ -507,7 +507,7 @@
         "total_pts": 93,
         "records_today": 0,
         "records_week": 3,
-        "place_month": 6,
+        "place_month": 7,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
       },
@@ -553,16 +553,16 @@
           "pts": 10
         },
         {
+          "name": "Jamshed",
+          "pts": 8
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Jamshed",
-          "pts": 5
         }
       ],
       "badges": [
@@ -615,16 +615,16 @@
           "pts": 10
         },
         {
+          "name": "Jamshed",
+          "pts": 8
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Jamshed",
-          "pts": 5
         }
       ],
       "badges": [],
@@ -674,16 +674,16 @@
           "pts": 10
         },
         {
+          "name": "Jamshed",
+          "pts": 8
+        },
+        {
           "name": "Абдукаримов Абдулаким",
           "pts": 7
         },
         {
           "name": "Murodjon Juraev",
           "pts": 7
-        },
-        {
-          "name": "Jamshed",
-          "pts": 5
         }
       ],
       "badges": [],
