@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03 10:43",
+  "updated": "2026-09-03 15:01",
   "employees": {
     "1721561085": {
       "user": {
@@ -65,7 +65,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 7
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
@@ -143,7 +143,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 7
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
@@ -162,12 +162,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 6,
-        "month_pts": 7,
-        "total_pts": 232,
-        "records_today": 0,
-        "records_week": 3,
+        "today_pts": 2,
+        "week_pts": 8,
+        "month_pts": 9,
+        "total_pts": 234,
+        "records_today": 1,
+        "records_week": 4,
         "place_month": 6,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -204,7 +204,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 7
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
@@ -216,7 +216,7 @@
         "streak_5",
         "points_100"
       ],
-      "bonus": 7.0
+      "bonus": 9.0
     },
     "5113964899": {
       "user": {
@@ -282,7 +282,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 7
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
@@ -384,7 +384,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 7
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
@@ -477,7 +477,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 7
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
@@ -558,7 +558,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 7
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
@@ -620,7 +620,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 7
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
@@ -679,7 +679,7 @@
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 7
+          "pts": 9
         },
         {
           "name": "Murodjon Juraev",
