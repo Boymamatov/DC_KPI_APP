@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03 16:36",
+  "updated": "2026-09-03 16:37",
   "employees": {
     "1721561085": {
       "user": {
@@ -44,12 +44,12 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 32
+          "name": "Mahkamov",
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -122,12 +122,12 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 32
+          "name": "Mahkamov",
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -183,12 +183,12 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 32
+          "name": "Mahkamov",
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -231,7 +231,7 @@
         "total_pts": 436,
         "records_today": 0,
         "records_week": 13,
-        "place_month": 1,
+        "place_month": 2,
         "streak": 3,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -261,12 +261,12 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 32
+          "name": "Mahkamov",
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -363,12 +363,12 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 32
+          "name": "Mahkamov",
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -406,13 +406,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 17,
-        "week_pts": 32,
-        "month_pts": 32,
-        "total_pts": 333,
-        "records_today": 5,
-        "records_week": 9,
-        "place_month": 2,
+        "today_pts": 21,
+        "week_pts": 36,
+        "month_pts": 36,
+        "total_pts": 337,
+        "records_today": 6,
+        "records_week": 10,
+        "place_month": 1,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -456,12 +456,12 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 32
+          "name": "Mahkamov",
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -492,7 +492,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 32.0
+      "bonus": 36.0
     },
     "1951840787": {
       "user": {
@@ -537,12 +537,12 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 32
+          "name": "Mahkamov",
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -599,12 +599,12 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 32
+          "name": "Mahkamov",
+          "pts": 35
         },
         {
           "name": "Jamshed",
@@ -658,12 +658,12 @@
       },
       "rating": [
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 32
+          "name": "Mahkamov",
+          "pts": 35
         },
         {
           "name": "Jamshed",
