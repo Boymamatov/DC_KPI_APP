@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02 15:51",
+  "updated": "2026-09-03 10:39",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 5,
+        "today_pts": 0,
         "week_pts": 22,
         "month_pts": 10,
         "total_pts": 386,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 5,
         "place_month": 5,
         "streak": 3,
@@ -53,7 +53,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 15
+          "pts": 18
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -86,11 +86,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 20,
+        "today_pts": 0,
         "week_pts": 22,
         "month_pts": 22,
         "total_pts": 136,
-        "records_today": 6,
+        "records_today": 0,
         "records_week": 7,
         "place_month": 2,
         "streak": 2,
@@ -131,7 +131,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 15
+          "pts": 18
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -192,7 +192,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 15
+          "pts": 18
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -225,11 +225,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 24,
+        "today_pts": 0,
         "week_pts": 46,
         "month_pts": 35,
         "total_pts": 436,
-        "records_today": 7,
+        "records_today": 0,
         "records_week": 13,
         "place_month": 1,
         "streak": 3,
@@ -270,7 +270,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 15
+          "pts": 18
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -306,11 +306,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 2,
+        "today_pts": 0,
         "week_pts": 13,
         "month_pts": 13,
         "total_pts": 188,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 5,
         "place_month": 4,
         "streak": 2,
@@ -372,7 +372,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 15
+          "pts": 18
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -406,12 +406,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 15,
-        "month_pts": 15,
-        "total_pts": 316,
-        "records_today": 0,
-        "records_week": 4,
+        "today_pts": 3,
+        "week_pts": 18,
+        "month_pts": 18,
+        "total_pts": 319,
+        "records_today": 1,
+        "records_week": 5,
         "place_month": 3,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -465,7 +465,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 15
+          "pts": 18
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -492,7 +492,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 15.0
+      "bonus": 18.0
     },
     "1951840787": {
       "user": {
@@ -546,7 +546,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 15
+          "pts": 18
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -608,7 +608,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 15
+          "pts": 18
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -667,7 +667,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 15
+          "pts": 18
         },
         {
           "name": "Абдуллоев Амирчон",
