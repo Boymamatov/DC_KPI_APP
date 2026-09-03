@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03 10:41",
+  "updated": "2026-09-03 10:43",
   "employees": {
     "1721561085": {
       "user": {
@@ -49,7 +49,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 22
+          "pts": 25
         },
         {
           "name": "Jamshed",
@@ -127,7 +127,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 22
+          "pts": 25
         },
         {
           "name": "Jamshed",
@@ -188,7 +188,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 22
+          "pts": 25
         },
         {
           "name": "Jamshed",
@@ -266,7 +266,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 22
+          "pts": 25
         },
         {
           "name": "Jamshed",
@@ -368,7 +368,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 22
+          "pts": 25
         },
         {
           "name": "Jamshed",
@@ -406,12 +406,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
-        "week_pts": 22,
-        "month_pts": 22,
-        "total_pts": 323,
-        "records_today": 2,
-        "records_week": 6,
+        "today_pts": 10,
+        "week_pts": 25,
+        "month_pts": 25,
+        "total_pts": 326,
+        "records_today": 3,
+        "records_week": 7,
         "place_month": 2,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -461,7 +461,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 22
+          "pts": 25
         },
         {
           "name": "Jamshed",
@@ -492,7 +492,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 22.0
+      "bonus": 25.0
     },
     "1951840787": {
       "user": {
@@ -542,7 +542,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 22
+          "pts": 25
         },
         {
           "name": "Jamshed",
@@ -604,7 +604,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 22
+          "pts": 25
         },
         {
           "name": "Jamshed",
@@ -663,7 +663,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 22
+          "pts": 25
         },
         {
           "name": "Jamshed",
