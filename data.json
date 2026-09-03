@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03 16:39",
+  "updated": "2026-09-03 16:40",
   "employees": {
     "1721561085": {
       "user": {
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 40
+          "pts": 43
         },
         {
           "name": "Faridun Sanginov",
@@ -86,12 +86,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 18,
-        "week_pts": 40,
-        "month_pts": 40,
-        "total_pts": 154,
-        "records_today": 6,
-        "records_week": 13,
+        "today_pts": 21,
+        "week_pts": 43,
+        "month_pts": 43,
+        "total_pts": 157,
+        "records_today": 7,
+        "records_week": 14,
         "place_month": 1,
         "streak": 3,
         "top_work": "📊 Подготовка актов сверки"
@@ -123,7 +123,7 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 40
+          "pts": 43
         },
         {
           "name": "Faridun Sanginov",
@@ -153,7 +153,7 @@
       "badges": [
         "first_work"
       ],
-      "bonus": 40.0
+      "bonus": 43.0
     },
     "2045751852": {
       "user": {
@@ -184,7 +184,7 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 40
+          "pts": 43
         },
         {
           "name": "Faridun Sanginov",
@@ -262,7 +262,7 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 40
+          "pts": 43
         },
         {
           "name": "Faridun Sanginov",
@@ -364,7 +364,7 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 40
+          "pts": 43
         },
         {
           "name": "Faridun Sanginov",
@@ -457,7 +457,7 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 40
+          "pts": 43
         },
         {
           "name": "Faridun Sanginov",
@@ -538,7 +538,7 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 40
+          "pts": 43
         },
         {
           "name": "Faridun Sanginov",
@@ -600,7 +600,7 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 40
+          "pts": 43
         },
         {
           "name": "Faridun Sanginov",
@@ -659,7 +659,7 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 40
+          "pts": 43
         },
         {
           "name": "Faridun Sanginov",
