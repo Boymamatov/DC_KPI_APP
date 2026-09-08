@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08 12:59",
+  "updated": "2026-09-08 13:00",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,13 +8,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 20,
-        "week_pts": 20,
-        "month_pts": 34,
-        "total_pts": 410,
-        "records_today": 6,
-        "records_week": 6,
-        "place_month": 4,
+        "today_pts": 23,
+        "week_pts": 23,
+        "month_pts": 37,
+        "total_pts": 413,
+        "records_today": 7,
+        "records_week": 7,
+        "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -48,16 +48,16 @@
           "pts": 45
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 37
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 36
         },
         {
           "name": "Mahkamov",
           "pts": 35
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 34
         },
         {
           "name": "Sherzod Boymatov",
@@ -81,7 +81,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 34.0
+      "bonus": 37.0
     },
     "8684586957": {
       "user": {
@@ -130,16 +130,16 @@
           "pts": 45
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 37
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 36
         },
         {
           "name": "Mahkamov",
           "pts": 35
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 34
         },
         {
           "name": "Sherzod Boymatov",
@@ -195,16 +195,16 @@
           "pts": 45
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 37
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 36
         },
         {
           "name": "Mahkamov",
           "pts": 35
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 34
         },
         {
           "name": "Sherzod Boymatov",
@@ -243,7 +243,7 @@
         "total_pts": 436,
         "records_today": 0,
         "records_week": 0,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 3,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -277,16 +277,16 @@
           "pts": 45
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 37
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 36
         },
         {
           "name": "Mahkamov",
           "pts": 35
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 34
         },
         {
           "name": "Sherzod Boymatov",
@@ -383,16 +383,16 @@
           "pts": 45
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 37
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 36
         },
         {
           "name": "Mahkamov",
           "pts": 35
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 34
         },
         {
           "name": "Sherzod Boymatov",
@@ -432,7 +432,7 @@
         "total_pts": 337,
         "records_today": 0,
         "records_week": 0,
-        "place_month": 2,
+        "place_month": 3,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -480,16 +480,16 @@
           "pts": 45
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 37
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 36
         },
         {
           "name": "Mahkamov",
           "pts": 35
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 34
         },
         {
           "name": "Sherzod Boymatov",
@@ -565,16 +565,16 @@
           "pts": 45
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 37
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 36
         },
         {
           "name": "Mahkamov",
           "pts": 35
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 34
         },
         {
           "name": "Sherzod Boymatov",
@@ -631,16 +631,16 @@
           "pts": 45
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 37
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 36
         },
         {
           "name": "Mahkamov",
           "pts": 35
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 34
         },
         {
           "name": "Sherzod Boymatov",
@@ -694,16 +694,16 @@
           "pts": 45
         },
         {
+          "name": "Иномҷон Юнусов",
+          "pts": 37
+        },
+        {
           "name": "Faridun Sanginov",
           "pts": 36
         },
         {
           "name": "Mahkamov",
           "pts": 35
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 34
         },
         {
           "name": "Sherzod Boymatov",
