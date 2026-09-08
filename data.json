@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03 17:02",
+  "updated": "2026-09-08 12:52",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,14 +8,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 26,
-        "month_pts": 14,
-        "total_pts": 390,
+        "today_pts": 5,
+        "week_pts": 5,
+        "month_pts": 19,
+        "total_pts": 395,
         "records_today": 1,
-        "records_week": 6,
+        "records_week": 1,
         "place_month": 6,
-        "streak": 4,
+        "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -36,7 +36,7 @@
           "urgent": false
         }
       ],
-      "tasks_done_week": 1,
+      "tasks_done_week": 0,
       "expenses": {
         "week": 0.0,
         "month": 0.0,
@@ -65,7 +65,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 14
+          "pts": 19
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -81,7 +81,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 14.0
+      "bonus": 19.0
     },
     "8684586957": {
       "user": {
@@ -90,12 +90,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 23,
-        "week_pts": 45,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 45,
         "total_pts": 159,
-        "records_today": 8,
-        "records_week": 15,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 1,
         "streak": 3,
         "top_work": "📊 Подготовка актов сверки"
@@ -147,7 +147,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 14
+          "pts": 19
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -170,12 +170,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 17,
-        "week_pts": 23,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 24,
         "total_pts": 249,
-        "records_today": 6,
-        "records_week": 9,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 5,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -212,7 +212,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 14
+          "pts": 19
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -238,11 +238,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 46,
+        "week_pts": 0,
         "month_pts": 35,
         "total_pts": 436,
         "records_today": 0,
-        "records_week": 13,
+        "records_week": 0,
         "place_month": 3,
         "streak": 3,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -294,7 +294,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 14
+          "pts": 19
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -323,11 +323,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 13,
+        "week_pts": 0,
         "month_pts": 13,
         "total_pts": 188,
         "records_today": 0,
-        "records_week": 5,
+        "records_week": 0,
         "place_month": 7,
         "streak": 2,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -400,7 +400,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 14
+          "pts": 19
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -426,12 +426,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 21,
-        "week_pts": 36,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 36,
         "total_pts": 337,
-        "records_today": 6,
-        "records_week": 10,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 2,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -497,7 +497,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 14
+          "pts": 19
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -526,11 +526,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 7,
+        "week_pts": 0,
         "month_pts": 7,
         "total_pts": 93,
         "records_today": 0,
-        "records_week": 3,
+        "records_week": 0,
         "place_month": 8,
         "streak": 1,
         "top_work": "🚗 Выезд к мерчанту"
@@ -553,7 +553,7 @@
           "urgent": false
         }
       ],
-      "tasks_done_week": 1,
+      "tasks_done_week": 0,
       "expenses": {
         "week": 0.0,
         "month": 0.0,
@@ -582,7 +582,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 14
+          "pts": 19
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -648,7 +648,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 14
+          "pts": 19
         },
         {
           "name": "Абдуллоев Амирчон",
@@ -711,7 +711,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 14
+          "pts": 19
         },
         {
           "name": "Абдуллоев Амирчон",
