@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10 10:26",
+  "updated": "2026-09-10 15:58",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 26,
-        "month_pts": 40,
-        "total_pts": 416,
-        "records_today": 0,
-        "records_week": 8,
+        "today_pts": 4,
+        "week_pts": 30,
+        "month_pts": 44,
+        "total_pts": 420,
+        "records_today": 1,
+        "records_week": 9,
         "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -49,7 +49,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 40
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -81,7 +81,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 40.0
+      "bonus": 44.0
     },
     "8684586957": {
       "user": {
@@ -131,7 +131,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 40
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -196,7 +196,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 40
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -278,7 +278,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 40
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -384,7 +384,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 40
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -481,7 +481,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 40
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -566,7 +566,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 40
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -632,7 +632,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 40
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -695,7 +695,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 40
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
