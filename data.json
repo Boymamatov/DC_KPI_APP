@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14 10:52",
+  "updated": "2026-09-14 12:55",
   "employees": {
     "1721561085": {
       "user": {
@@ -14,7 +14,7 @@
         "total_pts": 420,
         "records_today": 0,
         "records_week": 0,
-        "place_month": 2,
+        "place_month": 3,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -48,12 +48,12 @@
           "pts": 107
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 44
+          "name": "Mahkamov",
+          "pts": 46
         },
         {
-          "name": "Mahkamov",
-          "pts": 42
+          "name": "Иномҷон Юнусов",
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -115,12 +115,12 @@
           "pts": 107
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 44
+          "name": "Mahkamov",
+          "pts": 46
         },
         {
-          "name": "Mahkamov",
-          "pts": 42
+          "name": "Иномҷон Юнусов",
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -182,12 +182,12 @@
           "pts": 107
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 44
+          "name": "Mahkamov",
+          "pts": 46
         },
         {
-          "name": "Mahkamov",
-          "pts": 42
+          "name": "Иномҷон Юнусов",
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -224,13 +224,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
-        "week_pts": 7,
-        "month_pts": 42,
-        "total_pts": 443,
-        "records_today": 2,
-        "records_week": 2,
-        "place_month": 3,
+        "today_pts": 11,
+        "week_pts": 11,
+        "month_pts": 46,
+        "total_pts": 447,
+        "records_today": 3,
+        "records_week": 3,
+        "place_month": 2,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -264,12 +264,12 @@
           "pts": 107
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 44
+          "name": "Mahkamov",
+          "pts": 46
         },
         {
-          "name": "Mahkamov",
-          "pts": 42
+          "name": "Иномҷон Юнусов",
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -300,7 +300,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 42.0
+      "bonus": 46.0
     },
     "1246960566": {
       "user": {
@@ -370,12 +370,12 @@
           "pts": 107
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 44
+          "name": "Mahkamov",
+          "pts": 46
         },
         {
-          "name": "Mahkamov",
-          "pts": 42
+          "name": "Иномҷон Юнусов",
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -467,12 +467,12 @@
           "pts": 107
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 44
+          "name": "Mahkamov",
+          "pts": 46
         },
         {
-          "name": "Mahkamov",
-          "pts": 42
+          "name": "Иномҷон Юнусов",
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -552,12 +552,12 @@
           "pts": 107
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 44
+          "name": "Mahkamov",
+          "pts": 46
         },
         {
-          "name": "Mahkamov",
-          "pts": 42
+          "name": "Иномҷон Юнусов",
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -618,12 +618,12 @@
           "pts": 107
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 44
+          "name": "Mahkamov",
+          "pts": 46
         },
         {
-          "name": "Mahkamov",
-          "pts": 42
+          "name": "Иномҷон Юнусов",
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
@@ -681,12 +681,12 @@
           "pts": 107
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 44
+          "name": "Mahkamov",
+          "pts": 46
         },
         {
-          "name": "Mahkamov",
-          "pts": 42
+          "name": "Иномҷон Юнусов",
+          "pts": 44
         },
         {
           "name": "Faridun Sanginov",
