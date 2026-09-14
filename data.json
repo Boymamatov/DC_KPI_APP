@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12 15:42",
+  "updated": "2026-09-14 09:04",
   "employees": {
     "1721561085": {
       "user": {
@@ -9,11 +9,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 30,
+        "week_pts": 0,
         "month_pts": 44,
         "total_pts": 420,
         "records_today": 0,
-        "records_week": 9,
+        "records_week": 0,
         "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -45,19 +45,19 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 101
+          "pts": 107
         },
         {
           "name": "Иномҷон Юнусов",
           "pts": 44
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
+          "name": "Mahkamov",
+          "pts": 38
         },
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
           "name": "Sherzod Boymatov",
@@ -90,34 +90,19 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 56,
-        "month_pts": 101,
-        "total_pts": 215,
-        "records_today": 1,
-        "records_week": 18,
+        "today_pts": 0,
+        "week_pts": 0,
+        "month_pts": 107,
+        "total_pts": 221,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 1,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
       "mood_today": "",
-      "tasks": [
-        {
-          "id": 1,
-          "priority": "🟡 Обычная",
-          "text": "МАЧЛИС",
-          "deadline": "ТО 16:20 ХАМА ОФИСИ СТАДИОНБА ЧАМЬ ШАВАД МАЧЛИС",
-          "urgent": false
-        },
-        {
-          "id": 2,
-          "priority": "🟡 Обычная",
-          "text": "Дастрас пайваст намоед ба хаменатон",
-          "deadline": "Дастрас пайваст намоед ба хаменатон",
-          "urgent": false
-        }
-      ],
+      "tasks": [],
       "tasks_done_week": 0,
       "expenses": {
         "week": 0.0,
@@ -127,19 +112,19 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 101
+          "pts": 107
         },
         {
           "name": "Иномҷон Юнусов",
           "pts": 44
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
+          "name": "Mahkamov",
+          "pts": 38
         },
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
           "name": "Sherzod Boymatov",
@@ -160,9 +145,10 @@
       ],
       "badges": [
         "first_work",
-        "week_winner"
+        "week_winner",
+        "points_100"
       ],
-      "bonus": 101.0
+      "bonus": 107.0
     },
     "2045751852": {
       "user": {
@@ -193,19 +179,19 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 101
+          "pts": 107
         },
         {
           "name": "Иномҷон Юнусов",
           "pts": 44
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
+          "name": "Mahkamov",
+          "pts": 38
         },
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
           "name": "Sherzod Boymatov",
@@ -238,17 +224,17 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 35,
-        "total_pts": 436,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 4,
-        "streak": 3,
+        "today_pts": 3,
+        "week_pts": 3,
+        "month_pts": 38,
+        "total_pts": 439,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 3,
+        "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
-      "goal": "",
+      "goal": "Подключить 1 Мерчант минимум",
       "mood_today": "",
       "tasks": [
         {
@@ -275,19 +261,19 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 101
+          "pts": 107
         },
         {
           "name": "Иномҷон Юнусов",
           "pts": 44
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
+          "name": "Mahkamov",
+          "pts": 38
         },
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
           "name": "Sherzod Boymatov",
@@ -314,7 +300,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 35.0
+      "bonus": 38.0
     },
     "1246960566": {
       "user": {
@@ -324,11 +310,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 4,
+        "week_pts": 0,
         "month_pts": 17,
         "total_pts": 192,
         "records_today": 0,
-        "records_week": 2,
+        "records_week": 0,
         "place_month": 7,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -381,19 +367,19 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 101
+          "pts": 107
         },
         {
           "name": "Иномҷон Юнусов",
           "pts": 44
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
+          "name": "Mahkamov",
+          "pts": 38
         },
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
           "name": "Sherzod Boymatov",
@@ -433,7 +419,7 @@
         "total_pts": 337,
         "records_today": 0,
         "records_week": 0,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -478,19 +464,19 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 101
+          "pts": 107
         },
         {
           "name": "Иномҷон Юнусов",
           "pts": 44
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
+          "name": "Mahkamov",
+          "pts": 38
         },
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
           "name": "Sherzod Boymatov",
@@ -563,19 +549,19 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 101
+          "pts": 107
         },
         {
           "name": "Иномҷон Юнусов",
           "pts": 44
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
+          "name": "Mahkamov",
+          "pts": 38
         },
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
           "name": "Sherzod Boymatov",
@@ -629,19 +615,19 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 101
+          "pts": 107
         },
         {
           "name": "Иномҷон Юнусов",
           "pts": 44
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
+          "name": "Mahkamov",
+          "pts": 38
         },
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
           "name": "Sherzod Boymatov",
@@ -692,19 +678,19 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 101
+          "pts": 107
         },
         {
           "name": "Иномҷон Юнусов",
           "pts": 44
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
+          "name": "Mahkamov",
+          "pts": 38
         },
         {
-          "name": "Mahkamov",
-          "pts": 35
+          "name": "Faridun Sanginov",
+          "pts": 36
         },
         {
           "name": "Sherzod Boymatov",
