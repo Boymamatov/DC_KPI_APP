@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15 16:18",
+  "updated": "2026-09-21 11:06",
   "employees": {
     "1721561085": {
       "user": {
@@ -90,12 +90,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 27,
-        "week_pts": 27,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 134,
         "total_pts": 248,
-        "records_today": 9,
-        "records_week": 9,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 1,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -224,17 +224,17 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 16,
-        "week_pts": 39,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 74,
         "total_pts": 475,
-        "records_today": 4,
-        "records_week": 10,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 2,
         "streak": 2,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
-      "goal": "Подключить 1 Мерчант минимум",
+      "goal": "",
       "mood_today": "",
       "tasks": [
         {
