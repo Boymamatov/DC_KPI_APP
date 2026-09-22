@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22 16:49",
+  "updated": "2026-09-22 16:50",
   "employees": {
     "1721561085": {
       "user": {
@@ -49,7 +49,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 103
         },
         {
           "name": "Иномҷон Юнусов",
@@ -116,7 +116,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 103
         },
         {
           "name": "Иномҷон Юнусов",
@@ -183,7 +183,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 103
         },
         {
           "name": "Иномҷон Юнусов",
@@ -224,12 +224,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 25,
-        "week_pts": 25,
-        "month_pts": 99,
-        "total_pts": 500,
-        "records_today": 7,
-        "records_week": 7,
+        "today_pts": 29,
+        "week_pts": 29,
+        "month_pts": 103,
+        "total_pts": 504,
+        "records_today": 8,
+        "records_week": 8,
         "place_month": 2,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -265,7 +265,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 103
         },
         {
           "name": "Иномҷон Юнусов",
@@ -300,7 +300,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 99.0
+      "bonus": 103.0
     },
     "1246960566": {
       "user": {
@@ -371,7 +371,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 103
         },
         {
           "name": "Иномҷон Юнусов",
@@ -468,7 +468,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 103
         },
         {
           "name": "Иномҷон Юнусов",
@@ -553,7 +553,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 103
         },
         {
           "name": "Иномҷон Юнусов",
@@ -619,7 +619,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 103
         },
         {
           "name": "Иномҷон Юнусов",
@@ -682,7 +682,7 @@
         },
         {
           "name": "Mahkamov",
-          "pts": 99
+          "pts": 103
         },
         {
           "name": "Иномҷон Юнусов",
