@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25 23:23",
+  "updated": "2026-10-01 19:26",
   "employees": {
     "1721561085": {
       "user": {
@@ -9,11 +9,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 12,
+        "week_pts": 0,
         "month_pts": 56,
         "total_pts": 432,
         "records_today": 0,
-        "records_week": 3,
+        "records_week": 0,
         "place_month": 3,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -91,11 +91,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 48,
+        "week_pts": 0,
         "month_pts": 182,
         "total_pts": 296,
         "records_today": 0,
-        "records_week": 15,
+        "records_week": 0,
         "place_month": 1,
         "streak": 2,
         "top_work": "📊 Подготовка актов сверки"
@@ -225,11 +225,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 29,
+        "week_pts": 0,
         "month_pts": 103,
         "total_pts": 504,
         "records_today": 0,
-        "records_week": 8,
+        "records_week": 0,
         "place_month": 2,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
@@ -310,11 +310,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 5,
+        "week_pts": 0,
         "month_pts": 22,
         "total_pts": 197,
         "records_today": 0,
-        "records_week": 1,
+        "records_week": 0,
         "place_month": 7,
         "streak": 1,
         "top_work": "📞 Телефонный разговор с мерчантом"
@@ -614,36 +614,44 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 182
-        },
-        {
           "name": "Mahkamov",
-          "pts": 103
+          "pts": 504
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 56
+          "pts": 432
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 36
+          "pts": 337
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 29
+          "name": "Jamshed",
+          "pts": 296
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 24
+          "pts": 249
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 22
+          "pts": 197
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 125
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 7
+          "pts": 93
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Zafarbek",
+          "pts": 3
         }
       ],
       "badges": [],
@@ -677,36 +685,44 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 182
-        },
-        {
           "name": "Mahkamov",
-          "pts": 103
+          "pts": 504
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 56
+          "pts": 432
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 36
+          "pts": 337
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 29
+          "name": "Jamshed",
+          "pts": 296
         },
         {
           "name": "Абдукаримов Абдулаким",
-          "pts": 24
+          "pts": 249
         },
         {
           "name": "Абдуллоев Амирчон",
-          "pts": 22
+          "pts": 197
+        },
+        {
+          "name": "Sherzod Boymatov",
+          "pts": 125
         },
         {
           "name": "Murodjon Juraev",
-          "pts": 7
+          "pts": 93
+        },
+        {
+          "name": "Saidjon Zokirov",
+          "pts": 82
+        },
+        {
+          "name": "Zafarbek",
+          "pts": 3
         }
       ],
       "badges": [],
