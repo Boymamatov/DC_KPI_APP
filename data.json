@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01 19:26",
+  "updated": "2026-10-02 13:41",
   "employees": {
     "1721561085": {
       "user": {
@@ -224,13 +224,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 103,
-        "total_pts": 504,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 2,
+        "today_pts": 3,
+        "week_pts": 3,
+        "month_pts": 3,
+        "total_pts": 507,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 1,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -260,36 +260,8 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 182
-        },
-        {
           "name": "Mahkamov",
-          "pts": 103
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 56
-        },
-        {
-          "name": "Faridun Sanginov",
-          "pts": 36
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 29
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 24
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 22
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "pts": 3
         }
       ],
       "badges": [
@@ -300,7 +272,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 103.0
+      "bonus": 3.0
     },
     "1246960566": {
       "user": {
@@ -615,42 +587,6 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 504
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 432
-        },
-        {
-          "name": "Faridun Sanginov",
-          "pts": 337
-        },
-        {
-          "name": "Jamshed",
-          "pts": 296
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 249
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 197
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 125
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 93
-        },
-        {
-          "name": "Saidjon Zokirov",
-          "pts": 82
-        },
-        {
-          "name": "Zafarbek",
           "pts": 3
         }
       ],
@@ -686,42 +622,6 @@
       "rating": [
         {
           "name": "Mahkamov",
-          "pts": 504
-        },
-        {
-          "name": "Иномҷон Юнусов",
-          "pts": 432
-        },
-        {
-          "name": "Faridun Sanginov",
-          "pts": 337
-        },
-        {
-          "name": "Jamshed",
-          "pts": 296
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 249
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 197
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 125
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 93
-        },
-        {
-          "name": "Saidjon Zokirov",
-          "pts": 82
-        },
-        {
-          "name": "Zafarbek",
           "pts": 3
         }
       ],
