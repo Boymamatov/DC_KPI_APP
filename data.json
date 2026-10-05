@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02 15:41",
+  "updated": "2026-10-05 18:02",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,13 +8,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 4,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 4,
         "total_pts": 436,
-        "records_today": 1,
-        "records_week": 1,
-        "place_month": 1,
+        "records_today": 0,
+        "records_week": 0,
+        "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -44,6 +44,10 @@
       },
       "rating": [
         {
+          "name": "Jamshed",
+          "pts": 4
+        },
+        {
           "name": "Иномҷон Юнусов",
           "pts": 4
         },
@@ -66,14 +70,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 182,
-        "total_pts": 296,
-        "records_today": 0,
-        "records_week": 0,
+        "today_pts": 4,
+        "week_pts": 4,
+        "month_pts": 4,
+        "total_pts": 300,
+        "records_today": 1,
+        "records_week": 1,
         "place_month": 1,
-        "streak": 2,
+        "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -88,35 +92,15 @@
       "rating": [
         {
           "name": "Jamshed",
-          "pts": 182
-        },
-        {
-          "name": "Mahkamov",
-          "pts": 103
+          "pts": 4
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 56
+          "pts": 4
         },
         {
-          "name": "Faridun Sanginov",
-          "pts": 36
-        },
-        {
-          "name": "Sherzod Boymatov",
-          "pts": 29
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 24
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 22
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "name": "Mahkamov",
+          "pts": 3
         }
       ],
       "badges": [
@@ -124,7 +108,7 @@
         "week_winner",
         "points_100"
       ],
-      "bonus": 182.0
+      "bonus": 4.0
     },
     "2045751852": {
       "user": {
@@ -200,13 +184,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
-        "week_pts": 3,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 3,
         "total_pts": 507,
-        "records_today": 1,
-        "records_week": 1,
-        "place_month": 2,
+        "records_today": 0,
+        "records_week": 0,
+        "place_month": 3,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -235,6 +219,10 @@
         "limit": 0
       },
       "rating": [
+        {
+          "name": "Jamshed",
+          "pts": 4
+        },
         {
           "name": "Иномҷон Юнусов",
           "pts": 4
@@ -566,6 +554,10 @@
       },
       "rating": [
         {
+          "name": "Jamshed",
+          "pts": 4
+        },
+        {
           "name": "Иномҷон Юнусов",
           "pts": 4
         },
@@ -604,6 +596,10 @@
         "limit": 0
       },
       "rating": [
+        {
+          "name": "Jamshed",
+          "pts": 4
+        },
         {
           "name": "Иномҷон Юнусов",
           "pts": 4
