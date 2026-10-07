@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05 18:04",
+  "updated": "2026-10-07 23:04",
   "employees": {
     "1721561085": {
       "user": {
@@ -70,11 +70,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 7,
+        "today_pts": 0,
         "week_pts": 7,
         "month_pts": 7,
         "total_pts": 303,
-        "records_today": 2,
+        "records_today": 0,
         "records_week": 2,
         "place_month": 1,
         "streak": 1,
