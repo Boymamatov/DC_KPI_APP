@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19 14:02",
+  "updated": "2026-10-19 14:04",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 22,
-        "week_pts": 22,
-        "month_pts": 26,
-        "total_pts": 458,
-        "records_today": 6,
-        "records_week": 6,
+        "today_pts": 25,
+        "week_pts": 25,
+        "month_pts": 29,
+        "total_pts": 461,
+        "records_today": 7,
+        "records_week": 7,
         "place_month": 1,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 29
         },
         {
           "name": "Jamshed",
@@ -61,7 +61,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 26.0
+      "bonus": 29.0
     },
     "8684586957": {
       "user": {
@@ -92,7 +92,7 @@
       "rating": [
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 29
         },
         {
           "name": "Jamshed",
@@ -221,7 +221,7 @@
       "rating": [
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 29
         },
         {
           "name": "Jamshed",
@@ -555,7 +555,7 @@
       "rating": [
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 29
         },
         {
           "name": "Jamshed",
@@ -598,7 +598,7 @@
       "rating": [
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 29
         },
         {
           "name": "Jamshed",
@@ -641,7 +641,7 @@
       "rating": [
         {
           "name": "Иномҷон Юнусов",
-          "pts": 26
+          "pts": 29
         },
         {
           "name": "Jamshed",
