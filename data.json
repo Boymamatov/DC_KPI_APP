@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19 13:19",
+  "updated": "2026-10-19 13:55",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,13 +8,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 4,
-        "month_pts": 8,
-        "total_pts": 440,
-        "records_today": 1,
-        "records_week": 1,
-        "place_month": 2,
+        "today_pts": 8,
+        "week_pts": 8,
+        "month_pts": 12,
+        "total_pts": 444,
+        "records_today": 2,
+        "records_week": 2,
+        "place_month": 1,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -44,12 +44,12 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 10
+          "name": "Иномҷон Юнусов",
+          "pts": 12
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 8
+          "name": "Jamshed",
+          "pts": 10
         },
         {
           "name": "Mahkamov",
@@ -61,7 +61,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 8.0
+      "bonus": 12.0
     },
     "8684586957": {
       "user": {
@@ -76,7 +76,7 @@
         "total_pts": 306,
         "records_today": 1,
         "records_week": 1,
-        "place_month": 1,
+        "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -91,12 +91,12 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 10
+          "name": "Иномҷон Юнусов",
+          "pts": 12
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 8
+          "name": "Jamshed",
+          "pts": 10
         },
         {
           "name": "Mahkamov",
@@ -220,12 +220,12 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 10
+          "name": "Иномҷон Юнусов",
+          "pts": 12
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 8
+          "name": "Jamshed",
+          "pts": 10
         },
         {
           "name": "Mahkamov",
@@ -554,12 +554,12 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 10
+          "name": "Иномҷон Юнусов",
+          "pts": 12
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 8
+          "name": "Jamshed",
+          "pts": 10
         },
         {
           "name": "Mahkamov",
@@ -597,12 +597,12 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 10
+          "name": "Иномҷон Юнусов",
+          "pts": 12
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 8
+          "name": "Jamshed",
+          "pts": 10
         },
         {
           "name": "Mahkamov",
@@ -640,12 +640,12 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 10
+          "name": "Иномҷон Юнусов",
+          "pts": 12
         },
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 8
+          "name": "Jamshed",
+          "pts": 10
         },
         {
           "name": "Mahkamov",
