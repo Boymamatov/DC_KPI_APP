@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19 12:27",
+  "updated": "2026-10-19 13:19",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 4,
-        "total_pts": 436,
-        "records_today": 0,
-        "records_week": 0,
+        "today_pts": 4,
+        "week_pts": 4,
+        "month_pts": 8,
+        "total_pts": 440,
+        "records_today": 1,
+        "records_week": 1,
         "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -49,7 +49,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Mahkamov",
@@ -61,7 +61,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 4.0
+      "bonus": 8.0
     },
     "8684586957": {
       "user": {
@@ -96,7 +96,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Mahkamov",
@@ -225,7 +225,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Mahkamov",
@@ -559,7 +559,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Mahkamov",
@@ -602,7 +602,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Mahkamov",
@@ -645,7 +645,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 4
+          "pts": 8
         },
         {
           "name": "Mahkamov",
