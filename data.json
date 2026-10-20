@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19 14:13",
+  "updated": "2026-10-20 14:41",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,11 +8,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 40,
+        "today_pts": 0,
         "week_pts": 40,
         "month_pts": 44,
         "total_pts": 476,
-        "records_today": 12,
+        "records_today": 0,
         "records_week": 12,
         "place_month": 1,
         "streak": 1,
@@ -70,11 +70,11 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 3,
+        "today_pts": 0,
         "week_pts": 3,
         "month_pts": 10,
         "total_pts": 306,
-        "records_today": 1,
+        "records_today": 0,
         "records_week": 1,
         "place_month": 2,
         "streak": 1,
