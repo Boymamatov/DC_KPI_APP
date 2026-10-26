@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22 15:15",
+  "updated": "2026-10-26 11:39",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 44,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 48,
         "total_pts": 480,
-        "records_today": 1,
-        "records_week": 13,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 1,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -52,6 +52,10 @@
           "pts": 10
         },
         {
+          "name": "Faridun Sanginov",
+          "pts": 4
+        },
+        {
           "name": "Mahkamov",
           "pts": 3
         }
@@ -71,11 +75,11 @@
       },
       "stats": {
         "today_pts": 0,
-        "week_pts": 3,
+        "week_pts": 0,
         "month_pts": 10,
         "total_pts": 306,
         "records_today": 0,
-        "records_week": 1,
+        "records_week": 0,
         "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -97,6 +101,10 @@
         {
           "name": "Jamshed",
           "pts": 10
+        },
+        {
+          "name": "Faridun Sanginov",
+          "pts": 4
         },
         {
           "name": "Mahkamov",
@@ -190,7 +198,7 @@
         "total_pts": 507,
         "records_today": 0,
         "records_week": 0,
-        "place_month": 3,
+        "place_month": 4,
         "streak": 1,
         "top_work": "📊 Ежедневный мониторинг транзакций"
       },
@@ -226,6 +234,10 @@
         {
           "name": "Jamshed",
           "pts": 10
+        },
+        {
+          "name": "Faridun Sanginov",
+          "pts": 4
         },
         {
           "name": "Mahkamov",
@@ -353,13 +365,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 36,
-        "total_pts": 337,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 4,
+        "today_pts": 4,
+        "week_pts": 4,
+        "month_pts": 4,
+        "total_pts": 341,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 3,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
       },
@@ -403,36 +415,20 @@
       },
       "rating": [
         {
-          "name": "Jamshed",
-          "pts": 182
-        },
-        {
-          "name": "Mahkamov",
-          "pts": 103
-        },
-        {
           "name": "Иномҷон Юнусов",
-          "pts": 56
+          "pts": 48
+        },
+        {
+          "name": "Jamshed",
+          "pts": 10
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 36
+          "pts": 4
         },
         {
-          "name": "Sherzod Boymatov",
-          "pts": 29
-        },
-        {
-          "name": "Абдукаримов Абдулаким",
-          "pts": 24
-        },
-        {
-          "name": "Абдуллоев Амирчон",
-          "pts": 22
-        },
-        {
-          "name": "Murodjon Juraev",
-          "pts": 7
+          "name": "Mahkamov",
+          "pts": 3
         }
       ],
       "badges": [
@@ -443,7 +439,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 36.0
+      "bonus": 4.0
     },
     "1951840787": {
       "user": {
@@ -562,6 +558,10 @@
           "pts": 10
         },
         {
+          "name": "Faridun Sanginov",
+          "pts": 4
+        },
+        {
           "name": "Mahkamov",
           "pts": 3
         }
@@ -605,6 +605,10 @@
           "pts": 10
         },
         {
+          "name": "Faridun Sanginov",
+          "pts": 4
+        },
+        {
           "name": "Mahkamov",
           "pts": 3
         }
@@ -646,6 +650,10 @@
         {
           "name": "Jamshed",
           "pts": 10
+        },
+        {
+          "name": "Faridun Sanginov",
+          "pts": 4
         },
         {
           "name": "Mahkamov",
