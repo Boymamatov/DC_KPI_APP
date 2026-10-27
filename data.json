@@ -49,7 +49,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 17
         },
         {
           "name": "Jamshed",
@@ -100,7 +100,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 17
         },
         {
           "name": "Jamshed",
@@ -233,7 +233,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 17
         },
         {
           "name": "Jamshed",
@@ -365,12 +365,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 5,
-        "week_pts": 12,
-        "month_pts": 12,
-        "total_pts": 349,
-        "records_today": 1,
-        "records_week": 3,
+        "today_pts": 10,
+        "week_pts": 17,
+        "month_pts": 17,
+        "total_pts": 354,
+        "records_today": 2,
+        "records_week": 4,
         "place_month": 2,
         "streak": 2,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -420,7 +420,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 17
         },
         {
           "name": "Jamshed",
@@ -439,7 +439,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 12.0
+      "bonus": 17.0
     },
     "1951840787": {
       "user": {
@@ -555,7 +555,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 17
         },
         {
           "name": "Jamshed",
@@ -602,7 +602,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 17
         },
         {
           "name": "Jamshed",
@@ -649,7 +649,7 @@
         },
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 17
         },
         {
           "name": "Jamshed",
