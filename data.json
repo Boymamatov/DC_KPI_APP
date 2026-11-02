@@ -365,12 +365,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 8,
-        "week_pts": 8,
-        "month_pts": 8,
-        "total_pts": 373,
-        "records_today": 2,
-        "records_week": 2,
+        "today_pts": 12,
+        "week_pts": 12,
+        "month_pts": 12,
+        "total_pts": 377,
+        "records_today": 3,
+        "records_week": 3,
         "place_month": 1,
         "streak": 1,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -416,7 +416,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 8
+          "pts": 12
         }
       ],
       "badges": [
@@ -427,7 +427,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 8.0
+      "bonus": 12.0
     },
     "1951840787": {
       "user": {
@@ -539,7 +539,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 8
+          "pts": 12
         }
       ],
       "badges": [],
@@ -574,7 +574,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 8
+          "pts": 12
         }
       ],
       "badges": [],
@@ -609,7 +609,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 8
+          "pts": 12
         }
       ],
       "badges": [],
