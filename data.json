@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02 15:44",
+  "updated": "2026-11-03 11:29",
   "employees": {
     "1721561085": {
       "user": {
@@ -365,14 +365,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 12,
-        "week_pts": 12,
-        "month_pts": 12,
-        "total_pts": 377,
-        "records_today": 3,
-        "records_week": 3,
+        "today_pts": 4,
+        "week_pts": 16,
+        "month_pts": 16,
+        "total_pts": 381,
+        "records_today": 1,
+        "records_week": 4,
         "place_month": 1,
-        "streak": 1,
+        "streak": 2,
         "top_work": "🔧 Решение проблем мерчанта"
       },
       "goal": "",
@@ -416,7 +416,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 16
         }
       ],
       "badges": [
@@ -427,7 +427,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 12.0
+      "bonus": 16.0
     },
     "1951840787": {
       "user": {
@@ -539,7 +539,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 16
         }
       ],
       "badges": [],
@@ -574,7 +574,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 16
         }
       ],
       "badges": [],
@@ -609,7 +609,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 12
+          "pts": 16
         }
       ],
       "badges": [],
