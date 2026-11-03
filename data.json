@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03 11:31",
+  "updated": "2026-11-03 15:36",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,13 +8,13 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 48,
-        "total_pts": 480,
-        "records_today": 0,
-        "records_week": 0,
-        "place_month": 1,
+        "today_pts": 4,
+        "week_pts": 4,
+        "month_pts": 4,
+        "total_pts": 484,
+        "records_today": 1,
+        "records_week": 1,
+        "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
@@ -44,20 +44,12 @@
       },
       "rating": [
         {
-          "name": "Иномҷон Юнусов",
-          "pts": 48
-        },
-        {
           "name": "Faridun Sanginov",
-          "pts": 28
+          "pts": 23
         },
         {
-          "name": "Jamshed",
-          "pts": 10
-        },
-        {
-          "name": "Mahkamov",
-          "pts": 3
+          "name": "Иномҷон Юнусов",
+          "pts": 4
         }
       ],
       "badges": [
@@ -65,7 +57,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 48.0
+      "bonus": 4.0
     },
     "8684586957": {
       "user": {
@@ -417,6 +409,10 @@
         {
           "name": "Faridun Sanginov",
           "pts": 23
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 4
         }
       ],
       "badges": [
@@ -540,6 +536,10 @@
         {
           "name": "Faridun Sanginov",
           "pts": 23
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 4
         }
       ],
       "badges": [],
@@ -575,6 +575,10 @@
         {
           "name": "Faridun Sanginov",
           "pts": 23
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 4
         }
       ],
       "badges": [],
@@ -610,6 +614,10 @@
         {
           "name": "Faridun Sanginov",
           "pts": 23
+        },
+        {
+          "name": "Иномҷон Юнусов",
+          "pts": 4
         }
       ],
       "badges": [],
