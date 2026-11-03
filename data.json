@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03 15:36",
+  "updated": "2026-11-03 16:02",
   "employees": {
     "1721561085": {
       "user": {
@@ -45,7 +45,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 23
+          "pts": 27
         },
         {
           "name": "Иномҷон Юнусов",
@@ -357,12 +357,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 11,
-        "week_pts": 23,
-        "month_pts": 23,
-        "total_pts": 388,
-        "records_today": 3,
-        "records_week": 6,
+        "today_pts": 15,
+        "week_pts": 27,
+        "month_pts": 27,
+        "total_pts": 392,
+        "records_today": 4,
+        "records_week": 7,
         "place_month": 1,
         "streak": 2,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -408,7 +408,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 23
+          "pts": 27
         },
         {
           "name": "Иномҷон Юнусов",
@@ -423,7 +423,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 23.0
+      "bonus": 27.0
     },
     "1951840787": {
       "user": {
@@ -535,7 +535,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 23
+          "pts": 27
         },
         {
           "name": "Иномҷон Юнусов",
@@ -574,7 +574,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 23
+          "pts": 27
         },
         {
           "name": "Иномҷон Юнусов",
@@ -613,7 +613,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 23
+          "pts": 27
         },
         {
           "name": "Иномҷон Юнусов",
