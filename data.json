@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03 11:29",
+  "updated": "2026-11-03 11:31",
   "employees": {
     "1721561085": {
       "user": {
@@ -365,12 +365,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 8,
-        "week_pts": 20,
-        "month_pts": 20,
-        "total_pts": 385,
-        "records_today": 2,
-        "records_week": 5,
+        "today_pts": 11,
+        "week_pts": 23,
+        "month_pts": 23,
+        "total_pts": 388,
+        "records_today": 3,
+        "records_week": 6,
         "place_month": 1,
         "streak": 2,
         "top_work": "🔧 Решение проблем мерчанта"
@@ -416,7 +416,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 20
+          "pts": 23
         }
       ],
       "badges": [
@@ -427,7 +427,7 @@
         "points_200",
         "month_winner"
       ],
-      "bonus": 20.0
+      "bonus": 23.0
     },
     "1951840787": {
       "user": {
@@ -539,7 +539,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 20
+          "pts": 23
         }
       ],
       "badges": [],
@@ -574,7 +574,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 20
+          "pts": 23
         }
       ],
       "badges": [],
@@ -609,7 +609,7 @@
       "rating": [
         {
           "name": "Faridun Sanginov",
-          "pts": 20
+          "pts": 23
         }
       ],
       "badges": [],
