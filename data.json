@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03 16:03",
+  "updated": "2026-11-13 15:44",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,12 +8,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 4,
-        "week_pts": 4,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 4,
         "total_pts": 484,
-        "records_today": 1,
-        "records_week": 1,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 2,
         "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
@@ -357,12 +357,12 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 19,
-        "week_pts": 31,
+        "today_pts": 0,
+        "week_pts": 0,
         "month_pts": 31,
         "total_pts": 396,
-        "records_today": 5,
-        "records_week": 8,
+        "records_today": 0,
+        "records_week": 0,
         "place_month": 1,
         "streak": 2,
         "top_work": "🔧 Решение проблем мерчанта"
