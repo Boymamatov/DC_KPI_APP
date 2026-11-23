@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23 16:25",
+  "updated": "2026-11-23 16:34",
   "employees": {
     "1721561085": {
       "user": {
@@ -8,14 +8,14 @@
         "is_manager": false
       },
       "stats": {
-        "today_pts": 0,
-        "week_pts": 0,
-        "month_pts": 24,
-        "total_pts": 504,
-        "records_today": 0,
-        "records_week": 0,
+        "today_pts": 4,
+        "week_pts": 4,
+        "month_pts": 28,
+        "total_pts": 508,
+        "records_today": 1,
+        "records_week": 1,
         "place_month": 2,
-        "streak": 2,
+        "streak": 1,
         "top_work": "📊 Подготовка актов сверки"
       },
       "goal": "",
@@ -49,7 +49,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 24
+          "pts": 28
         }
       ],
       "badges": [
@@ -57,7 +57,7 @@
         "streak_5",
         "week_winner"
       ],
-      "bonus": 24.0
+      "bonus": 28.0
     },
     "8684586957": {
       "user": {
@@ -412,7 +412,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 24
+          "pts": 28
         }
       ],
       "badges": [
@@ -539,7 +539,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 24
+          "pts": 28
         }
       ],
       "badges": [],
@@ -578,7 +578,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 24
+          "pts": 28
         }
       ],
       "badges": [],
@@ -617,7 +617,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 24
+          "pts": 28
         }
       ],
       "badges": [],
@@ -656,7 +656,7 @@
         },
         {
           "name": "Иномҷон Юнусов",
-          "pts": 24
+          "pts": 28
         }
       ],
       "badges": [],
